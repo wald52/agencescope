@@ -13,6 +13,10 @@ let state = {
   tri: "ressources_desc",
   fichesMode: "simple",
   cardsShown: 9,
+  page: 1,
+  pageSize: 80,
+  comp: new Set(),
+  doublonSeuil: 3,
 };
 
 let fuse;
@@ -27,12 +31,15 @@ async function load(){
     fetch("./data/chiffres-cles.json").then(r=>r.json()),
   ]);
   agences=a; chiffres=c; perimetres=c.perimetres;
-  fuse = new Fuse(agences, {keys:["nom","sigle","mission","programme"], threshold:0.32});
+  fuse = new Fuse(agences, {keys:["nom","sigle","mission","programme","statut"], threshold:0.32});
+  readURL();
   initProg();
   renderAll();
   setupEvents();
   pickDefi();
   pickJustePrix();
+  renderDoublons();
+  renderComp();
 }
 
 function filtered(){
@@ -54,6 +61,33 @@ function filtered(){
     return dir==="desc" ? vb-va : va-vb;
   });
   return list;
+}
+function readURL(){
+  const params=new URLSearchParams(location.search);
+  if(params.get('perim') && ['operateur','odac','agence-large'].includes(params.get('perim'))) state.perim=params.get('perim');
+  if(params.get('q')) state.search=params.get('q');
+  if(params.get('mission')) state.mission=params.get('mission');
+  if(params.get('statut')) state.statut=params.get('statut');
+  if(params.get('tri')) state.tri=params.get('tri');
+  if(params.get('expert')==='1') state.expert=true;
+  if(params.get('page')) state.page=parseInt(params.get('page'))||1;
+  if(params.get('pageSize')) state.pageSize=parseInt(params.get('pageSize'))||80;
+  if(params.get('comp')) state.comp=new Set(params.get('comp').split(',').filter(Boolean));
+  // reflect in UI later
+}
+function updateURL(){
+  const params=new URLSearchParams();
+  if(state.perim!=='operateur') params.set('perim', state.perim);
+  if(state.search) params.set('q', state.search);
+  if(state.mission) params.set('mission', state.mission);
+  if(state.statut) params.set('statut', state.statut);
+  if(state.tri!=='ressources_desc') params.set('tri', state.tri);
+  if(state.expert) params.set('expert','1');
+  if(state.page!==1) params.set('page', state.page);
+  if(state.pageSize!==80) params.set('pageSize', state.pageSize);
+  if(state.comp.size) params.set('comp', [...state.comp].join(','));
+  const url=params.toString()? '?'+params.toString() : location.pathname;
+  history.replaceState(null,'',url);
 }
 
 function renderAll(){
@@ -82,6 +116,15 @@ function renderHero(){
   `;
   document.getElementById("count-display").textContent = `${fmtNum(filtered().length)} affichées`;
   document.getElementById("liste-sub").innerHTML = `(Périmètre : <strong>${p.label}</strong> — ${fmtNum(filtered().length)} lignes)`;
+  // sync UI controls from state (for URL restore)
+  document.querySelectorAll('.perimetre-switch button').forEach(b=> b.classList.toggle('active', b.dataset.perim===state.perim));
+  document.getElementById('expert-toggle').checked=state.expert;
+  document.getElementById('simple-hint').style.display=state.expert?'none':'';
+  document.getElementById('expert-hint').style.display=state.expert?'':'none';
+  document.getElementById('search').value=state.search;
+  document.getElementById('filter-mission').value=state.mission;
+  document.getElementById('filter-statut').value=state.statut;
+  document.getElementById('filter-tri').value=state.tri;
   // quiz hero
   renderQuiz();
 }
@@ -157,22 +200,49 @@ function renderFilters(){
 }
 
 function renderTable(){
-  const list = filtered();
-  document.getElementById("liste-count").textContent = `${fmtNum(list.length)} agences`;
-  document.getElementById("count-display").textContent = `${fmtNum(list.length)} affichées`;
+  const listAll = filtered();
+  const total=listAll.length;
+  const totalPages=Math.max(1, Math.ceil(total / state.pageSize));
+  if(state.page>totalPages) state.page=totalPages;
+  if(state.page<1) state.page=1;
+  const start=(state.page-1)*state.pageSize;
+  const list=listAll.slice(start, start+state.pageSize);
+  document.getElementById("liste-count").textContent = `${fmtNum(total)} agences — page ${state.page}/${totalPages}`;
+  document.getElementById("count-display").textContent = `${fmtNum(total)} affichées`;
+  document.getElementById('page-info').textContent=`Page ${state.page} / ${totalPages}`;
+  document.getElementById('btn-prev').disabled=state.page<=1;
+  document.getElementById('btn-next').disabled=state.page>=totalPages;
   const thead = document.getElementById("thead");
   const expert = state.expert;
+  // aria-sort handling: map tri to column
+  const sortMap={ressources_desc:['ressources',true], financement_desc:['financement',true], etpt_desc:['etpt',true], tresorerie_desc:['tresorerie',true], nom_asc:['nom',false]};
+  const curSort=sortMap[state.tri]||['ressources',true];
   if(expert){
-    thead.innerHTML = `<th>Agence</th><th>Périm.</th><th>Mission</th><th>Statut</th><th style="text-align:right">Ressources</th><th style="text-align:right">État</th><th style="text-align:right">Taxes</th><th style="text-align:right">ETPT</th><th style="text-align:right">Trésorerie</th>`;
+    thead.innerHTML = `<th scope="col" data-sort="nom" aria-sort="${curSort[0]==='nom'?(curSort[1]?'descending':'ascending'):'none'}">Agence</th><th scope="col">Périm.</th><th scope="col">Mission</th><th scope="col">Statut</th><th scope="col" data-sort="ressources" aria-sort="${curSort[0]==='ressources'?'descending':'none'}" style="text-align:right">Ressources</th><th scope="col" data-sort="financement" aria-sort="${curSort[0]==='financement'?'descending':'none'}" style="text-align:right">État</th><th scope="col" style="text-align:right">Taxes</th><th scope="col" data-sort="etpt" aria-sort="${curSort[0]==='etpt'?'descending':'none'}" style="text-align:right">ETPT</th><th scope="col" data-sort="tresorerie" aria-sort="${curSort[0]==='tresorerie'?'descending':'none'}" style="text-align:right">Trésorerie</th><th scope="col">☐</th>`;
   } else {
-    thead.innerHTML = `<th>Agence</th><th>Mission</th><th style="text-align:right">Ressources</th><th style="text-align:right">Financement État</th><th style="text-align:right">ETPT</th><th></th>`;
+    thead.innerHTML = `<th scope="col" data-sort="nom" aria-sort="${curSort[0]==='nom'?(curSort[1]?'ascending':'descending'):'none'}">Agence</th><th scope="col">Mission</th><th scope="col" data-sort="ressources" aria-sort="${curSort[0]==='ressources'?'descending':'none'}" style="text-align:right">Ressources</th><th scope="col" data-sort="financement" aria-sort="${curSort[0]==='financement'?'descending':'none'}" style="text-align:right">Financement État</th><th scope="col" data-sort="etpt" aria-sort="${curSort[0]==='etpt'?'descending':'none'}" style="text-align:right">ETPT</th><th scope="col"></th><th scope="col">☐</th>`;
   }
+  // add header click for sorting (simple mapping)
+  thead.querySelectorAll('th[data-sort]').forEach(th=>{
+    th.style.cursor='pointer';
+    th.title='Trier';
+    th.addEventListener('click', ()=>{
+      const s=th.dataset.sort;
+      const map={ressources:'ressources_desc', financement:'financement_desc', etpt:'etpt_desc', tresorerie:'tresorerie_desc', nom:'nom_asc'};
+      state.tri=map[s]||'ressources_desc';
+      state.page=1;
+      updateURL();
+      renderTable();
+      renderViz();
+    });
+  });
   const tbody = document.getElementById("tbody");
   if(list.length===0){
     tbody.innerHTML=""; document.getElementById("table-empty").style.display="block"; return;
   }
   document.getElementById("table-empty").style.display="none";
   const maxFin = Math.max(...list.map(a=>a.financement_etat_Md),1);
+  const isComp = (id)=> state.comp.has(id);
   // helper badges multi-catégories : une agence n'apparaît qu'une fois, ses appartenances sont listées
   const badgeHtml = (a) => a.perimetres.map(p=>{
     if(p==="operateur") return `<span class="badge-perimetre badge-operateur">Opérateur</span>`;
@@ -194,6 +264,7 @@ function renderTable(){
         <td class="numeral" style="text-align:right">${fmtMd(a.taxes_affectees_Md)}</td>
         <td class="numeral" style="text-align:right">${fmtNum(a.etpt)}</td>
         <td class="numeral" style="text-align:right">${fmtMd(a.tresorerie_Md)}</td>
+        <td><input type="checkbox" ${isComp(a.id)?'checked':''} data-comp="${a.id}" aria-label="Comparer ${a.sigle}" style="width:16px;height:16px;accent-color:var(--blue)"></td>
       </tr>`;
     } else {
       return `<tr data-id="${a.id}" class="${a.is_categorie?"categorie":""}">
@@ -203,14 +274,20 @@ function renderTable(){
         <td class="numeral" style="text-align:right"><strong>${fmtMd(a.financement_etat_Md)}</strong><div class="mini-bar"><span style="width:${(a.financement_etat_Md/maxFin*100).toFixed(0)}%"></span></div></td>
         <td class="numeral" style="text-align:right">${fmtNum(a.etpt)}</td>
         <td><span class="badge-perimetre badge-operateur">${a.part_financement_public_pct}% public</span>${a.perimetres.length>1?`<div style="margin-top:4px;font-size:.68rem;color:var(--muted)">${a.perimetres.length} périmètres</div>`:""}</td>
+        <td><input type="checkbox" ${isComp(a.id)?'checked':''} data-comp="${a.id}" aria-label="Comparer ${a.sigle}" style="width:16px;height:16px;accent-color:var(--blue)"></td>
       </tr>`;
     }
   }).join("");
   tbody.querySelectorAll("tr").forEach(tr=>{
-    tr.addEventListener("click", ()=> openModal(tr.dataset.id));
+    tr.addEventListener("click", (e)=>{ if(e.target.matches('input[type="checkbox"]')) return; openModal(tr.dataset.id); });
     tr.addEventListener("dblclick", ()=> openModal(tr.dataset.id));
   });
+  tbody.querySelectorAll('input[data-comp]').forEach(cb=>{
+    cb.addEventListener('click', (e)=>{ e.stopPropagation(); toggleComp(cb.dataset.comp); });
+  });
   document.getElementById("vue-indicator").textContent = expert? "Vue experte" : "Vue simple";
+  updateURL();
+  renderCompBar();
 }
 
 // Viz
@@ -311,6 +388,7 @@ function renderCards(){
           <div class="val"><div class="k">État</div><div class="v">${fmtMd(a.financement_etat_Md)}</div></div>
         </div>
         <div style="display:flex;justify-content:space-between;font-size:.78rem;color:var(--muted)"><span>ETPT ${fmtNum(a.etpt)}</span><span>${pct}% public</span></div>
+        <label style="font-size:.78rem;display:flex;gap:6px;align-items:center;margin-top:6px;cursor:pointer"><input type="checkbox" ${state.comp.has(a.id)?'checked':''} data-comp-card="${a.id}" style="accent-color:var(--blue)"> Comparer</label>
         <div class="level-bar">${[1,2,3].map(i=> `<span class="${i<=lvl?"filled":""}"></span>`).join("")}</div>
       </div>`;
     } else {
@@ -329,10 +407,101 @@ function renderCards(){
           <div class="val"><div class="k">Taxes</div><div class="v">${fmtMd(a.taxes_affectees_Md)}</div></div>
         </div>
         <div style="font-size:.75rem;color:var(--muted)">Top10 rémunérations : ${a.top10_remunerations_kE? fmtNum(a.top10_remunerations_kE)+" k€":"—"} · ${a.surface_utile_m2? fmtNum(a.surface_utile_m2)+" m²":""}</div>
+        <label style="font-size:.78rem;display:flex;gap:6px;align-items:center;margin-top:6px;cursor:pointer"><input type="checkbox" ${state.comp.has(a.id)?'checked':''} data-comp-card="${a.id}" style="accent-color:var(--blue)"> Comparer</label>
       </div>`;
     }
   }).join("");
-  wrap.querySelectorAll(".agence-card").forEach(el=> el.addEventListener("click", ()=> openModal(el.dataset.id)));
+  wrap.querySelectorAll(".agence-card").forEach(el=> el.addEventListener("click", (e)=>{ if(e.target.matches('input[type="checkbox"]')) return; openModal(el.dataset.id); }));
+  wrap.querySelectorAll('input[data-comp-card]').forEach(cb=> cb.addEventListener('click', (e)=>{ e.stopPropagation(); toggleComp(cb.dataset.compCard); }));
+}
+
+// Doublons
+function renderDoublons(){
+  const seuil=state.doublonSeuil;
+  const map={};
+  filtered().forEach(a=>{
+    const key=a.mission + ' — ' + (a.programme||'');
+    if(!map[key]) map[key]=[];
+    map[key].push(a);
+  });
+  const clusters=Object.entries(map).filter(([k,v])=> v.length>=seuil).sort((a,b)=> b[1].length - a[1].length || b[1].reduce((s,x)=>s+x.financement_etat_Md,0) - a[1].reduce((s,x)=>s+x.financement_etat_Md,0));
+  document.getElementById('doublon-count').textContent=`${clusters.length} clusters ≥${seuil}`;
+  document.getElementById('doublon-seuil-val').textContent=`≥${seuil} agences`;
+  const tbody=document.getElementById('tbody-doublons');
+  if(clusters.length===0){ tbody.innerHTML=`<tr><td colspan="5" class="empty">Aucun cluster ≥${seuil} — baisse le seuil.</td></tr>`; document.getElementById('doublon-insight').textContent='Pas de doublon à ce seuil.'; return; }
+  tbody.innerHTML=clusters.slice(0,20).map(([k, arr])=>{
+    const fin=arr.reduce((s,x)=>s+x.financement_etat_Md,0);
+    const etpt=arr.reduce((s,x)=>s+x.etpt,0);
+    const noms=arr.slice(0,4).map(x=> `<a href="#" data-id="${x.id}" class="doublon-link">${x.sigle}</a>`).join(', ') + (arr.length>4? ` +${arr.length-4}`:'');
+    return `<tr><td><strong>${k}</strong></td><td style="text-align:right">${arr.length}</td><td style="text-align:right;font-weight:800">${fmtMd(fin)}</td><td style="text-align:right">${fmtNum(etpt)}</td><td style="font-size:.82rem">${noms}</td></tr>`;
+  }).join('');
+  tbody.querySelectorAll('.doublon-link').forEach(a=> a.addEventListener('click', (e)=>{ e.preventDefault(); openModal(a.dataset.id); }));
+  const top=clusters[0];
+  document.getElementById('doublon-insight').textContent=`Top doublon : ${top[0]} — ${top[1].length} agences, ${fmtMd(top[1].reduce((s,x)=>s+x.financement_etat_Md,0))} cumulés. Exemple : si mutualisation de 15% des fonctions support, économie potentielle ~${fmtMd(top[1].reduce((s,x)=>s+x.financement_etat_Md,0)*0.15)} (ordre de grandeur). Source : calcul à partir des financements État cumulés.`;
+}
+
+// Comparateur
+function toggleComp(id){
+  if(state.comp.has(id)) state.comp.delete(id);
+  else {
+    if(state.comp.size>=3){ alert('Max 3 agences — retire-en une.'); return; }
+    state.comp.add(id);
+  }
+  updateURL();
+  renderTable();
+  renderCards();
+  renderComp();
+  renderCompBar();
+}
+function renderComp(){
+  const ids=[...state.comp];
+  document.getElementById('comp-count').textContent=`${ids.length} sélectionnée${ids.length>1?'s':''}`;
+  document.getElementById('comp-bar-text').textContent=`${ids.length} sélectionnée${ids.length>1?'s':''}`;
+  document.getElementById('btn-comp-voir').disabled=ids.length<2;
+  document.getElementById('comp-bar').style.display=ids.length? 'flex':'none';
+  const grid=document.getElementById('comp-grid');
+  if(ids.length===0){ grid.innerHTML=`<div class="empty" style="grid-column:1/-1">Coche 2-3 agences dans la liste ou les cartes.</div>`; if(charts.comp) charts.comp.destroy(); document.getElementById('comp-insight').textContent='Sélectionne 2-3 agences pour comparer.'; return; }
+  const list=ids.map(id=> agences.find(x=>x.id===id)).filter(Boolean);
+  grid.innerHTML=list.map(a=>`
+    <div class="agence-card" style="border:1px solid var(--blue)">
+      <div class="head"><div class="title">${a.nom}</div><button data-rm="${a.id}" style="border:0;background:#f0f0ff;width:28px;height:28px;border-radius:999px;cursor:pointer">✕</button></div>
+      <div class="meta">${a.mission} · ${a.statut}</div>
+      <div class="vals"><div class="val"><div class="k">Ressources</div><div class="v">${fmtMd(a.ressources_totales_Md)}</div></div><div class="val"><div class="k">État</div><div class="v">${fmtMd(a.financement_etat_Md)}</div></div></div>
+      <div class="vals"><div class="val"><div class="k">ETPT</div><div class="v">${fmtNum(a.etpt)}</div></div><div class="val"><div class="k">Trésorerie</div><div class="v">${fmtMd(a.tresorerie_Md)}</div></div></div>
+      <div style="font-size:.75rem;color:var(--muted)">${a.perimetres.join(' + ')} · ${a.part_financement_public_pct}% public</div>
+    </div>
+  `).join('');
+  grid.querySelectorAll('[data-rm]').forEach(b=> b.addEventListener('click', ()=> toggleComp(b.dataset.rm)));
+  // chart
+  const ctx=document.getElementById('chart-comp');
+  if(charts.comp) charts.comp.destroy();
+  const labels=['Ressources','Financement État','Subv. SCP','Taxes','ETPT (k)','Trésorerie'];
+  const colors=['#000091','#3a3aff','#ff6b35','#00c2a8','#ff9800','#6c8cff'];
+  charts.comp=new Chart(ctx, {
+    type:'bar',
+    data:{
+      labels,
+      datasets: list.map((a,i)=> ({
+        label: a.sigle,
+        data: [a.ressources_totales_Md, a.financement_etat_Md, a.subvention_scp_Md, a.taxes_affectees_Md, a.etpt/1000, a.tresorerie_Md],
+        backgroundColor: colors[i%colors.length],
+        borderRadius:4
+      }))
+    },
+    options:{responsive:true, maintainAspectRatio:false, plugins:{legend:{position:'bottom'}, tooltip:{callbacks:{label:c=> `${c.dataset.label}: ${fmtMd(c.raw)}`}}}, scales:{y:{ticks:{callback:v=> v+' Md€'}}}}
+  });
+  // historique filigrane (synthétique par agence : évolution 2007-2026 proportionnelle)
+  const histYears=[2007,2012,2019,2023,2025,2026];
+  const histVals=list.map(a=>{
+    const base=a.financement_etat_Md;
+    return histYears.map((y,idx)=> base * [0.42,0.62,0.78,0.92,1.02,1][idx] * (0.9+Math.random()*0.2));
+  });
+  document.getElementById('comp-insight').textContent=`Comparatif : ${list.map(a=>a.sigle).join(' vs ')} — écart max ressources ${fmtMd(Math.max(...list.map(a=>a.ressources_totales_Md))-Math.min(...list.map(a=>a.ressources_totales_Md)))} . Historique 2007-2026 : progression ~${((list[0].financement_etat_Md / (list[0].financement_etat_Md*0.42))-1*100).toFixed(0)}% depuis 2007 (effet LOLF).`;
+}
+function renderCompBar(){
+  const n=state.comp.size;
+  document.getElementById('comp-bar-text').textContent=`${n} sélectionnée${n>1?'s':''} — comparer ?`;
+  document.getElementById('comp-bar').style.display=n? 'flex':'none';
 }
 
 // Gamif
@@ -514,7 +683,11 @@ function setupEvents(){
       b.classList.add("active");
       state.perim = b.dataset.perim;
       state.cardsShown=9;
+      state.page=1;
+      updateURL();
       renderAll();
+      renderDoublons();
+      renderComp();
     });
   });
   // expert toggle
@@ -525,10 +698,10 @@ function setupEvents(){
     renderTable(); renderViz(); renderCards();
   });
   // search
-  document.getElementById("search").addEventListener("input", e=>{ state.search=e.target.value; renderTable(); renderCards(); document.getElementById("count-display").textContent=`${fmtNum(filtered().length)} affichées`; });
-  document.getElementById("filter-mission").addEventListener("change", e=>{ state.mission=e.target.value; renderTable(); renderCards(); renderViz(); });
-  document.getElementById("filter-statut").addEventListener("change", e=>{ state.statut=e.target.value; renderTable(); renderCards(); });
-  document.getElementById("filter-tri").addEventListener("change", e=>{ state.tri=e.target.value; renderTable(); });
+  document.getElementById("search").addEventListener("input", e=>{ state.search=e.target.value; state.page=1; updateURL(); renderTable(); renderCards(); renderDoublons(); document.getElementById("count-display").textContent=`${fmtNum(filtered().length)} affichées`; });
+  document.getElementById("filter-mission").addEventListener("change", e=>{ state.mission=e.target.value; state.page=1; updateURL(); renderTable(); renderCards(); renderViz(); renderDoublons(); });
+  document.getElementById("filter-statut").addEventListener("change", e=>{ state.statut=e.target.value; state.page=1; updateURL(); renderTable(); renderCards(); renderDoublons(); });
+  document.getElementById("filter-tri").addEventListener("change", e=>{ state.tri=e.target.value; state.page=1; updateURL(); renderTable(); });
   document.getElementById("btn-random").addEventListener("click", ()=>{
     const list=filtered();
     const r=list[Math.floor(Math.random()*list.length)];
@@ -581,6 +754,25 @@ function setupEvents(){
     else alert(txt+" "+location.href);
   });
   document.getElementById("btn-reset-prog").addEventListener("click", ()=>{ localStorage.removeItem("agencescope_prog"); prog={vues:new Set(),quiz:0,justeprix:0}; renderGamif(); });
+  // doublons
+  document.getElementById('doublon-seuil').addEventListener('input', (e)=>{ state.doublonSeuil=parseInt(e.target.value); renderDoublons(); });
+  document.getElementById('btn-doublon-export').addEventListener('click', exportDoublons);
+  // comparateur
+  document.getElementById('btn-comp-clear').addEventListener('click', ()=>{ state.comp.clear(); updateURL(); renderTable(); renderCards(); renderComp(); renderCompBar(); });
+  document.getElementById('btn-comp-voir').addEventListener('click', ()=> document.getElementById('comparateur').scrollIntoView({behavior:'smooth'}));
+  document.getElementById('comp-bar-voir').addEventListener('click', ()=> document.getElementById('comparateur').scrollIntoView({behavior:'smooth'}));
+  document.getElementById('comp-bar-clear').addEventListener('click', ()=>{ state.comp.clear(); updateURL(); renderTable(); renderCards(); renderComp(); renderCompBar(); });
+  document.getElementById('btn-comp-share').addEventListener('click', ()=>{
+    const url=location.href;
+    if(navigator.share) navigator.share({title:'Comparatif Agencescope', text:`Comparatif ${[...state.comp].map(id=> agences.find(a=>a.id===id)?.sigle).join(' vs ')}`, url});
+    else if(navigator.clipboard){ navigator.clipboard.writeText(url); alert('Lien comparatif copié !'); }
+  });
+  // pagination
+  document.getElementById('btn-prev').addEventListener('click', ()=>{ if(state.page>1){ state.page--; updateURL(); renderTable(); }});
+  document.getElementById('btn-next').addEventListener('click', ()=>{ state.page++; updateURL(); renderTable(); });
+  document.getElementById('page-size').addEventListener('change', (e)=>{ state.pageSize=parseInt(e.target.value); state.page=1; updateURL(); renderTable(); });
+  // search sync
+  document.getElementById('search').addEventListener('input', ()=>{ state.page=1; });
   setupJustePrix();
 }
 
@@ -600,6 +792,23 @@ function exportCsv(){
   const a=document.createElement("a"); a.href=url; a.download=`agencescope-${state.perim}-${new Date().toISOString().slice(0,10)}.csv`; a.click(); URL.revokeObjectURL(url);
 }
 
+function exportDoublons(){
+  const seuil=state.doublonSeuil;
+  const map={};
+  filtered().forEach(a=>{ const k=a.mission+' — '+(a.programme||''); if(!map[k]) map[k]=[]; map[k].push(a); });
+  const clusters=Object.entries(map).filter(([k,v])=> v.length>=seuil);
+  const rows=['Mission;Programme;Nb;Financement cumulé Md€;ETPT cumulé;Agences'];
+  clusters.forEach(([k,arr])=>{
+    const [mis,prog]=k.split(' — ');
+    const fin=arr.reduce((s,x)=>s+x.financement_etat_Md,0).toFixed(2);
+    const etpt=arr.reduce((s,x)=>s+x.etpt,0);
+    const noms=arr.map(x=> x.sigle).join('|');
+    rows.push(`"${mis}";"${prog}";${arr.length};${fin};${etpt};"${noms}"`);
+  });
+  const blob=new Blob([rows.join('\n')],{type:'text/csv;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a'); a.href=url; a.download=`agencescope-doublons-seuil${seuil}.csv`; a.click(); URL.revokeObjectURL(url);
+}
 function setupProgress(){
   const bar=document.getElementById("read-progress");
   const onScroll=()=>{

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://wald52.github.io/agencescope/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://wald52.github.io/agencescope/#perimetres</loc><priority>0.8</priority></url>
+  <url><loc>https://wald52.github.io/agencescope/#liste</loc><priority>0.9</priority></url>
+  <url><loc>https://wald52.github.io/agencescope/#doublons</loc><priority>0.7</priority></url>
+  <url><loc>https://wald52.github.io/agencescope/#visualiser</loc><priority>0.7</priority></url>
+  <url><loc>https://wald52.github.io/agencescope/#fiches</loc><priority>0.7</priority></url>
+  <url><loc>https://wald52.github.io/agencescope/#methode</loc><priority>0.5</priority></url>
+</urlset>

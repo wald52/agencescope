@@ -1,0 +1,13 @@
+{
+  "name": "Agencescope — Le radar des agences de l'État",
+  "short_name": "Agencescope",
+  "description": "434 opérateurs, 700 ODAC, 1244 agences : combien coûtent-elles ? Simple pour tous, expert pour vérifier.",
+  "start_url": "/agencescope/",
+  "scope": "/agencescope/",
+  "display": "standalone",
+  "background_color": "#FFFBF7",
+  "theme_color": "#000091",
+  "icons": [
+    {"src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23000091'/><text x='50' y='62' text-anchor='middle' font-size='42' fill='white'>◉</text></svg>", "sizes": "100x100", "type": "image/svg+xml"}
+  ]
+}

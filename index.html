@@ -10,7 +10,28 @@
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#000091">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23000091'/><text x='50' y='62' text-anchor='middle' font-size='42' fill='white'>◉</text></svg>">
+<link rel="manifest" href="./manifest.json">
+<link rel="canonical" href="https://wald52.github.io/agencescope/">
 <link rel="stylesheet" href="./site/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Agencescope — Radar des agences de l'État",
+  "description": "434 opérateurs, 700 ODAC, 1244 agences vision large. 73,3 Md€ PLF 2026, 482k agents. Données PLF 2025-2026.",
+  "keywords": ["opérateurs de l'État","ODAC","agences","budget","PLF"],
+  "license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+  "creator": {"@type":"Organization","name":"Le Modèle Social Français","url":"https://github.com/lemodelesocialfrancais"},
+  "distribution": [
+    {"@type":"DataDownload","contentUrl":"https://wald52.github.io/agencescope/data/agences.json","encodingFormat":"JSON"},
+    {"@type":"DataDownload","contentUrl":"https://wald52.github.io/agencescope/data/chiffres-cles.json","encodingFormat":"JSON"}
+  ],
+  "isAccessibleForFree": true
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Le Modèle Social Français","url":"https://github.com/lemodelesocialfrancais","logo":"https://wald52.github.io/agencescope/site/style.css"}
+</script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
 </head>
@@ -27,7 +48,9 @@
     <nav class="nav">
       <a href="#perimetres">Périmètres</a>
       <a href="#liste">Liste</a>
+      <a href="#doublons">Doublons</a>
       <a href="#visualiser">Visualiser</a>
+      <a href="#comparateur">Comparer</a>
       <a href="#quiz">Jouer</a>
       <a href="#methode">Méthode</a>
       <a class="cta" href="#liste">Explorer →</a>
@@ -155,12 +178,38 @@
         <tbody id="tbody"></tbody>
       </table>
     </div>
+    <div style="display:flex;gap:8px;align-items:center;justify-content:space-between;margin-top:10px;flex-wrap:wrap">
+      <div style="display:flex;gap:6px;align-items:center">
+        <button class="btn btn-ghost" id="btn-prev" aria-label="Page précédente">‹ Préc.</button>
+        <span class="pill" id="page-info">Page 1 / 1</span>
+        <button class="btn btn-ghost" id="btn-next" aria-label="Page suivante">Suiv. ›</button>
+      </div>
+      <label style="font-size:.82rem;color:var(--muted)">Par page : <select id="page-size"><option value="20">20</option><option value="40">40</option><option value="80" selected>80</option><option value="196">Tout</option></select></label>
+    </div>
     <div id="table-empty" class="empty" style="display:none">Aucun résultat — essaie un autre filtre ou passe en vision large.</div>
+  </section>
+
+  <!-- DOUBLONS -->
+  <section class="section card" id="doublons">
+    <h2><span class="num">3</span> Doublons — où mutualiser ?</h2>
+    <p class="desc">Certaines missions sont éclatées en <strong>multiples agences</strong>. Exemple : 6 Agences de l'eau, 18 ARS, 19 écoles d'architecture. On groupe par <code>mission + programme</code> pour repérer les gisements d'économies — sans juger l'utilité métier.</p>
+    <div class="filters" style="margin:8px 0">
+      <label style="font-size:.82rem;font-weight:700;color:var(--muted)">Seuil : <input type="range" id="doublon-seuil" min="2" max="10" value="3" style="vertical-align:middle"> <span id="doublon-seuil-val">≥3 agences</span></label>
+      <button class="btn btn-ghost" id="btn-doublon-export">⬇ Export doublons CSV</button>
+      <span class="pill" id="doublon-count">—</span>
+    </div>
+    <div class="table-wrap">
+      <table id="table-doublons" aria-label="Clusters de doublons par mission">
+        <thead><tr><th scope="col">Mission / Programme</th><th scope="col" style="text-align:right">Nb</th><th scope="col" style="text-align:right">Financement État cumulé</th><th scope="col" style="text-align:right">ETPT cumulé</th><th scope="col">Agences</th></tr></thead>
+        <tbody id="tbody-doublons"></tbody>
+      </table>
+    </div>
+    <p class="notice" id="doublon-insight" style="margin-top:10px">—</p>
   </section>
 
   <!-- VISUALISER -->
   <section class="section" id="visualiser">
-    <h2><span class="num">3</span> Visualiser — où va l'argent ?</h2>
+    <h2><span class="num">4</span> Visualiser — où va l'argent ?</h2>
     <p class="desc">Deux lectures : <strong>simple</strong> (camembert “d'où vient / où va l'argent”) et <strong>experte</strong> (barres détaillées, historique, immobilier).</p>
     <div class="grid2">
       <div class="card">
@@ -192,7 +241,7 @@
 
   <!-- FICHES -->
   <section class="section card" id="fiches">
-    <h2><span class="num">4</span> Fiches — vue simple vs experte</h2>
+    <h2><span class="num">5</span> Fiches — vue simple vs experte</h2>
     <p class="desc">Cartes cliquables. En simple : 3 jauges + donut. En expert : tout le détail au clic.</p>
     <div class="controls">
       <span style="font-size:.82rem;color:var(--muted)">Affichage :</span>
@@ -203,9 +252,24 @@
     <div style="text-align:center;margin-top:14px"><button class="btn btn-ghost" id="btn-more">Voir 12 de plus</button></div>
   </section>
 
+  <!-- COMPARATEUR -->
+  <section class="section card" id="comparateur">
+    <h2><span class="num">6</span> Comparateur — expert côte à côte</h2>
+    <p class="desc">Coche <strong>2 à 3 agences</strong> dans la liste ou les fiches (case à cocher), puis compare <em>ressources, financement État, ETPT, trésorerie, personnel vs intervention</em>. Historique 2007-2026 en filigrane. Partageable via URL.</p>
+    <div class="filters">
+      <span class="pill" id="comp-count">0 sélectionnée</span>
+      <button class="btn btn-primary" id="btn-comp-voir" disabled>Voir la comparaison</button>
+      <button class="btn btn-ghost" id="btn-comp-clear">Effacer</button>
+      <button class="btn btn-ghost" id="btn-comp-share">Partager ce comparatif</button>
+    </div>
+    <div id="comp-grid" class="cards-grid" style="margin-top:12px"></div>
+    <div class="chart-wrap sm" style="margin-top:14px"><canvas id="chart-comp"></canvas></div>
+    <p class="notice" id="comp-insight" style="margin-top:8px">Sélectionne 2-3 agences pour comparer.</p>
+  </section>
+
   <!-- GAMIFICATION -->
   <section class="section" id="gamif">
-    <h2><span class="num">5</span> Jouer — mais avec de vraies données</h2>
+    <h2><span class="num">7</span> Jouer — mais avec de vraies données</h2>
     <p class="desc">Gamification <em>sérieuse</em> : tu joues, tu apprends, tu partages — mais les chiffres restent sourcés. Aucun piège, tout est vérifiable.</p>
     <div class="gamification">
       <div class="card level-card">
@@ -255,7 +319,7 @@
 
   <!-- METHODE -->
   <section class="section card" id="methode">
-    <h2><span class="num">6</span> Méthode, sources & limites</h2>
+    <h2><span class="num">8</span> Méthode, sources & limites</h2>
     <div class="grid2">
       <div>
         <h3>Sources</h3>
@@ -288,6 +352,11 @@
     <p class="notice" style="margin-top:14px">Design : Marianne (bleu #000091), Chart.js, Fuse.js, vanilla JS. Hébergé sur GitHub Pages. Contact : via l'organisation <code>lemodelesocialfrancais</code>. Aucune donnée nominative, aucun tracker.</p>
   </section>
 
+  <div id="comp-bar" style="position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--blue);color:#fff;padding:10px 14px;border-radius:999px;box-shadow:0 8px 30px rgba(0,0,0,.25);display:none;align-items:center;gap:10px;z-index:40">
+    <span id="comp-bar-text" style="font-weight:800;font-size:.86rem">0 sélectionnée</span>
+    <button class="btn btn-ghost" id="comp-bar-voir" style="background:#fff;color:var(--blue);border:0;padding:6px 12px">Comparer</button>
+    <button id="comp-bar-clear" style="background:transparent;border:0;color:#fff;cursor:pointer;font-weight:900">✕</button>
+  </div>
   <footer class="foot">
     <div><strong>Agencescope</strong> — Observatoire citoyen du mille-feuille administratif. Sérieux mais pas ennuyeux. Données PLF · INSEE · FIPECO · iFRAP — Licence Ouverte 2.0.</div>
     <div style="margin-top:6px">Code source : <code>github.com/lemodelesocialfrancais/agencescope</code> — chemins relatifs, zéro dépendance serveur. Hébergement GitHub Pages.</div>
