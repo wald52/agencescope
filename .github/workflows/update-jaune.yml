@@ -1,0 +1,47 @@
+name: Update Jaune Opérateurs
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # chaque lundi 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      year:
+        description: 'Année PLF (ex: 2026)'
+        required: false
+        default: '2026'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - run: pip install -r scripts/requirements.txt
+      - name: Parse Jaune
+        run: |
+          YEAR=${{ inputs.year || '2026' }}
+          python scripts/parse_jaune.py --year $YEAR
+          # Vérifie diff
+          git diff --stat
+      - name: Commit & Push
+        run: |
+          git config user.name "agencescope-bot"
+          git config user.email "bot@agencescope.fr"
+          if [[ -n $(git status --porcelain) ]]; then
+            git add data/agences.json
+            git commit -m "chore(data): MAJ Jaune PLF ${{ inputs.year || '2026' }} — $(date -I)"
+            git push
+          else
+            echo "Pas de changement"
+          fi
+      - name: Pages build check
+        run: |
+          echo "Vérifie https://wald52.github.io/agencescope/data/agences.json"
+          curl -s -o /dev/null -w "%{http_code}" https://wald52.github.io/agencescope/data/agences.json | grep -q 200 && echo "OK" || echo "Build en cours"
