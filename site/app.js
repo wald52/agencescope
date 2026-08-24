@@ -173,8 +173,16 @@ function renderTable(){
   }
   document.getElementById("table-empty").style.display="none";
   const maxFin = Math.max(...list.map(a=>a.financement_etat_Md),1);
+  // helper badges multi-catégories : une agence n'apparaît qu'une fois, ses appartenances sont listées
+  const badgeHtml = (a) => a.perimetres.map(p=>{
+    if(p==="operateur") return `<span class="badge-perimetre badge-operateur">Opérateur</span>`;
+    if(p==="odac") return `<span class="badge-perimetre badge-odac">ODAC</span>`;
+    if(p==="agence-large") return `<span class="badge-perimetre badge-large">Large</span>`;
+    return `<span class="badge-perimetre">${p}</span>`;
+  }).join(" ");
+  const multiFlag = (a) => a.perimetres.length>1 ? ` <span class="pill" style="background:#f0f0ff;border-color:#d0d0ff;font-size:.68rem">×${a.perimetres.length}</span>` : "";
   tbody.innerHTML = list.slice(0,80).map(a=>{
-    const badges = `<span class="badge-perimetre badge-${a.perimetres[0]}">${a.perimetres[0]==="operateur"?"OP":""}</span>` + (a.perimetres.includes("odac")?` <span class="badge-perimetre badge-odac">ODAC</span>`:"") + (a.perimetres.includes("agence-large")?` <span class="badge-perimetre badge-large">L</span>`:"");
+    const badges = badgeHtml(a) + multiFlag(a);
     if(expert){
       return `<tr data-id="${a.id}" class="${a.is_categorie?"categorie":""}">
         <td><div style="font-weight:800">${a.nom}</div><div class="etpt">${a.sigle} · ${a.nb_entities>1? a.nb_entities+" entités":""} ${a.is_categorie?"· catégorie":""}</div></td>
@@ -189,12 +197,12 @@ function renderTable(){
       </tr>`;
     } else {
       return `<tr data-id="${a.id}" class="${a.is_categorie?"categorie":""}">
-        <td><div style="font-weight:800">${a.nom}</div><div class="etpt">${a.mission} · ${a.statut}</div></td>
+        <td><div style="font-weight:800">${a.nom}</div><div class="etpt">${a.mission} · ${a.statut}</div><div style="margin-top:4px">${badges}</div></td>
         <td style="font-size:.82rem">${a.mission}</td>
         <td class="numeral" style="text-align:right">${fmtMd(a.ressources_totales_Md)}</td>
         <td class="numeral" style="text-align:right"><strong>${fmtMd(a.financement_etat_Md)}</strong><div class="mini-bar"><span style="width:${(a.financement_etat_Md/maxFin*100).toFixed(0)}%"></span></div></td>
         <td class="numeral" style="text-align:right">${fmtNum(a.etpt)}</td>
-        <td><span class="badge-perimetre badge-operateur">${a.part_financement_public_pct}% public</span></td>
+        <td><span class="badge-perimetre badge-operateur">${a.part_financement_public_pct}% public</span>${a.perimetres.length>1?`<div style="margin-top:4px;font-size:.68rem;color:var(--muted)">${a.perimetres.length} périmètres</div>`:""}</td>
       </tr>`;
     }
   }).join("");
@@ -288,6 +296,8 @@ function renderCards(){
   wrap.innerHTML = shown.map(a=>{
     const pct = a.part_financement_public_pct;
     const lvl = pct>80? 3 : pct>50? 2 : 1;
+    const badges = a.perimetres.map(p=> p==="operateur"?`<span class="badge-perimetre badge-operateur">Opérateur</span>`:p==="odac"?`<span class="badge-perimetre badge-odac">ODAC</span>`:`<span class="badge-perimetre badge-large">Large</span>`).join(" ");
+    const multi = a.perimetres.length>1 ? ` <span class="pill" style="font-size:.68rem">×${a.perimetres.length} périmètres</span>` : "";
     if(mode==="simple"){
       return `<div class="agence-card" data-id="${a.id}">
         <div class="head">
@@ -295,6 +305,7 @@ function renderCards(){
           <span class="badge-perimetre ${a.perimetres.includes("operateur")?"badge-operateur":"badge-large"}">${a.sigle}</span>
         </div>
         <div class="meta">${a.mission} · ${a.statut} ${a.nb_entities>1? "· "+a.nb_entities+" entités":""} </div>
+        <div style="margin:4px 0">${badges}${multi}</div>
         <div class="vals">
           <div class="val"><div class="k">Ressources</div><div class="v">${fmtMd(a.ressources_totales_Md)}</div></div>
           <div class="val"><div class="k">État</div><div class="v">${fmtMd(a.financement_etat_Md)}</div></div>
@@ -419,9 +430,14 @@ function openModal(id){
   document.getElementById("modal-title").textContent = a.nom;
   document.getElementById("modal-meta").textContent = `${a.sigle} · ${a.statut} · ${a.mission} · ${a.programme} ${a.nb_entities>1? "· "+a.nb_entities+" entités":""}`;
   const badgesEl=document.getElementById("modal-badges");
-  badgesEl.innerHTML = a.perimetres.map(p=> `<span class="badge-perimetre badge-${p}">${p}</span>`).join("") + (a.is_categorie?` <span class="pill">Catégorie</span>`:"") + ` <span class="pill">${a.part_financement_public_pct}% public</span>`;
+  const labelMap={operateur:"Opérateur de l'État", odac:"ODAC (INSEE)", "agence-large":"Vision large (IGF/iFRAP)"};
+  badgesEl.innerHTML = a.perimetres.map(p=> `<span class="badge-perimetre badge-${p}">${labelMap[p]||p}</span>`).join(" ") + (a.perimetres.length>1?` <span class="pill" style="background:#f0f0ff;border-color:#d0d0ff">×${a.perimetres.length} périmètres — une seule fiche</span>`:"") + (a.is_categorie?` <span class="pill">Catégorie (${a.nb_entities} entités)</span>`:"") + ` <span class="pill">${a.part_financement_public_pct}% public</span>`;
+  // caractéristique multi-catégories expliquée
   const noteEl=document.getElementById("modal-note");
-  if(a.note){ noteEl.textContent="⚠️ "+a.note; noteEl.style.display="block"; } else { noteEl.style.display="none"; }
+  if(a.perimetres.length>1){
+    noteEl.innerHTML = `ℹ️ <strong>Caractéristique :</strong> cette agence appartient à <strong>${a.perimetres.length} périmètres</strong> (${a.perimetres.map(p=>labelMap[p]).join(" + ")}). Elle n'apparaît qu'<strong>une seule fois</strong> dans Agencescope — c'est un choix pour éviter les doublons.`;
+    noteEl.style.display="block"; noteEl.style.background="#f0f0ff"; noteEl.style.borderColor="#d0d0ff"; noteEl.style.color="#1a1a2e";
+  } else if(a.note){ noteEl.textContent="⚠️ "+a.note; noteEl.style.display="block"; } else { noteEl.style.display="none"; }
   // kpis
   document.getElementById("modal-kpis").innerHTML = `
     <div class="kpi"><div class="label">Ressources totales</div><div class="value numeral">${fmtMd(a.ressources_totales_Md)}</div><div class="hint">dont ${fmtMd(a.financement_etat_Md)} État</div></div>

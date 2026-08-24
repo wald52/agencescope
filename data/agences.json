@@ -64,38 +64,6 @@
     "rang": 2
   },
   {
-    "id": "soci-t-du-grand-paris-soci-t-des-grands-projets",
-    "nom": "Société du Grand Paris - Société des grands projets",
-    "sigle": "Société du Grand Paris",
-    "statut": "EPIC",
-    "mission": "Transports",
-    "programme": "203",
-    "nb_entities": 1,
-    "perimetres": [
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 10.36,
-    "financement_etat_Md": 10.36,
-    "ressources_propres_Md": 0.0,
-    "subvention_scp_Md": 6.66,
-    "transferts_Md": 2.25,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 100,
-    "charges_personnel_Md": 4.71,
-    "charges_fonctionnement_Md": 2.14,
-    "charges_intervention_Md": 2.48,
-    "charges_investissement_Md": 1.02,
-    "etpt": 8500,
-    "masse_salariale_Md": 4.0,
-    "tresorerie_Md": 1.03,
-    "surface_utile_m2": 102000,
-    "top10_remunerations_kE": 150,
-    "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 3
-  },
-  {
     "id": "cea-commissariat-l-nergie-atomique-et-aux-nergies-alternativ",
     "nom": "CEA - Commissariat à l'énergie atomique et aux énergies alternatives",
     "sigle": "CEA",
@@ -124,7 +92,7 @@
     "tresorerie_Md": 1.94,
     "surface_utile_m2": 537402,
     "top10_remunerations_kE": 280,
-    "rang": 4
+    "rang": 3
   },
   {
     "id": "autres-op-rateurs-d-enseignement-sup-rieur-et-de-recherche",
@@ -156,7 +124,7 @@
     "tresorerie_Md": 2.54,
     "surface_utile_m2": 342615,
     "top10_remunerations_kE": 228,
-    "rang": 5
+    "rang": 4
   },
   {
     "id": "cnrs-centre-national-de-la-recherche-scientifique",
@@ -188,7 +156,7 @@
     "tresorerie_Md": 5.86,
     "surface_utile_m2": 335539,
     "top10_remunerations_kE": 109,
-    "rang": 6
+    "rang": 5
   },
   {
     "id": "afitf-agence-de-financement-des-infrastructures-de-transport",
@@ -200,6 +168,7 @@
     "nb_entities": 1,
     "perimetres": [
       "operateur",
+      "odac",
       "agence-large"
     ],
     "is_categorie": false,
@@ -219,39 +188,7 @@
     "tresorerie_Md": 2.28,
     "surface_utile_m2": 179796,
     "top10_remunerations_kE": 117,
-    "rang": 7
-  },
-  {
-    "id": "agence-de-financement-des-infrastructures-de-transport-afitf",
-    "nom": "Agence de financement des infrastructures de transport (AFITF) - déjà opérateur mais exemple ODAC",
-    "sigle": "Agence de financement des infrastructures de transport",
-    "statut": "EPA",
-    "mission": "Ecologie",
-    "programme": "203",
-    "nb_entities": 1,
-    "perimetres": [
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 3.95,
-    "financement_etat_Md": 3.95,
-    "ressources_propres_Md": 0,
-    "subvention_scp_Md": 0,
-    "transferts_Md": 0.23,
-    "taxes_affectees_Md": 3.85,
-    "part_financement_public_pct": 100,
-    "charges_personnel_Md": 2.07,
-    "charges_fonctionnement_Md": 0.43,
-    "charges_intervention_Md": 1.27,
-    "charges_investissement_Md": 0.19,
-    "etpt": 50,
-    "masse_salariale_Md": 1.76,
-    "tresorerie_Md": 5.51,
-    "surface_utile_m2": 600,
-    "top10_remunerations_kE": 377,
-    "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 8
+    "rang": 6
   },
   {
     "id": "r-seau-canop",
@@ -283,7 +220,7 @@
     "tresorerie_Md": 5.45,
     "surface_utile_m2": 142352,
     "top10_remunerations_kE": 358,
-    "rang": 9
+    "rang": 7
   },
   {
     "id": "ecoles-et-formations-d-ing-nieurs",
@@ -315,7 +252,7 @@
     "tresorerie_Md": 2.18,
     "surface_utile_m2": 208079,
     "top10_remunerations_kE": 327,
-    "rang": 10
+    "rang": 8
   },
   {
     "id": "agences-de-l-eau",
@@ -354,7 +291,7 @@
       "AGENCE DE L'EAU RHIN MEUSE",
       "AGENCE DE L'EAU RHONE MEDITERRANEE ET CORSE"
     ],
-    "rang": 11
+    "rang": 9
   },
   {
     "id": "ademe-agence-de-l-environnement-et-de-la-ma-trise-de-l-nergi",
@@ -386,7 +323,7 @@
     "tresorerie_Md": 2.821,
     "surface_utile_m2": 194339,
     "top10_remunerations_kE": 205,
-    "rang": 12
+    "rang": 10
   },
   {
     "id": "anah-agence-nationale-de-l-habitat",
@@ -418,7 +355,7 @@
     "tresorerie_Md": 1.51,
     "surface_utile_m2": 146798,
     "top10_remunerations_kE": 177,
-    "rang": 13
+    "rang": 11
   },
   {
     "id": "ecoles-d-architecture-ecoles-nationales-sup-rieures-d-archit",
@@ -457,7 +394,7 @@
       "ECOLE NATIONALE SUPERIEURE D ARCHITECTURE DE LYON",
       "ECOLE NATIONALE SUPERIEURE D ARCHITECTURE DE MARNE-VALLEE"
     ],
-    "rang": 14
+    "rang": 12
   },
   {
     "id": "op-rateurs-de-soutien-l-enseignement-sup-rieur-et-la-recherc",
@@ -496,7 +433,7 @@
       "AGENCE ERASMUS+FRANCE/EDUCATION FORMATION",
       "BIBLIOTHEQUE NATIONALE ET UNIVERSITAIRE DE STRASBOURG"
     ],
-    "rang": 15
+    "rang": 13
   },
   {
     "id": "cnes-centre-national-d-tudes-spatiales",
@@ -528,7 +465,7 @@
     "tresorerie_Md": 0.61,
     "surface_utile_m2": 58234,
     "top10_remunerations_kE": 447,
-    "rang": 16
+    "rang": 14
   },
   {
     "id": "r-seau-des-uvres-universitaires-et-scolaires",
@@ -559,7 +496,7 @@
     "tresorerie_Md": 1.48,
     "surface_utile_m2": 113155,
     "top10_remunerations_kE": 244,
-    "rang": 17
+    "rang": 15
   },
   {
     "id": "ecoles-d-art-en-r-gion",
@@ -598,7 +535,7 @@
       "ECOLE NATIONALE SUPERIEURE D'ART DE LIMOGES-AUBUSSON",
       "ECOLE NATIONALE SUPERIEURE D'ART DE NANCY"
     ],
-    "rang": 18
+    "rang": 16
   },
   {
     "id": "anr-agence-nationale-de-la-recherche",
@@ -630,7 +567,7 @@
     "tresorerie_Md": 0.9,
     "surface_utile_m2": 69822,
     "top10_remunerations_kE": 421,
-    "rang": 19
+    "rang": 17
   },
   {
     "id": "inserm-institut-national-de-la-sant-et-de-la-recherche-m-dic",
@@ -662,7 +599,7 @@
     "tresorerie_Md": 1.55,
     "surface_utile_m2": 65272,
     "top10_remunerations_kE": 307,
-    "rang": 20
+    "rang": 18
   },
   {
     "id": "ars-agences-r-gionales-de-sant",
@@ -701,7 +638,7 @@
       "AGENCE REGIONALE DE SANTE DE BRETAGNE",
       "AGENCE REGIONALE DE SANTE DE CORSE"
     ],
-    "rang": 21
+    "rang": 19
   },
   {
     "id": "centre-national-du-cin-ma-cnc",
@@ -733,7 +670,7 @@
     "surface_utile_m2": 5760,
     "top10_remunerations_kE": 116,
     "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 22
+    "rang": 20
   },
   {
     "id": "ecoles-d-enseignement-sup-rieur-agricole-et-v-t-rinaire",
@@ -772,7 +709,7 @@
       "ECOLE NATIONALE SUPERIEURE DU PAYSAGE",
       "ECOLE NATIONALE VETERINAIRE AGROALIMENTAIRE ET DE L'ALIMENTATION NANTES ATLANTIQUE"
     ],
-    "rang": 23
+    "rang": 21
   },
   {
     "id": "ira-instituts-r-gionaux-d-administration",
@@ -811,7 +748,7 @@
       "INSTITUT REGIONAL D'ADMINISTRATION - METZ",
       "INSTITUT REGIONAL D'ADMINISTRATION - NANTES"
     ],
-    "rang": 24
+    "rang": 22
   },
   {
     "id": "parcs-nationaux",
@@ -850,7 +787,7 @@
       "PARC NATIONAL DE LA REUNION",
       "PARC NATIONAL DE PORT CROS"
     ],
-    "rang": 25
+    "rang": 23
   },
   {
     "id": "vnf-voies-navigables-de-france",
@@ -862,6 +799,7 @@
     "nb_entities": 1,
     "perimetres": [
       "operateur",
+      "odac",
       "agence-large"
     ],
     "is_categorie": false,
@@ -881,39 +819,7 @@
     "tresorerie_Md": 0.84,
     "surface_utile_m2": 31420,
     "top10_remunerations_kE": 346,
-    "rang": 26
-  },
-  {
-    "id": "voies-navigables-de-france-vnf-odac",
-    "nom": "Voies navigables de France (VNF) - ODAC",
-    "sigle": "Voies navigables de France",
-    "statut": "EPA",
-    "mission": "Transports",
-    "programme": "203",
-    "nb_entities": 1,
-    "perimetres": [
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.66,
-    "financement_etat_Md": 0.27,
-    "ressources_propres_Md": 0.39,
-    "subvention_scp_Md": 0.15,
-    "transferts_Md": 0.04,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 40.44,
-    "charges_personnel_Md": 0.36,
-    "charges_fonctionnement_Md": 0.09,
-    "charges_intervention_Md": 0.19,
-    "charges_investissement_Md": 0.03,
-    "etpt": 4200,
-    "masse_salariale_Md": 0.31,
-    "tresorerie_Md": 0.13,
-    "surface_utile_m2": 50400,
-    "top10_remunerations_kE": 314,
-    "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 27
+    "rang": 24
   },
   {
     "id": "business-france",
@@ -944,7 +850,7 @@
     "tresorerie_Md": 0.26,
     "surface_utile_m2": 47977,
     "top10_remunerations_kE": 271,
-    "rang": 28
+    "rang": 25
   },
   {
     "id": "epccsl-etablissement-public-cit-de-la-c-ramique-s-vres-et-li",
@@ -976,7 +882,7 @@
     "tresorerie_Md": 0.68,
     "surface_utile_m2": 8798,
     "top10_remunerations_kE": 205,
-    "rang": 29
+    "rang": 26
   },
   {
     "id": "ipp-institut-polytechnique-de-paris",
@@ -1008,7 +914,7 @@
     "tresorerie_Md": 0.24,
     "surface_utile_m2": 15904,
     "top10_remunerations_kE": 352,
-    "rang": 30
+    "rang": 27
   },
   {
     "id": "ineris-institut-national-de-l-environnement-industriel-et-de",
@@ -1040,7 +946,7 @@
     "tresorerie_Md": 0.76,
     "surface_utile_m2": 19634,
     "top10_remunerations_kE": 362,
-    "rang": 31
+    "rang": 28
   },
   {
     "id": "ofb-office-fran-ais-de-la-biodiversit",
@@ -1052,6 +958,7 @@
     "nb_entities": 1,
     "perimetres": [
       "operateur",
+      "odac",
       "agence-large"
     ],
     "is_categorie": false,
@@ -1071,7 +978,7 @@
     "tresorerie_Md": 0.48,
     "surface_utile_m2": 40549,
     "top10_remunerations_kE": 84,
-    "rang": 32
+    "rang": 29
   },
   {
     "id": "onf-office-national-des-for-ts",
@@ -1102,7 +1009,7 @@
     "tresorerie_Md": 0.14,
     "surface_utile_m2": 15011,
     "top10_remunerations_kE": 261,
-    "rang": 33
+    "rang": 30
   },
   {
     "id": "cnm-centre-national-de-la-musique",
@@ -1134,7 +1041,7 @@
     "tresorerie_Md": 0.55,
     "surface_utile_m2": 14049,
     "top10_remunerations_kE": 340,
-    "rang": 34
+    "rang": 31
   },
   {
     "id": "cnsmd-paris-conservatoire-national-sup-rieur-de-musique-et-d",
@@ -1166,7 +1073,7 @@
     "tresorerie_Md": 0.84,
     "surface_utile_m2": 24654,
     "top10_remunerations_kE": 149,
-    "rang": 35
+    "rang": 32
   },
   {
     "id": "ensmis-ecole-nationale-sup-rieure-des-m-tiers-de-l-image-et-",
@@ -1198,7 +1105,7 @@
     "tresorerie_Md": 0.14,
     "surface_utile_m2": 18930,
     "top10_remunerations_kE": 396,
-    "rang": 36
+    "rang": 33
   },
   {
     "id": "anct-agence-nationale-de-la-coh-sion-des-territoires",
@@ -1230,7 +1137,7 @@
     "tresorerie_Md": 0.16,
     "surface_utile_m2": 24152,
     "top10_remunerations_kE": 255,
-    "rang": 37
+    "rang": 34
   },
   {
     "id": "angdm-agence-nationale-pour-la-garantie-des-droits-des-mineu",
@@ -1262,7 +1169,7 @@
     "tresorerie_Md": 0.45,
     "surface_utile_m2": 34746,
     "top10_remunerations_kE": 116,
-    "rang": 38
+    "rang": 35
   },
   {
     "id": "intefp-institut-national-du-travail-de-l-emploi-et-de-la-for",
@@ -1294,7 +1201,7 @@
     "tresorerie_Md": 0.53,
     "surface_utile_m2": 25843,
     "top10_remunerations_kE": 417,
-    "rang": 39
+    "rang": 36
   },
   {
     "id": "mns-mus-e-national-du-sport",
@@ -1325,7 +1232,7 @@
     "tresorerie_Md": 0.84,
     "surface_utile_m2": 18818,
     "top10_remunerations_kE": 415,
-    "rang": 40
+    "rang": 37
   },
   {
     "id": "odeadom-office-de-d-veloppement-de-l-conomie-agricole-d-outr",
@@ -1357,7 +1264,7 @@
     "tresorerie_Md": 0.41,
     "surface_utile_m2": 35424,
     "top10_remunerations_kE": 83,
-    "rang": 41
+    "rang": 38
   },
   {
     "id": "antai-agence-nationale-de-traitement-automatis-des-infractio",
@@ -1389,7 +1296,7 @@
     "tresorerie_Md": 0.61,
     "surface_utile_m2": 11830,
     "top10_remunerations_kE": 190,
-    "rang": 42
+    "rang": 39
   },
   {
     "id": "inrap-institut-national-de-recherches-arch-ologiques-pr-vent",
@@ -1421,7 +1328,7 @@
     "tresorerie_Md": 0.22,
     "surface_utile_m2": 32280,
     "top10_remunerations_kE": 365,
-    "rang": 43
+    "rang": 40
   },
   {
     "id": "mus-e-d-orsay-et-mus-e-de-l-orangerie",
@@ -1453,7 +1360,7 @@
     "tresorerie_Md": 0.33,
     "surface_utile_m2": 16187,
     "top10_remunerations_kE": 359,
-    "rang": 44
+    "rang": 41
   },
   {
     "id": "onac-vg-office-national-des-anciens-combattants-et-victimes-",
@@ -1485,7 +1392,7 @@
     "tresorerie_Md": 0.33,
     "surface_utile_m2": 40816,
     "top10_remunerations_kE": 343,
-    "rang": 45
+    "rang": 42
   },
   {
     "id": "acad-mie-des-technologies",
@@ -1517,7 +1424,7 @@
     "tresorerie_Md": 0.69,
     "surface_utile_m2": 35380,
     "top10_remunerations_kE": 119,
-    "rang": 46
+    "rang": 43
   },
   {
     "id": "conseil-national-des-communes-compagnon-de-la-lib-ration",
@@ -1549,7 +1456,7 @@
     "tresorerie_Md": 0.42,
     "surface_utile_m2": 40071,
     "top10_remunerations_kE": 320,
-    "rang": 47
+    "rang": 44
   },
   {
     "id": "gip-les-entreprises-s-engagent",
@@ -1581,7 +1488,7 @@
     "tresorerie_Md": 0.44,
     "surface_utile_m2": 20256,
     "top10_remunerations_kE": 376,
-    "rang": 48
+    "rang": 45
   },
   {
     "id": "ined-institut-national-d-tudes-d-mographiques",
@@ -1612,7 +1519,7 @@
     "tresorerie_Md": 0.31,
     "surface_utile_m2": 4031,
     "top10_remunerations_kE": 267,
-    "rang": 49
+    "rang": 46
   },
   {
     "id": "mus-e-des-arts-d-coratifs",
@@ -1644,7 +1551,7 @@
     "tresorerie_Md": 0.52,
     "surface_utile_m2": 9968,
     "top10_remunerations_kE": 366,
-    "rang": 50
+    "rang": 47
   },
   {
     "id": "cnac-centre-national-des-arts-du-cirque",
@@ -1676,7 +1583,7 @@
     "tresorerie_Md": 0.33,
     "surface_utile_m2": 26381,
     "top10_remunerations_kE": 435,
-    "rang": 51
+    "rang": 48
   },
   {
     "id": "ecpad-etablissement-de-communication-et-de-production-audiov",
@@ -1708,7 +1615,7 @@
     "tresorerie_Md": 0.52,
     "surface_utile_m2": 39115,
     "top10_remunerations_kE": 240,
-    "rang": 52
+    "rang": 49
   },
   {
     "id": "mus-e-de-l-arm-e",
@@ -1739,7 +1646,7 @@
     "tresorerie_Md": 0.61,
     "surface_utile_m2": 28859,
     "top10_remunerations_kE": 257,
-    "rang": 53
+    "rang": 50
   },
   {
     "id": "apij-agence-publique-pour-l-immobilier-de-la-justice",
@@ -1771,7 +1678,7 @@
     "tresorerie_Md": 0.71,
     "surface_utile_m2": 5899,
     "top10_remunerations_kE": 284,
-    "rang": 54
+    "rang": 51
   },
   {
     "id": "cnap-centre-national-des-arts-plastiques",
@@ -1802,7 +1709,7 @@
     "tresorerie_Md": 0.24,
     "surface_utile_m2": 28325,
     "top10_remunerations_kE": 405,
-    "rang": 55
+    "rang": 52
   },
   {
     "id": "epsf-etablissement-public-de-s-curit-ferroviaire",
@@ -1834,7 +1741,7 @@
     "tresorerie_Md": 0.48,
     "surface_utile_m2": 22496,
     "top10_remunerations_kE": 87,
-    "rang": 56
+    "rang": 53
   },
   {
     "id": "etablissement-public-du-marais-poitevin",
@@ -1866,7 +1773,7 @@
     "tresorerie_Md": 0.29,
     "surface_utile_m2": 29385,
     "top10_remunerations_kE": 194,
-    "rang": 57
+    "rang": 54
   },
   {
     "id": "cmn-centre-des-monuments-nationaux",
@@ -1898,7 +1805,7 @@
     "tresorerie_Md": 0.15,
     "surface_utile_m2": 21780,
     "top10_remunerations_kE": 365,
-    "rang": 58
+    "rang": 55
   },
   {
     "id": "etablissement-public-du-mobilier-national",
@@ -1930,7 +1837,7 @@
     "tresorerie_Md": 0.43,
     "surface_utile_m2": 41853,
     "top10_remunerations_kE": 131,
-    "rang": 59
+    "rang": 56
   },
   {
     "id": "ifpen-ifp-energies-nouvelles",
@@ -1962,7 +1869,7 @@
     "tresorerie_Md": 0.62,
     "surface_utile_m2": 5462,
     "top10_remunerations_kE": 246,
-    "rang": 60
+    "rang": 57
   },
   {
     "id": "ensta-bretagne-ecole-nationale-sup-rieure-de-techniques-avan",
@@ -1994,7 +1901,7 @@
     "tresorerie_Md": 0.3,
     "surface_utile_m2": 5895,
     "top10_remunerations_kE": 397,
-    "rang": 61
+    "rang": 58
   },
   {
     "id": "ini-institution-nationale-des-invalides",
@@ -2026,7 +1933,7 @@
     "tresorerie_Md": 0.39,
     "surface_utile_m2": 18772,
     "top10_remunerations_kE": 201,
-    "rang": 62
+    "rang": 59
   },
   {
     "id": "asc-agence-du-service-civique",
@@ -2058,7 +1965,7 @@
     "tresorerie_Md": 0.64,
     "surface_utile_m2": 22615,
     "top10_remunerations_kE": 134,
-    "rang": 63
+    "rang": 60
   },
   {
     "id": "franceagrimer",
@@ -2090,7 +1997,7 @@
     "tresorerie_Md": 0.49,
     "surface_utile_m2": 36117,
     "top10_remunerations_kE": 105,
-    "rang": 64
+    "rang": 61
   },
   {
     "id": "ensba-ecole-nationale-sup-rieure-des-beaux-arts",
@@ -2122,7 +2029,7 @@
     "tresorerie_Md": 0.66,
     "surface_utile_m2": 35171,
     "top10_remunerations_kE": 85,
-    "rang": 65
+    "rang": 62
   },
   {
     "id": "geoderis",
@@ -2153,7 +2060,7 @@
     "tresorerie_Md": 0.45,
     "surface_utile_m2": 35243,
     "top10_remunerations_kE": 249,
-    "rang": 66
+    "rang": 63
   },
   {
     "id": "caisse-de-garantie-du-logement-locatif-social-cglls",
@@ -2185,7 +2092,7 @@
     "surface_utile_m2": 1440,
     "top10_remunerations_kE": 167,
     "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 67
+    "rang": 64
   },
   {
     "id": "communaut-s-d-universit-s-et-d-tablissements",
@@ -2224,7 +2131,7 @@
       "COMMUNAUTE D'UNIVERSITES ET ETABLISSEMENTS UNIVERSITE BOURGOGNE - FRANCHE-COMTE -\nétablissement expérimental",
       "COMMUNAUTE D'UNIVERSITES ET ETABLISSEMENTS UNIVERSITE DE LYON"
     ],
-    "rang": 68
+    "rang": 65
   },
   {
     "id": "gip-plateforme-de-l-inclusion",
@@ -2255,7 +2162,7 @@
     "tresorerie_Md": 0.43,
     "surface_utile_m2": 19137,
     "top10_remunerations_kE": 210,
-    "rang": 69
+    "rang": 66
   },
   {
     "id": "ihedn-institut-des-hautes-tudes-de-d-fense-nationale",
@@ -2287,7 +2194,7 @@
     "tresorerie_Md": 0.46,
     "surface_utile_m2": 31529,
     "top10_remunerations_kE": 264,
-    "rang": 70
+    "rang": 67
   },
   {
     "id": "inca-institut-national-du-cancer",
@@ -2319,7 +2226,7 @@
     "tresorerie_Md": 0.14,
     "surface_utile_m2": 13451,
     "top10_remunerations_kE": 171,
-    "rang": 71
+    "rang": 68
   },
   {
     "id": "inria-institut-national-de-recherche-en-informatique-et-en-a",
@@ -2351,7 +2258,7 @@
     "tresorerie_Md": 0.26,
     "surface_utile_m2": 13954,
     "top10_remunerations_kE": 197,
-    "rang": 72
+    "rang": 69
   },
   {
     "id": "cnaps-conseil-national-des-activit-s-priv-es-de-s-curit",
@@ -2383,7 +2290,7 @@
     "tresorerie_Md": 0.44,
     "surface_utile_m2": 15989,
     "top10_remunerations_kE": 161,
-    "rang": 73
+    "rang": 70
   },
   {
     "id": "cnc-centre-national-du-cin-ma-et-de-l-image-anim-e",
@@ -2415,7 +2322,7 @@
     "tresorerie_Md": 0.23,
     "surface_utile_m2": 9712,
     "top10_remunerations_kE": 124,
-    "rang": 74
+    "rang": 71
   },
   {
     "id": "m-t-o-france",
@@ -2447,7 +2354,7 @@
     "tresorerie_Md": 0.52,
     "surface_utile_m2": 22455,
     "top10_remunerations_kE": 260,
-    "rang": 75
+    "rang": 72
   },
   {
     "id": "bnf-biblioth-que-nationale-de-france",
@@ -2479,7 +2386,7 @@
     "tresorerie_Md": 0.42,
     "surface_utile_m2": 9349,
     "top10_remunerations_kE": 170,
-    "rang": 76
+    "rang": 73
   },
   {
     "id": "ifremer-institut-fran-ais-de-recherche-pour-l-exploitation-d",
@@ -2511,7 +2418,7 @@
     "tresorerie_Md": 0.15,
     "surface_utile_m2": 7244,
     "top10_remunerations_kE": 342,
-    "rang": 77
+    "rang": 74
   },
   {
     "id": "mus-e-guimet",
@@ -2543,7 +2450,7 @@
     "tresorerie_Md": 0.14,
     "surface_utile_m2": 35008,
     "top10_remunerations_kE": 406,
-    "rang": 78
+    "rang": 75
   },
   {
     "id": "brgm-bureau-de-recherches-g-ologiques-et-mini-res",
@@ -2575,7 +2482,7 @@
     "tresorerie_Md": 0.35,
     "surface_utile_m2": 28614,
     "top10_remunerations_kE": 357,
-    "rang": 79
+    "rang": 76
   },
   {
     "id": "ecole-du-louvre",
@@ -2607,7 +2514,7 @@
     "tresorerie_Md": 0.41,
     "surface_utile_m2": 26031,
     "top10_remunerations_kE": 135,
-    "rang": 80
+    "rang": 77
   },
   {
     "id": "acmoss-agence-des-communications-mobiles-op-rationnelles-de-",
@@ -2638,7 +2545,7 @@
     "tresorerie_Md": 0.09,
     "surface_utile_m2": 10257,
     "top10_remunerations_kE": 89,
-    "rang": 81
+    "rang": 78
   },
   {
     "id": "afr-acad-mie-de-france-rome",
@@ -2670,7 +2577,7 @@
     "tresorerie_Md": 0.18,
     "surface_utile_m2": 32626,
     "top10_remunerations_kE": 322,
-    "rang": 82
+    "rang": 79
   },
   {
     "id": "cnac-gp-centre-national-d-art-et-de-culture-georges-pompidou",
@@ -2702,7 +2609,7 @@
     "tresorerie_Md": 0.32,
     "surface_utile_m2": 15907,
     "top10_remunerations_kE": 395,
-    "rang": 83
+    "rang": 80
   },
   {
     "id": "tno-th-tre-national-de-l-od-on",
@@ -2734,7 +2641,7 @@
     "tresorerie_Md": 0.23,
     "surface_utile_m2": 19975,
     "top10_remunerations_kE": 123,
-    "rang": 84
+    "rang": 81
   },
   {
     "id": "cereq-centre-d-etudes-et-de-recherches-sur-les-qualification",
@@ -2765,7 +2672,7 @@
     "tresorerie_Md": 0.26,
     "surface_utile_m2": 9156,
     "top10_remunerations_kE": 361,
-    "rang": 85
+    "rang": 82
   },
   {
     "id": "inao-institut-national-de-l-origine-et-de-la-qualit",
@@ -2797,7 +2704,7 @@
     "tresorerie_Md": 0.32,
     "surface_utile_m2": 8847,
     "top10_remunerations_kE": 345,
-    "rang": 86
+    "rang": 83
   },
   {
     "id": "inrae-institut-national-pour-la-recherche-en-agriculture-ali",
@@ -2829,7 +2736,7 @@
     "tresorerie_Md": 0.15,
     "surface_utile_m2": 30394,
     "top10_remunerations_kE": 420,
-    "rang": 87
+    "rang": 84
   },
   {
     "id": "eprndp-etablissement-public-charg-de-la-conservation-et-de-l",
@@ -2860,7 +2767,7 @@
     "tresorerie_Md": 0.16,
     "surface_utile_m2": 17471,
     "top10_remunerations_kE": 265,
-    "rang": 88
+    "rang": 85
   },
   {
     "id": "inp-institut-national-du-patrimoine",
@@ -2891,7 +2798,7 @@
     "tresorerie_Md": 0.47,
     "surface_utile_m2": 16794,
     "top10_remunerations_kE": 442,
-    "rang": 89
+    "rang": 86
   },
   {
     "id": "inpi-institut-national-de-la-propri-t-industrielle",
@@ -2923,7 +2830,7 @@
     "tresorerie_Md": 0.34,
     "surface_utile_m2": 23572,
     "top10_remunerations_kE": 312,
-    "rang": 90
+    "rang": 87
   },
   {
     "id": "insp-institut-national-du-service-public",
@@ -2955,7 +2862,7 @@
     "tresorerie_Md": 0.43,
     "surface_utile_m2": 3247,
     "top10_remunerations_kE": 230,
-    "rang": 91
+    "rang": 88
   },
   {
     "id": "g-nopole",
@@ -2987,7 +2894,7 @@
     "tresorerie_Md": 0.33,
     "surface_utile_m2": 11442,
     "top10_remunerations_kE": 448,
-    "rang": 92
+    "rang": 89
   },
   {
     "id": "autorit-de-s-ret-nucl-aire-et-de-radioprotection-asnr-fusion",
@@ -3018,7 +2925,7 @@
     "surface_utile_m2": 21600,
     "top10_remunerations_kE": 201,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 93
+    "rang": 90
   },
   {
     "id": "andra-agence-nationale-pour-la-gestion-des-d-chets-radioacti",
@@ -3050,7 +2957,7 @@
     "tresorerie_Md": 0.35,
     "surface_utile_m2": 14724,
     "top10_remunerations_kE": 163,
-    "rang": 94
+    "rang": 91
   },
   {
     "id": "capa-cit-de-l-architecture-et-du-patrimoine",
@@ -3081,7 +2988,7 @@
     "tresorerie_Md": 0.34,
     "surface_utile_m2": 10952,
     "top10_remunerations_kE": 180,
-    "rang": 95
+    "rang": 92
   },
   {
     "id": "chaillot-th-tre-national-de-la-danse",
@@ -3113,7 +3020,7 @@
     "tresorerie_Md": 0.38,
     "surface_utile_m2": 23723,
     "top10_remunerations_kE": 442,
-    "rang": 96
+    "rang": 93
   },
   {
     "id": "epide-etablissement-pour-l-insertion-dans-l-emploi",
@@ -3145,7 +3052,7 @@
     "tresorerie_Md": 0.39,
     "surface_utile_m2": 34087,
     "top10_remunerations_kE": 293,
-    "rang": 97
+    "rang": 94
   },
   {
     "id": "ecoles-nationales-des-sports",
@@ -3181,7 +3088,7 @@
       "ECOLE NATIONALE DE VOILE ET DES SPORTS NAUTIQUES",
       "ECOLE NATIONALE DES SPORTS DE MONTAGNE"
     ],
-    "rang": 98
+    "rang": 95
   },
   {
     "id": "institut-fran-ais",
@@ -3212,7 +3119,7 @@
     "tresorerie_Md": 0.26,
     "surface_utile_m2": 28177,
     "top10_remunerations_kE": 102,
-    "rang": 99
+    "rang": 96
   },
   {
     "id": "ladom-l-agence-de-l-outre-mer-pour-la-mobilit",
@@ -3244,7 +3151,7 @@
     "tresorerie_Md": 0.11,
     "surface_utile_m2": 20070,
     "top10_remunerations_kE": 269,
-    "rang": 100
+    "rang": 97
   },
   {
     "id": "ans-s-agence-nationale-de-s-curit-sanitaire-de-l-alimentatio",
@@ -3276,7 +3183,7 @@
     "tresorerie_Md": 0.15,
     "surface_utile_m2": 20546,
     "top10_remunerations_kE": 124,
-    "rang": 101
+    "rang": 98
   },
   {
     "id": "cnd-centre-national-de-la-danse",
@@ -3308,7 +3215,7 @@
     "tresorerie_Md": 0.11,
     "surface_utile_m2": 7932,
     "top10_remunerations_kE": 85,
-    "rang": 102
+    "rang": 99
   },
   {
     "id": "cned-centre-national-d-enseignement-distance",
@@ -3340,7 +3247,7 @@
     "tresorerie_Md": 0.27,
     "surface_utile_m2": 14198,
     "top10_remunerations_kE": 428,
-    "rang": 103
+    "rang": 100
   },
   {
     "id": "ensci-ecole-nationale-sup-rieure-de-cr-ation-industrielle",
@@ -3372,7 +3279,7 @@
     "tresorerie_Md": 0.08,
     "surface_utile_m2": 40369,
     "top10_remunerations_kE": 161,
-    "rang": 104
+    "rang": 101
   },
   {
     "id": "ifce-institut-fran-ais-du-cheval-et-de-l-quitation",
@@ -3403,7 +3310,7 @@
     "tresorerie_Md": 0.13,
     "surface_utile_m2": 31185,
     "top10_remunerations_kE": 216,
-    "rang": 105
+    "rang": 102
   },
   {
     "id": "p-le-emploi",
@@ -3435,7 +3342,7 @@
     "tresorerie_Md": 0.42,
     "surface_utile_m2": 30570,
     "top10_remunerations_kE": 314,
-    "rang": 106
+    "rang": 103
   },
   {
     "id": "x-ecole-polytechnique",
@@ -3467,7 +3374,7 @@
     "tresorerie_Md": 0.42,
     "surface_utile_m2": 20368,
     "top10_remunerations_kE": 167,
-    "rang": 107
+    "rang": 104
   },
   {
     "id": "entpe-ecole-nationale-des-travaux-publics-de-l-etat",
@@ -3499,7 +3406,7 @@
     "tresorerie_Md": 0.39,
     "surface_utile_m2": 32438,
     "top10_remunerations_kE": 436,
-    "rang": 108
+    "rang": 105
   },
   {
     "id": "genes-groupe-des-coles-nationales-d-conomie-et-statistique",
@@ -3531,7 +3438,7 @@
     "tresorerie_Md": 0.4,
     "surface_utile_m2": 15575,
     "top10_remunerations_kE": 365,
-    "rang": 109
+    "rang": 106
   },
   {
     "id": "ofdt-observatoire-fran-ais-des-drogues-et-des-tendances-addi",
@@ -3563,7 +3470,7 @@
     "tresorerie_Md": 0.13,
     "surface_utile_m2": 10680,
     "top10_remunerations_kE": 178,
-    "rang": 110
+    "rang": 107
   },
   {
     "id": "ancols-agence-nationale-de-contr-le-du-logement-social",
@@ -3594,7 +3501,7 @@
     "tresorerie_Md": 0.37,
     "surface_utile_m2": 19441,
     "top10_remunerations_kE": 87,
-    "rang": 111
+    "rang": 108
   },
   {
     "id": "isae-institut-sup-rieur-de-l-a-ronautique-et-de-l-espace",
@@ -3626,7 +3533,7 @@
     "tresorerie_Md": 0.12,
     "surface_utile_m2": 8311,
     "top10_remunerations_kE": 233,
-    "rang": 112
+    "rang": 109
   },
   {
     "id": "cnsmd-lyon-conservatoire-national-sup-rieur-de-musique-et-de",
@@ -3658,7 +3565,7 @@
     "tresorerie_Md": 0.31,
     "surface_utile_m2": 35795,
     "top10_remunerations_kE": 186,
-    "rang": 113
+    "rang": 110
   },
   {
     "id": "mus-e-de-l-air-et-de-l-espace",
@@ -3690,7 +3597,7 @@
     "tresorerie_Md": 0.11,
     "surface_utile_m2": 11862,
     "top10_remunerations_kE": 421,
-    "rang": 114
+    "rang": 111
   },
   {
     "id": "cnpf-centre-national-de-la-propri-t-foresti-re",
@@ -3721,7 +3628,7 @@
     "tresorerie_Md": 0.39,
     "surface_utile_m2": 26637,
     "top10_remunerations_kE": 193,
-    "rang": 115
+    "rang": 112
   },
   {
     "id": "epcmpp-etablissement-public-de-la-cit-de-la-musique-philharm",
@@ -3753,7 +3660,7 @@
     "tresorerie_Md": 0.36,
     "surface_utile_m2": 6469,
     "top10_remunerations_kE": 380,
-    "rang": 116
+    "rang": 113
   },
   {
     "id": "fei-france-ducation-international",
@@ -3785,7 +3692,7 @@
     "tresorerie_Md": 0.39,
     "surface_utile_m2": 36573,
     "top10_remunerations_kE": 130,
-    "rang": 117
+    "rang": 114
   },
   {
     "id": "lne-laboratoire-national-de-m-trologie-et-d-essais",
@@ -3816,7 +3723,7 @@
     "tresorerie_Md": 0.07,
     "surface_utile_m2": 11619,
     "top10_remunerations_kE": 447,
-    "rang": 118
+    "rang": 115
   },
   {
     "id": "ans-agence-nationale-du-sport",
@@ -3848,7 +3755,7 @@
     "tresorerie_Md": 0.11,
     "surface_utile_m2": 18717,
     "top10_remunerations_kE": 101,
-    "rang": 119
+    "rang": 116
   },
   {
     "id": "enim-etablissement-national-des-invalides-de-la-marine",
@@ -3880,7 +3787,7 @@
     "tresorerie_Md": 0.23,
     "surface_utile_m2": 11274,
     "top10_remunerations_kE": 447,
-    "rang": 120
+    "rang": 117
   },
   {
     "id": "celrl-conservatoire-de-l-espace-littoral-et-des-rivages-lacu",
@@ -3912,7 +3819,7 @@
     "tresorerie_Md": 0.05,
     "surface_utile_m2": 17429,
     "top10_remunerations_kE": 432,
-    "rang": 121
+    "rang": 118
   },
   {
     "id": "cerema-centre-d-tudes-et-d-expertise-sur-les-risques-l-envir",
@@ -3944,7 +3851,7 @@
     "tresorerie_Md": 0.28,
     "surface_utile_m2": 16522,
     "top10_remunerations_kE": 127,
-    "rang": 122
+    "rang": 119
   },
   {
     "id": "groupe-mines-t-l-com",
@@ -3980,7 +3887,7 @@
       "MINES PARIS TECH",
       "INSTITUT MINES TELECOM"
     ],
-    "rang": 123
+    "rang": 120
   },
   {
     "id": "agrasc-agence-de-gestion-et-de-recouvrement-des-avoirs-saisi",
@@ -4012,7 +3919,7 @@
     "tresorerie_Md": 0.18,
     "surface_utile_m2": 10302,
     "top10_remunerations_kE": 113,
-    "rang": 124
+    "rang": 121
   },
   {
     "id": "ofii-office-fran-ais-de-l-immigration-et-de-l-int-gration",
@@ -4044,7 +3951,7 @@
     "tresorerie_Md": 0.33,
     "surface_utile_m2": 27622,
     "top10_remunerations_kE": 284,
-    "rang": 125
+    "rang": 122
   },
   {
     "id": "onera-office-national-d-tudes-et-de-recherches-a-rospatiales",
@@ -4075,7 +3982,7 @@
     "tresorerie_Md": 0.09,
     "surface_utile_m2": 41374,
     "top10_remunerations_kE": 265,
-    "rang": 126
+    "rang": 123
   },
   {
     "id": "ansc-agence-nationale-du-num-rique-de-la-s-curit-civile",
@@ -4107,7 +4014,7 @@
     "tresorerie_Md": 0.27,
     "surface_utile_m2": 9755,
     "top10_remunerations_kE": 294,
-    "rang": 127
+    "rang": 124
   },
   {
     "id": "cglls-caisse-de-garantie-du-logement-locatif-social",
@@ -4139,7 +4046,7 @@
     "tresorerie_Md": 0.25,
     "surface_utile_m2": 33717,
     "top10_remunerations_kE": 431,
-    "rang": 128
+    "rang": 125
   },
   {
     "id": "mus-e-du-louvre",
@@ -4171,39 +4078,7 @@
     "tresorerie_Md": 0.31,
     "surface_utile_m2": 33350,
     "top10_remunerations_kE": 288,
-    "rang": 129
-  },
-  {
-    "id": "sgp-soci-t-du-grand-paris",
-    "nom": "SGP - Société du Grand Paris",
-    "sigle": "SGP",
-    "statut": "EPIC",
-    "mission": "Écologie, développement et mobilité durables",
-    "programme": "203 – Infrastructures et services de transports",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.24,
-    "financement_etat_Md": 0.21,
-    "ressources_propres_Md": 0.04,
-    "subvention_scp_Md": 0.11,
-    "transferts_Md": 0.03,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 84.8,
-    "charges_personnel_Md": 0.09,
-    "charges_fonctionnement_Md": 0.03,
-    "charges_intervention_Md": 0.04,
-    "charges_investissement_Md": 0.09,
-    "etpt": 2833,
-    "masse_salariale_Md": 0.08,
-    "tresorerie_Md": 0.09,
-    "surface_utile_m2": 32498,
-    "top10_remunerations_kE": 248,
-    "rang": 130
+    "rang": 126
   },
   {
     "id": "tnc-th-tre-national-de-la-colline",
@@ -4235,7 +4110,39 @@
     "tresorerie_Md": 0.15,
     "surface_utile_m2": 21882,
     "top10_remunerations_kE": 275,
-    "rang": 131
+    "rang": 127
+  },
+  {
+    "id": "sgp-soci-t-du-grand-paris",
+    "nom": "SGP - Societe des Grands Projets (ex Societe du Grand Paris)",
+    "sigle": "SGP",
+    "statut": "EPIC",
+    "mission": "Écologie, développement et mobilité durables",
+    "programme": "203 – Infrastructures et services de transports",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.24,
+    "financement_etat_Md": 0.21,
+    "ressources_propres_Md": 0.04,
+    "subvention_scp_Md": 0.11,
+    "transferts_Md": 0.03,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 84.8,
+    "charges_personnel_Md": 0.09,
+    "charges_fonctionnement_Md": 0.03,
+    "charges_intervention_Md": 0.04,
+    "charges_investissement_Md": 0.09,
+    "etpt": 2833,
+    "masse_salariale_Md": 0.08,
+    "tresorerie_Md": 0.09,
+    "surface_utile_m2": 32498,
+    "top10_remunerations_kE": 248,
+    "rang": 128
   },
   {
     "id": "centre-info-centre-pour-le-d-veloppement-de-l-information-su",
@@ -4267,7 +4174,7 @@
     "tresorerie_Md": 0.08,
     "surface_utile_m2": 32268,
     "top10_remunerations_kE": 138,
-    "rang": 132
+    "rang": 129
   },
   {
     "id": "infoma-institut-national-de-formation-des-personnels-du-mini",
@@ -4299,7 +4206,7 @@
     "tresorerie_Md": 0.34,
     "surface_utile_m2": 32523,
     "top10_remunerations_kE": 225,
-    "rang": 133
+    "rang": 130
   },
   {
     "id": "mucem-mus-e-des-civilisations-de-l-europe-et-de-la-m-diterra",
@@ -4330,7 +4237,7 @@
     "tresorerie_Md": 0.27,
     "surface_utile_m2": 8013,
     "top10_remunerations_kE": 190,
-    "rang": 134
+    "rang": 131
   },
   {
     "id": "enpc-ecole-nationale-des-ponts-et-chauss-es",
@@ -4362,7 +4269,7 @@
     "tresorerie_Md": 0.23,
     "surface_utile_m2": 13927,
     "top10_remunerations_kE": 350,
-    "rang": 135
+    "rang": 132
   },
   {
     "id": "ign-institut-national-de-l-information-g-ographique-et-fores",
@@ -4394,7 +4301,7 @@
     "tresorerie_Md": 0.19,
     "surface_utile_m2": 7072,
     "top10_remunerations_kE": 323,
-    "rang": 136
+    "rang": 133
   },
   {
     "id": "insep-institut-national-du-sport-de-l-expertise-et-de-la-per",
@@ -4426,7 +4333,7 @@
     "tresorerie_Md": 0.32,
     "surface_utile_m2": 27770,
     "top10_remunerations_kE": 344,
-    "rang": 137
+    "rang": 134
   },
   {
     "id": "onisep-office-national-d-information-sur-les-enseignements-e",
@@ -4458,7 +4365,7 @@
     "tresorerie_Md": 0.07,
     "surface_utile_m2": 8457,
     "top10_remunerations_kE": 353,
-    "rang": 138
+    "rang": 135
   },
   {
     "id": "anfr-agence-nationale-des-fr-quences",
@@ -4490,7 +4397,7 @@
     "tresorerie_Md": 0.06,
     "surface_utile_m2": 9426,
     "top10_remunerations_kE": 128,
-    "rang": 139
+    "rang": 136
   },
   {
     "id": "ants-agence-nationale-des-titres-s-curis-s",
@@ -4522,7 +4429,7 @@
     "tresorerie_Md": 0.28,
     "surface_utile_m2": 31504,
     "top10_remunerations_kE": 138,
-    "rang": 140
+    "rang": 137
   },
   {
     "id": "epv-etablissement-public-du-mus-e-et-du-domaine-national-de-",
@@ -4554,7 +4461,7 @@
     "tresorerie_Md": 0.18,
     "surface_utile_m2": 15221,
     "top10_remunerations_kE": 203,
-    "rang": 141
+    "rang": 138
   },
   {
     "id": "oppic-op-rateur-du-patrimoine-et-des-projets-immobiliers-de-",
@@ -4585,7 +4492,7 @@
     "tresorerie_Md": 0.18,
     "surface_utile_m2": 13094,
     "top10_remunerations_kE": 210,
-    "rang": 142
+    "rang": 139
   },
   {
     "id": "bpi-biblioth-que-publique-d-information",
@@ -4616,7 +4523,7 @@
     "tresorerie_Md": 0.04,
     "surface_utile_m2": 12215,
     "top10_remunerations_kE": 294,
-    "rang": 143
+    "rang": 140
   },
   {
     "id": "enm-ecole-nationale-de-la-magistrature",
@@ -4648,7 +4555,7 @@
     "tresorerie_Md": 0.16,
     "surface_utile_m2": 39307,
     "top10_remunerations_kE": 304,
-    "rang": 144
+    "rang": 141
   },
   {
     "id": "gip-bio-agence-fran-aise-pour-le-d-veloppement-et-la-promoti",
@@ -4679,7 +4586,7 @@
     "tresorerie_Md": 0.22,
     "surface_utile_m2": 8630,
     "top10_remunerations_kE": 368,
-    "rang": 145
+    "rang": 142
   },
   {
     "id": "op-ra-national-de-paris",
@@ -4711,7 +4618,7 @@
     "tresorerie_Md": 0.19,
     "surface_utile_m2": 19070,
     "top10_remunerations_kE": 192,
-    "rang": 146
+    "rang": 143
   },
   {
     "id": "tns-th-tre-national-de-strasbourg",
@@ -4743,7 +4650,7 @@
     "tresorerie_Md": 0.21,
     "surface_utile_m2": 25936,
     "top10_remunerations_kE": 261,
-    "rang": 147
+    "rang": 144
   },
   {
     "id": "afpa-agence-nationale-pour-la-formation-professionnelle-des-",
@@ -4775,7 +4682,7 @@
     "tresorerie_Md": 0.08,
     "surface_utile_m2": 26615,
     "top10_remunerations_kE": 446,
-    "rang": 148
+    "rang": 145
   },
   {
     "id": "fnap-fonds-national-des-aides-la-pierre",
@@ -4807,7 +4714,7 @@
     "tresorerie_Md": 0.24,
     "surface_utile_m2": 22162,
     "top10_remunerations_kE": 121,
-    "rang": 149
+    "rang": 146
   },
   {
     "id": "ierdj-institut-des-tudes-et-de-la-recherche-sur-le-droit-et-",
@@ -4839,7 +4746,7 @@
     "tresorerie_Md": 0.2,
     "surface_utile_m2": 29994,
     "top10_remunerations_kE": 104,
-    "rang": 150
+    "rang": 147
   },
   {
     "id": "mus-e-picasso",
@@ -4871,7 +4778,7 @@
     "tresorerie_Md": 0.19,
     "surface_utile_m2": 8151,
     "top10_remunerations_kE": 430,
-    "rang": 151
+    "rang": 148
   },
   {
     "id": "eppghv-etablissement-public-du-parc-et-de-la-grande-halle-de",
@@ -4903,7 +4810,7 @@
     "tresorerie_Md": 0.19,
     "surface_utile_m2": 15420,
     "top10_remunerations_kE": 226,
-    "rang": 152
+    "rang": 149
   },
   {
     "id": "associations-de-coordination-technique-agricole-et-des-indus",
@@ -4939,7 +4846,7 @@
       "ASSOCIATION DE COORDINATION TECHNIQUE AGRICOLE",
       "ASSOCIATION DE COORDINATION TECHNIQUE POUR L'INDUSTRIE AGRO ALIMENTAIRE"
     ],
-    "rang": 153
+    "rang": 150
   },
   {
     "id": "cin-math-que-fran-aise",
@@ -4971,7 +4878,7 @@
     "tresorerie_Md": 0.12,
     "surface_utile_m2": 40883,
     "top10_remunerations_kE": 184,
-    "rang": 154
+    "rang": 151
   },
   {
     "id": "etablissement-public-du-ch-teau-de-fontainebleau",
@@ -5003,7 +4910,7 @@
     "tresorerie_Md": 0.22,
     "surface_utile_m2": 9350,
     "top10_remunerations_kE": 162,
-    "rang": 155
+    "rang": 152
   },
   {
     "id": "ird-institut-de-recherche-pour-le-d-veloppement",
@@ -5035,7 +4942,7 @@
     "tresorerie_Md": 0.18,
     "surface_utile_m2": 4267,
     "top10_remunerations_kE": 230,
-    "rang": 156
+    "rang": 153
   },
   {
     "id": "rmn-gp-r-union-des-mus-es-nationaux-grand-palais",
@@ -5067,7 +4974,7 @@
     "tresorerie_Md": 0.22,
     "surface_utile_m2": 30639,
     "top10_remunerations_kE": 213,
-    "rang": 157
+    "rang": 154
   },
   {
     "id": "solideo-soci-t-de-livraison-des-quipements-olympiques-et-par",
@@ -5099,7 +5006,7 @@
     "tresorerie_Md": 0.12,
     "surface_utile_m2": 3030,
     "top10_remunerations_kE": 299,
-    "rang": 158
+    "rang": 155
   },
   {
     "id": "com-die-fran-aise",
@@ -5130,7 +5037,7 @@
     "tresorerie_Md": 0.22,
     "surface_utile_m2": 20005,
     "top10_remunerations_kE": 298,
-    "rang": 159
+    "rang": 156
   },
   {
     "id": "agence-nationale-de-s-curit-du-m-dicament-ansm",
@@ -5162,7 +5069,7 @@
     "surface_utile_m2": 11760,
     "top10_remunerations_kE": 292,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 160
+    "rang": 157
   },
   {
     "id": "epmqb-etablissement-public-du-mus-e-du-quai-branly",
@@ -5194,7 +5101,7 @@
     "tresorerie_Md": 0.18,
     "surface_utile_m2": 38888,
     "top10_remunerations_kE": 317,
-    "rang": 161
+    "rang": 158
   },
   {
     "id": "mus-e-national-de-la-marine",
@@ -5225,7 +5132,7 @@
     "tresorerie_Md": 0.19,
     "surface_utile_m2": 21617,
     "top10_remunerations_kE": 333,
-    "rang": 162
+    "rang": 159
   },
   {
     "id": "shom-service-hydrographique-et-oc-anographique-de-la-marine",
@@ -5257,7 +5164,7 @@
     "tresorerie_Md": 0.18,
     "surface_utile_m2": 21320,
     "top10_remunerations_kE": 444,
-    "rang": 163
+    "rang": 160
   },
   {
     "id": "cirad-centre-de-coop-ration-internationale-en-recherche-agro",
@@ -5288,7 +5195,7 @@
     "tresorerie_Md": 0.06,
     "surface_utile_m2": 26766,
     "top10_remunerations_kE": 122,
-    "rang": 164
+    "rang": 161
   },
   {
     "id": "ipev-institut-polaire-fran-ais-paul-emile-victor",
@@ -5319,7 +5226,7 @@
     "tresorerie_Md": 0.16,
     "surface_utile_m2": 34522,
     "top10_remunerations_kE": 119,
-    "rang": 165
+    "rang": 162
   },
   {
     "id": "institut-national-de-l-audiovisuel-ina",
@@ -5351,7 +5258,7 @@
     "surface_utile_m2": 11400,
     "top10_remunerations_kE": 286,
     "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 166
+    "rang": 163
   },
   {
     "id": "autorit-des-march-s-financiers-amf",
@@ -5382,7 +5289,7 @@
     "surface_utile_m2": 5760,
     "top10_remunerations_kE": 297,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 167
+    "rang": 164
   },
   {
     "id": "aefe-agence-pour-l-enseignement-fran-ais-l-tranger",
@@ -5414,7 +5321,7 @@
     "tresorerie_Md": 0.1,
     "surface_utile_m2": 37755,
     "top10_remunerations_kE": 386,
-    "rang": 168
+    "rang": 165
   },
   {
     "id": "ecole-de-l-air-et-de-l-espace",
@@ -5446,7 +5353,7 @@
     "tresorerie_Md": 0.06,
     "surface_utile_m2": 8060,
     "top10_remunerations_kE": 361,
-    "rang": 169
+    "rang": 166
   },
   {
     "id": "ensta-paris-ecole-nationale-sup-rieure-de-techniques-avanc-e",
@@ -5477,7 +5384,7 @@
     "tresorerie_Md": 0.06,
     "surface_utile_m2": 1497,
     "top10_remunerations_kE": 354,
-    "rang": 170
+    "rang": 167
   },
   {
     "id": "ensemble-intercontemporain",
@@ -5508,7 +5415,7 @@
     "tresorerie_Md": 0.11,
     "surface_utile_m2": 1387,
     "top10_remunerations_kE": 140,
-    "rang": 171
+    "rang": 168
   },
   {
     "id": "universcience",
@@ -5540,7 +5447,7 @@
     "tresorerie_Md": 0.08,
     "surface_utile_m2": 4873,
     "top10_remunerations_kE": 390,
-    "rang": 172
+    "rang": 169
   },
   {
     "id": "asp-agence-de-services-et-de-paiement",
@@ -5572,39 +5479,7 @@
     "tresorerie_Md": 0.12,
     "surface_utile_m2": 3516,
     "top10_remunerations_kE": 424,
-    "rang": 173
-  },
-  {
-    "id": "atout-france",
-    "nom": "Atout-France",
-    "sigle": "Atout-France",
-    "statut": "GIE",
-    "mission": "Économie",
-    "programme": "134 – Développement des entreprises et régulations",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.08,
-    "financement_etat_Md": 0.05,
-    "ressources_propres_Md": 0.03,
-    "subvention_scp_Md": 0.03,
-    "transferts_Md": 0.01,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 65.2,
-    "charges_personnel_Md": 0.04,
-    "charges_fonctionnement_Md": 0.01,
-    "charges_intervention_Md": 0.02,
-    "charges_investissement_Md": 0.01,
-    "etpt": 16,
-    "masse_salariale_Md": 0.03,
-    "tresorerie_Md": 0.09,
-    "surface_utile_m2": 205,
-    "top10_remunerations_kE": 346,
-    "rang": 174
+    "rang": 170
   },
   {
     "id": "cnl-centre-national-du-livre",
@@ -5636,39 +5511,7 @@
     "tresorerie_Md": 0.13,
     "surface_utile_m2": 3367,
     "top10_remunerations_kE": 353,
-    "rang": 175
-  },
-  {
-    "id": "atout-france",
-    "nom": "Atout France",
-    "sigle": "Atout France",
-    "statut": "GIP",
-    "mission": "Tourisme",
-    "programme": "134",
-    "nb_entities": 1,
-    "perimetres": [
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.08,
-    "financement_etat_Md": 0.06,
-    "ressources_propres_Md": 0.02,
-    "subvention_scp_Md": 0.04,
-    "transferts_Md": 0.01,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 72,
-    "charges_personnel_Md": 0.04,
-    "charges_fonctionnement_Md": 0.02,
-    "charges_intervention_Md": 0.01,
-    "charges_investissement_Md": 0.01,
-    "etpt": 320,
-    "masse_salariale_Md": 0.03,
-    "tresorerie_Md": 0.07,
-    "surface_utile_m2": 3840,
-    "top10_remunerations_kE": 153,
-    "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 176
+    "rang": 171
   },
   {
     "id": "haute-autorit-de-sant-has",
@@ -5699,7 +5542,39 @@
     "surface_utile_m2": 5400,
     "top10_remunerations_kE": 126,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 177
+    "rang": 172
+  },
+  {
+    "id": "atout-france",
+    "nom": "Atout-France",
+    "sigle": "Atout-France",
+    "statut": "GIE",
+    "mission": "Économie",
+    "programme": "134 – Développement des entreprises et régulations",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.08,
+    "financement_etat_Md": 0.05,
+    "ressources_propres_Md": 0.03,
+    "subvention_scp_Md": 0.03,
+    "transferts_Md": 0.01,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 65.2,
+    "charges_personnel_Md": 0.04,
+    "charges_fonctionnement_Md": 0.01,
+    "charges_intervention_Md": 0.02,
+    "charges_investissement_Md": 0.01,
+    "etpt": 16,
+    "masse_salariale_Md": 0.03,
+    "tresorerie_Md": 0.09,
+    "surface_utile_m2": 205,
+    "top10_remunerations_kE": 346,
+    "rang": 173
   },
   {
     "id": "enac-ecole-nationale-de-l-aviation-civile",
@@ -5731,7 +5606,7 @@
     "tresorerie_Md": 0.03,
     "surface_utile_m2": 6187,
     "top10_remunerations_kE": 142,
-    "rang": 178
+    "rang": 174
   },
   {
     "id": "ensad-ecole-nationale-sup-rieure-des-arts-d-coratifs",
@@ -5763,7 +5638,7 @@
     "tresorerie_Md": 0.09,
     "surface_utile_m2": 2698,
     "top10_remunerations_kE": 378,
-    "rang": 179
+    "rang": 175
   },
   {
     "id": "enspolice-ecole-nationale-sup-rieure-de-la-police",
@@ -5795,7 +5670,7 @@
     "tresorerie_Md": 0.06,
     "surface_utile_m2": 7052,
     "top10_remunerations_kE": 87,
-    "rang": 180
+    "rang": 176
   },
   {
     "id": "op-ra-comique",
@@ -5827,7 +5702,7 @@
     "tresorerie_Md": 0.1,
     "surface_utile_m2": 5502,
     "top10_remunerations_kE": 131,
-    "rang": 181
+    "rang": 177
   },
   {
     "id": "enap-ecole-nationale-de-l-administration-p-nitentiaire",
@@ -5859,7 +5734,7 @@
     "tresorerie_Md": 0.01,
     "surface_utile_m2": 8828,
     "top10_remunerations_kE": 138,
-    "rang": 182
+    "rang": 178
   },
   {
     "id": "ensm-ecole-nationale-sup-rieure-maritime",
@@ -5891,7 +5766,7 @@
     "tresorerie_Md": 0.07,
     "surface_utile_m2": 1648,
     "top10_remunerations_kE": 354,
-    "rang": 183
+    "rang": 179
   },
   {
     "id": "epaurif-etablissement-public-d-am-nagement-universitaire-de-",
@@ -5923,7 +5798,7 @@
     "tresorerie_Md": 0.01,
     "surface_utile_m2": 2964,
     "top10_remunerations_kE": 200,
-    "rang": 184
+    "rang": 180
   },
   {
     "id": "ecole-navale",
@@ -5955,7 +5830,7 @@
     "tresorerie_Md": 0.07,
     "surface_utile_m2": 1104,
     "top10_remunerations_kE": 307,
-    "rang": 185
+    "rang": 181
   },
   {
     "id": "ofpra-office-fran-ais-de-protection-des-r-fugi-s-et-apatride",
@@ -5986,7 +5861,7 @@
     "tresorerie_Md": 0.04,
     "surface_utile_m2": 521,
     "top10_remunerations_kE": 401,
-    "rang": 186
+    "rang": 182
   },
   {
     "id": "anact-agence-nationale-pour-l-am-lioration-des-conditions-de",
@@ -6017,7 +5892,7 @@
     "tresorerie_Md": 0.06,
     "surface_utile_m2": 6671,
     "top10_remunerations_kE": 346,
-    "rang": 187
+    "rang": 183
   },
   {
     "id": "campus-france",
@@ -6049,7 +5924,7 @@
     "tresorerie_Md": 0.06,
     "surface_utile_m2": 6251,
     "top10_remunerations_kE": 387,
-    "rang": 188
+    "rang": 184
   },
   {
     "id": "cnsad-conservatoire-national-sup-rieur-d-art-dramatique",
@@ -6081,7 +5956,7 @@
     "tresorerie_Md": 0.06,
     "surface_utile_m2": 5334,
     "top10_remunerations_kE": 359,
-    "rang": 189
+    "rang": 185
   },
   {
     "id": "grande-chancellerie-de-la-l-gion-d-honneur",
@@ -6113,7 +5988,7 @@
     "tresorerie_Md": 0.03,
     "surface_utile_m2": 9848,
     "top10_remunerations_kE": 132,
-    "rang": 190
+    "rang": 186
   },
   {
     "id": "epmsm-etablissement-public-du-mont-saint-michel",
@@ -6145,7 +6020,7 @@
     "tresorerie_Md": 0.04,
     "surface_utile_m2": 4797,
     "top10_remunerations_kE": 314,
-    "rang": 191
+    "rang": 187
   },
   {
     "id": "eppd-etablissement-public-du-palais-de-la-porte-dor-e",
@@ -6177,7 +6052,7 @@
     "tresorerie_Md": 0.01,
     "surface_utile_m2": 745,
     "top10_remunerations_kE": 329,
-    "rang": 192
+    "rang": 188
   },
   {
     "id": "commission-nationale-de-l-informatique-et-des-libert-s-cnil",
@@ -6208,7 +6083,7 @@
     "surface_utile_m2": 3120,
     "top10_remunerations_kE": 90,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 193
+    "rang": 189
   },
   {
     "id": "d-fenseur-des-droits",
@@ -6239,7 +6114,7 @@
     "surface_utile_m2": 3000,
     "top10_remunerations_kE": 317,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 194
+    "rang": 190
   },
   {
     "id": "mus-e-henner-moreau",
@@ -6271,7 +6146,7 @@
     "tresorerie_Md": 0.01,
     "surface_utile_m2": 1838,
     "top10_remunerations_kE": 266,
-    "rang": 195
+    "rang": 191
   },
   {
     "id": "france-strat-gie",
@@ -6302,7 +6177,7 @@
     "surface_utile_m2": 2160,
     "top10_remunerations_kE": 269,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 196
+    "rang": 192
   },
   {
     "id": "gip-france-enfance-prot-g-e-retir-op-rateurs-2025",
@@ -6333,7 +6208,7 @@
     "surface_utile_m2": 540,
     "top10_remunerations_kE": 287,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 197
+    "rang": 193
   },
   {
     "id": "conseil-d-orientation-des-retraites-cor",
@@ -6364,7 +6239,7 @@
     "surface_utile_m2": 144,
     "top10_remunerations_kE": 247,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 198
+    "rang": 194
   },
   {
     "id": "comit-th-odule-commission-consultative-exemple",
@@ -6395,7 +6270,7 @@
     "surface_utile_m2": 96,
     "top10_remunerations_kE": null,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 199
+    "rang": 195
   },
   {
     "id": "haut-conseil-du-financement-de-la-protection-sociale",
@@ -6426,6 +6301,6 @@
     "surface_utile_m2": 120,
     "top10_remunerations_kE": null,
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 200
+    "rang": 196
   }
 ]
