@@ -14,11 +14,11 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 12.98,
-    "financement_etat_Md": 14.651,
+    "financement_etat_Md": 15.108,
     "ressources_propres_Md": 0.595,
     "subvention_scp_Md": 1.163,
     "transferts_Md": 2.159,
-    "taxes_affectees_Md": 11.33,
+    "taxes_affectees_Md": 11.787,
     "part_financement_public_pct": 99.6,
     "charges_personnel_Md": 4.73,
     "charges_fonctionnement_Md": 2.12,
@@ -61,7 +61,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -70,7 +71,12 @@
       "2024": 0.595
     },
     "financement_etat_budget_Md": 3.321,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 11.533,
+      "2026": 11.787
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
     "id": "universit-s-et-assimil-s",
@@ -134,7 +140,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -161,11 +168,11 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 0.09,
-    "financement_etat_Md": 6.791,
+    "financement_etat_Md": 6.65,
     "ressources_propres_Md": 0.094,
     "subvention_scp_Md": 0.177,
     "transferts_Md": 6.392,
-    "taxes_affectees_Md": 0.16,
+    "taxes_affectees_Md": 0.019,
     "part_financement_public_pct": 57.9,
     "charges_personnel_Md": 0.04,
     "charges_fonctionnement_Md": 0.01,
@@ -208,7 +215,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -218,7 +226,12 @@
     },
     "subvention_invest_Md": 0.062,
     "financement_etat_budget_Md": 6.631,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.014,
+      "2026": 0.019
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
     "id": "afitf-agence-de-financement-des-infrastructures-de-transport",
@@ -235,11 +248,11 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 3.95,
-    "financement_etat_Md": 3.95,
+    "financement_etat_Md": 3.177,
     "ressources_propres_Md": 0,
     "subvention_scp_Md": 0,
     "transferts_Md": 0.22,
-    "taxes_affectees_Md": 3.85,
+    "taxes_affectees_Md": 2.957,
     "part_financement_public_pct": 100,
     "charges_personnel_Md": 2.07,
     "charges_fonctionnement_Md": 0.81,
@@ -263,9 +276,16 @@
     },
     "sources_reelles": [
       "masse",
-      "tresorerie"
+      "tresorerie",
+      "taxes"
     ],
-    "donnees_confidence": "moyenne"
+    "donnees_confidence": "moyenne",
+    "historique_taxes": {
+      "2025": 2.556,
+      "2026": 2.957
+    },
+    "source_taxes": "Jaune 2026 p.66",
+    "financement_etat_budget_Md": 0.22
   },
   {
     "id": "cnrs-centre-national-de-la-recherche-scientifique",
@@ -341,6 +361,90 @@
     "financement_budget_real": true
   },
   {
+    "id": "agences-de-l-eau",
+    "nom": "Agences de l'eau",
+    "sigle": "Agences de l'eau",
+    "statut": "EPA",
+    "mission": "Écologie, développement et mobilité durables",
+    "programme": "113 – Paysages, eau et biodiversité",
+    "nb_entities": 6,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": true,
+    "ressources_totales_Md": 2.41,
+    "financement_etat_Md": 2.518,
+    "ressources_propres_Md": 0.137,
+    "subvention_scp_Md": 0,
+    "transferts_Md": 0.12,
+    "taxes_affectees_Md": 2.398,
+    "part_financement_public_pct": 93.8,
+    "charges_personnel_Md": 1.0,
+    "charges_fonctionnement_Md": 0.54,
+    "charges_intervention_Md": 0.45,
+    "charges_investissement_Md": 0.42,
+    "etpt": 1556,
+    "masse_salariale_Md": 0.119,
+    "tresorerie_Md": 0.522,
+    "surface_utile_m2": 106255,
+    "top10_remunerations_kE": 151,
+    "exemples_entites": [
+      "AGENCE DE L EAU ARTOIS PICARDIE",
+      "AGENCE DE L'EAU ADOUR GARONNE",
+      "AGENCE DE L'EAU LOIRE-BRETAGNE",
+      "AGENCE DE L'EAU RHIN MEUSE",
+      "AGENCE DE L'EAU RHONE MEDITERRANEE ET CORSE"
+    ],
+    "rang": 6,
+    "etpt_sous_plafond": 1543,
+    "etpt_hors_plafond": 13,
+    "historique_etpt": {
+      "2022": {
+        "sous": 1475,
+        "hors": 11
+      },
+      "2023": {
+        "sous": 1494,
+        "hors": 12
+      },
+      "2024": {
+        "sous": 1543,
+        "hors": 13
+      }
+    },
+    "historique_masse": {
+      "2022": 0.112,
+      "2023": 0.116,
+      "2024": 0.119
+    },
+    "historique_tresorerie": {
+      "2022": 0.747,
+      "2023": 0.718,
+      "2024": 0.522
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.161,
+      "2023": 0.144,
+      "2024": 0.137
+    },
+    "historique_taxes": {
+      "2025": 2.217,
+      "2026": 2.398
+    },
+    "source_taxes": "Jaune 2026 p.66",
+    "financement_etat_budget_Md": 0.12
+  },
+  {
     "id": "anr-agence-nationale-de-la-recherche",
     "nom": "ANR - Agence nationale de la recherche",
     "sigle": "ANR",
@@ -370,7 +474,7 @@
     "tresorerie_Md": 0.264,
     "surface_utile_m2": 69822,
     "top10_remunerations_kE": 421,
-    "rang": 6,
+    "rang": 7,
     "etpt_sous_plafond": 351,
     "etpt_hors_plafond": 32,
     "historique_etpt": {
@@ -414,83 +518,6 @@
     "financement_budget_real": true
   },
   {
-    "id": "agences-de-l-eau",
-    "nom": "Agences de l'eau",
-    "sigle": "Agences de l'eau",
-    "statut": "EPA",
-    "mission": "Écologie, développement et mobilité durables",
-    "programme": "113 – Paysages, eau et biodiversité",
-    "nb_entities": 6,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": true,
-    "ressources_totales_Md": 2.41,
-    "financement_etat_Md": 2.26,
-    "ressources_propres_Md": 0.137,
-    "subvention_scp_Md": 0,
-    "transferts_Md": 0.12,
-    "taxes_affectees_Md": 2.26,
-    "part_financement_public_pct": 93.8,
-    "charges_personnel_Md": 1.0,
-    "charges_fonctionnement_Md": 0.54,
-    "charges_intervention_Md": 0.45,
-    "charges_investissement_Md": 0.42,
-    "etpt": 1556,
-    "masse_salariale_Md": 0.119,
-    "tresorerie_Md": 0.522,
-    "surface_utile_m2": 106255,
-    "top10_remunerations_kE": 151,
-    "exemples_entites": [
-      "AGENCE DE L EAU ARTOIS PICARDIE",
-      "AGENCE DE L'EAU ADOUR GARONNE",
-      "AGENCE DE L'EAU LOIRE-BRETAGNE",
-      "AGENCE DE L'EAU RHIN MEUSE",
-      "AGENCE DE L'EAU RHONE MEDITERRANEE ET CORSE"
-    ],
-    "rang": 7,
-    "etpt_sous_plafond": 1543,
-    "etpt_hors_plafond": 13,
-    "historique_etpt": {
-      "2022": {
-        "sous": 1475,
-        "hors": 11
-      },
-      "2023": {
-        "sous": 1494,
-        "hors": 12
-      },
-      "2024": {
-        "sous": 1543,
-        "hors": 13
-      }
-    },
-    "historique_masse": {
-      "2022": 0.112,
-      "2023": 0.116,
-      "2024": 0.119
-    },
-    "historique_tresorerie": {
-      "2022": 0.747,
-      "2023": 0.718,
-      "2024": 0.522
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.161,
-      "2023": 0.144,
-      "2024": 0.137
-    }
-  },
-  {
     "id": "cea-commissariat-l-nergie-atomique-et-aux-nergies-alternativ",
     "nom": "CEA - Commissariat à l'énergie atomique et aux énergies alternatives",
     "sigle": "CEA",
@@ -504,11 +531,11 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 6.83,
-    "financement_etat_Md": 2.109,
+    "financement_etat_Md": 2.284,
     "ressources_propres_Md": 2.18,
     "subvention_scp_Md": 1.906,
     "transferts_Md": 0.202,
-    "taxes_affectees_Md": 0,
+    "taxes_affectees_Md": 0.175,
     "part_financement_public_pct": 41.9,
     "charges_personnel_Md": 2.67,
     "charges_fonctionnement_Md": 0.92,
@@ -551,7 +578,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -560,7 +588,92 @@
       "2024": 2.18
     },
     "financement_etat_budget_Md": 2.109,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.24,
+      "2026": 0.175
+    },
+    "source_taxes": "Jaune 2026 p.66"
+  },
+  {
+    "id": "anah-agence-nationale-de-l-habitat",
+    "nom": "ANAH - Agence nationale de l'habitat",
+    "sigle": "ANAH",
+    "statut": "EPA",
+    "mission": "Cohésion des territoires",
+    "programme": "135 – Urbanisme, territoires et amélioration de l'habitat",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 1.91,
+    "financement_etat_Md": 2.235,
+    "ressources_propres_Md": 0.961,
+    "subvention_scp_Md": 0.17,
+    "transferts_Md": 1.328,
+    "taxes_affectees_Md": 0.7,
+    "part_financement_public_pct": 56.1,
+    "charges_personnel_Md": 0.82,
+    "charges_fonctionnement_Md": 0.37,
+    "charges_intervention_Md": 0.16,
+    "charges_investissement_Md": 0.55,
+    "etpt": 280,
+    "masse_salariale_Md": 0.02,
+    "tresorerie_Md": 0.566,
+    "surface_utile_m2": 146798,
+    "top10_remunerations_kE": 177,
+    "rang": 9,
+    "etpt_sous_plafond": 253,
+    "etpt_hors_plafond": 27,
+    "historique_etpt": {
+      "2022": {
+        "sous": 188,
+        "hors": 11
+      },
+      "2023": {
+        "sous": 214,
+        "hors": 10
+      },
+      "2024": {
+        "sous": 253,
+        "hors": 27
+      }
+    },
+    "historique_masse": {
+      "2022": 0.013,
+      "2023": 0.016,
+      "2024": 0.02
+    },
+    "historique_tresorerie": {
+      "2022": 0.959,
+      "2023": 1.066,
+      "2024": 0.566
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "financement",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.03,
+      "2023": 0.165,
+      "2024": 0.961
+    },
+    "subvention_invest_Md": 0.038,
+    "financement_etat_budget_Md": 1.535,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.7,
+      "2026": 0.7
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
     "id": "cnes-centre-national-d-tudes-spatiales",
@@ -592,7 +705,7 @@
     "tresorerie_Md": 0.484,
     "surface_utile_m2": 58234,
     "top10_remunerations_kE": 447,
-    "rang": 9,
+    "rang": 10,
     "etpt_sous_plafond": 2307,
     "etpt_hors_plafond": 256,
     "historique_etpt": {
@@ -634,80 +747,6 @@
     },
     "subvention_invest_Md": 0.085,
     "financement_etat_budget_Md": 1.91,
-    "financement_budget_real": true
-  },
-  {
-    "id": "anah-agence-nationale-de-l-habitat",
-    "nom": "ANAH - Agence nationale de l'habitat",
-    "sigle": "ANAH",
-    "statut": "EPA",
-    "mission": "Cohésion des territoires",
-    "programme": "135 – Urbanisme, territoires et amélioration de l'habitat",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 1.91,
-    "financement_etat_Md": 1.535,
-    "ressources_propres_Md": 0.961,
-    "subvention_scp_Md": 0.17,
-    "transferts_Md": 1.328,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 56.1,
-    "charges_personnel_Md": 0.82,
-    "charges_fonctionnement_Md": 0.37,
-    "charges_intervention_Md": 0.16,
-    "charges_investissement_Md": 0.55,
-    "etpt": 280,
-    "masse_salariale_Md": 0.02,
-    "tresorerie_Md": 0.566,
-    "surface_utile_m2": 146798,
-    "top10_remunerations_kE": 177,
-    "rang": 10,
-    "etpt_sous_plafond": 253,
-    "etpt_hors_plafond": 27,
-    "historique_etpt": {
-      "2022": {
-        "sous": 188,
-        "hors": 11
-      },
-      "2023": {
-        "sous": 214,
-        "hors": 10
-      },
-      "2024": {
-        "sous": 253,
-        "hors": 27
-      }
-    },
-    "historique_masse": {
-      "2022": 0.013,
-      "2023": 0.016,
-      "2024": 0.02
-    },
-    "historique_tresorerie": {
-      "2022": 0.959,
-      "2023": 1.066,
-      "2024": 0.566
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.03,
-      "2023": 0.165,
-      "2024": 0.961
-    },
-    "subvention_invest_Md": 0.038,
-    "financement_etat_budget_Md": 1.535,
     "financement_budget_real": true
   },
   {
@@ -784,45 +823,158 @@
     "financement_budget_real": true
   },
   {
-    "id": "op-rateurs-de-soutien-l-enseignement-sup-rieur-et-la-recherc",
-    "nom": "Opérateurs de soutien à l'enseignement supérieur et à la recherche",
-    "sigle": "Opérateurs de soutien à l'ense",
-    "statut": "EPA",
-    "mission": "Recherche et enseignement supérieur",
-    "programme": "150 – Formations supérieures et recherche universitaire",
-    "nb_entities": 11,
+    "id": "sgp-soci-t-du-grand-paris",
+    "nom": "SGP - Societe des Grands Projets (ex Societe du Grand Paris)",
+    "sigle": "SGP",
+    "statut": "EPIC",
+    "mission": "Écologie, développement et mobilité durables",
+    "programme": "203 – Infrastructures et services de transports",
+    "nb_entities": 1,
     "perimetres": [
       "operateur",
       "odac",
       "agence-large"
     ],
-    "is_categorie": true,
-    "ressources_totales_Md": 1.58,
-    "financement_etat_Md": 1.08,
-    "ressources_propres_Md": 0.5,
-    "subvention_scp_Md": 0.69,
-    "transferts_Md": 0.18,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 68.3,
-    "charges_personnel_Md": 0.71,
-    "charges_fonctionnement_Md": 0.35,
-    "charges_intervention_Md": 0.49,
-    "charges_investissement_Md": 0.03,
-    "etpt": 12411,
-    "masse_salariale_Md": 0.6,
-    "tresorerie_Md": 0.59,
-    "surface_utile_m2": 189685,
-    "top10_remunerations_kE": 154,
-    "exemples_entites": [
-      "ACADEMIE DES SCIENCES D'OUTRE MER",
-      "AGENCE BIBLIOGRAPHIQUE DE L'ENSEIGNEMENT SUPERIEUR",
-      "AGENCE DE MUTUALISATION DES UNIVERSITES ET DES ETABLISSEMENTS (AMUE)",
-      "AGENCE ERASMUS+FRANCE/EDUCATION FORMATION",
-      "BIBLIOTHEQUE NATIONALE ET UNIVERSITAIRE DE STRASBOURG"
-    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.24,
+    "financement_etat_Md": 1.125,
+    "ressources_propres_Md": 0.405,
+    "subvention_scp_Md": 0.11,
+    "transferts_Md": 0.03,
+    "taxes_affectees_Md": 0.985,
+    "part_financement_public_pct": 84.8,
+    "charges_personnel_Md": 0.09,
+    "charges_fonctionnement_Md": 0.03,
+    "charges_intervention_Md": 0.04,
+    "charges_investissement_Md": 0.09,
+    "etpt": 1108,
+    "masse_salariale_Md": 0.127,
+    "tresorerie_Md": 10.358,
+    "surface_utile_m2": 32498,
+    "top10_remunerations_kE": 248,
     "rang": 12,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
+    "etpt_sous_plafond": 1057,
+    "etpt_hors_plafond": 51,
+    "historique_etpt": {
+      "2022": {
+        "sous": 911,
+        "hors": 45
+      },
+      "2023": {
+        "sous": 988,
+        "hors": 47
+      },
+      "2024": {
+        "sous": 1057,
+        "hors": 51
+      }
+    },
+    "historique_masse": {
+      "2022": 0.107,
+      "2023": 0.116,
+      "2024": 0.127
+    },
+    "historique_tresorerie": {
+      "2022": 13.63,
+      "2023": 11.981,
+      "2024": 10.358
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.052,
+      "2023": 0.931,
+      "2024": 0.405
+    },
+    "historique_taxes": {
+      "2025": 0.972,
+      "2026": 0.985
+    },
+    "source_taxes": "Jaune 2026 p.66",
+    "financement_etat_budget_Md": 0.14
+  },
+  {
+    "id": "cnc-centre-national-du-cin-ma-et-de-l-image-anim-e",
+    "nom": "CNC - Centre national du cinéma et de l'image animée",
+    "sigle": "CNC",
+    "statut": "EPA",
+    "mission": "Médias, livre et industries culturelles",
+    "programme": "334 – Livre et industries culturelles",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.42,
+    "financement_etat_Md": 1.027,
+    "ressources_propres_Md": 0.018,
+    "subvention_scp_Md": 0.13,
+    "transferts_Md": 0.05,
+    "taxes_affectees_Md": 0.847,
+    "part_financement_public_pct": 57.8,
+    "charges_personnel_Md": 0.2,
+    "charges_fonctionnement_Md": 0.09,
+    "charges_intervention_Md": 0.06,
+    "charges_investissement_Md": 0.07,
+    "etpt": 472,
+    "masse_salariale_Md": 0.033,
+    "tresorerie_Md": 0.88,
+    "surface_utile_m2": 9712,
+    "top10_remunerations_kE": 124,
+    "rang": 13,
+    "etpt_sous_plafond": 460,
+    "etpt_hors_plafond": 12,
+    "historique_etpt": {
+      "2022": {
+        "sous": 459,
+        "hors": 8
+      },
+      "2023": {
+        "sous": 459,
+        "hors": 15
+      },
+      "2024": {
+        "sous": 460,
+        "hors": 12
+      }
+    },
+    "historique_masse": {
+      "2022": 0.031,
+      "2023": 0.032,
+      "2024": 0.033
+    },
+    "historique_tresorerie": {
+      "2022": 0.727,
+      "2023": 0.827,
+      "2024": 0.88
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.077,
+      "2023": 0.106,
+      "2024": 0.018
+    },
+    "historique_taxes": {
+      "2025": 0.875,
+      "2026": 0.847
+    },
+    "source_taxes": "Jaune 2026 p.66",
+    "financement_etat_budget_Md": 0.18
   },
   {
     "id": "ecoles-et-formations-d-ing-nieurs",
@@ -854,7 +1006,7 @@
     "tresorerie_Md": 0.495,
     "surface_utile_m2": 208079,
     "top10_remunerations_kE": 327,
-    "rang": 13,
+    "rang": 14,
     "etpt_sous_plafond": 9575,
     "etpt_hors_plafond": 3346,
     "historique_etpt": {
@@ -928,7 +1080,7 @@
     "tresorerie_Md": 0.785,
     "surface_utile_m2": 342615,
     "top10_remunerations_kE": 228,
-    "rang": 14,
+    "rang": 15,
     "etpt_sous_plafond": 10629,
     "etpt_hors_plafond": 3535,
     "historique_etpt": {
@@ -1002,7 +1154,7 @@
     "tresorerie_Md": 0.282,
     "surface_utile_m2": 30394,
     "top10_remunerations_kE": 420,
-    "rang": 15,
+    "rang": 16,
     "etpt_sous_plafond": 8533,
     "etpt_hors_plafond": 2284,
     "historique_etpt": {
@@ -1046,6 +1198,48 @@
     "financement_budget_real": true
   },
   {
+    "id": "op-rateurs-de-soutien-l-enseignement-sup-rieur-et-la-recherc",
+    "nom": "Opérateurs de soutien à l'enseignement supérieur et à la recherche",
+    "sigle": "Opérateurs de soutien à l'ense",
+    "statut": "EPA",
+    "mission": "Recherche et enseignement supérieur",
+    "programme": "150 – Formations supérieures et recherche universitaire",
+    "nb_entities": 11,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": true,
+    "ressources_totales_Md": 1.58,
+    "financement_etat_Md": 0.87,
+    "ressources_propres_Md": 0.5,
+    "subvention_scp_Md": 0.69,
+    "transferts_Md": 0.18,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 68.3,
+    "charges_personnel_Md": 0.71,
+    "charges_fonctionnement_Md": 0.35,
+    "charges_intervention_Md": 0.49,
+    "charges_investissement_Md": 0.03,
+    "etpt": 12411,
+    "masse_salariale_Md": 0.6,
+    "tresorerie_Md": 0.59,
+    "surface_utile_m2": 189685,
+    "top10_remunerations_kE": 154,
+    "exemples_entites": [
+      "ACADEMIE DES SCIENCES D'OUTRE MER",
+      "AGENCE BIBLIOGRAPHIQUE DE L'ENSEIGNEMENT SUPERIEUR",
+      "AGENCE DE MUTUALISATION DES UNIVERSITES ET DES ETABLISSEMENTS (AMUE)",
+      "AGENCE ERASMUS+FRANCE/EDUCATION FORMATION",
+      "BIBLIOTHEQUE NATIONALE ET UNIVERSITAIRE DE STRASBOURG"
+    ],
+    "rang": 17,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.87
+  },
+  {
     "id": "centre-national-du-cin-ma-cnc",
     "nom": "Centre national du cinéma (CNC)",
     "sigle": "Centre national du cinéma",
@@ -1059,7 +1253,7 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 0.88,
-    "financement_etat_Md": 0.83,
+    "financement_etat_Md": 0.86,
     "ressources_propres_Md": 0.018,
     "subvention_scp_Md": 0,
     "transferts_Md": 0.04,
@@ -1075,12 +1269,13 @@
     "surface_utile_m2": 5760,
     "top10_remunerations_kE": 116,
     "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 16,
+    "rang": 18,
     "sources_reelles": [
       "ressources_propres",
       "etpt",
       "masse",
-      "tresorerie"
+      "tresorerie",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -1113,7 +1308,8 @@
       "2022": 0.727,
       "2023": 0.827,
       "2024": 0.88
-    }
+    },
+    "financement_etat_budget_Md": 0.04
   },
   {
     "id": "enim-etablissement-national-des-invalides-de-la-marine",
@@ -1145,7 +1341,7 @@
     "tresorerie_Md": 0.132,
     "surface_utile_m2": 11274,
     "top10_remunerations_kE": 447,
-    "rang": 17,
+    "rang": 19,
     "historique_masse": {
       "2022": 0.019,
       "2023": 0.019,
@@ -1200,7 +1396,7 @@
     "tresorerie_Md": 0.7,
     "surface_utile_m2": 113155,
     "top10_remunerations_kE": 244,
-    "rang": 18,
+    "rang": 20,
     "etpt_sous_plafond": 12513,
     "etpt_hors_plafond": 126,
     "historique_etpt": {
@@ -1232,7 +1428,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -1274,7 +1471,7 @@
     "tresorerie_Md": 0.646,
     "surface_utile_m2": 65272,
     "top10_remunerations_kE": 307,
-    "rang": 19,
+    "rang": 21,
     "etpt_sous_plafond": 5793,
     "etpt_hors_plafond": 2849,
     "historique_etpt": {
@@ -1318,6 +1515,66 @@
     "financement_budget_real": true
   },
   {
+    "id": "cglls-caisse-de-garantie-du-logement-locatif-social",
+    "nom": "CGLLS - Caisse de garantie du logement locatif social",
+    "sigle": "CGLLS",
+    "statut": "EPA",
+    "mission": "Cohésion des territoires",
+    "programme": "135 – Urbanisme, territoires et amélioration de l'habitat",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.24,
+    "financement_etat_Md": 0.738,
+    "ressources_propres_Md": 0.01,
+    "subvention_scp_Md": 0.09,
+    "transferts_Md": 0.02,
+    "taxes_affectees_Md": 0.628,
+    "part_financement_public_pct": 83.6,
+    "charges_personnel_Md": 0.08,
+    "charges_fonctionnement_Md": 0.04,
+    "charges_intervention_Md": 0.08,
+    "charges_investissement_Md": 0.03,
+    "etpt": 2387,
+    "masse_salariale_Md": 0.003,
+    "tresorerie_Md": 0.742,
+    "surface_utile_m2": 33717,
+    "top10_remunerations_kE": 431,
+    "rang": 22,
+    "historique_masse": {
+      "2022": 0.002,
+      "2023": 0.003,
+      "2024": 0.003
+    },
+    "historique_tresorerie": {
+      "2022": 0.722,
+      "2023": 0.732,
+      "2024": 0.742
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "masse",
+      "tresorerie",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.011,
+      "2023": 0.008,
+      "2024": 0.01
+    },
+    "historique_taxes": {
+      "2025": 0.328,
+      "2026": 0.628
+    },
+    "source_taxes": "Jaune 2026 p.66",
+    "financement_etat_budget_Md": 0.11
+  },
+  {
     "id": "ars-agences-r-gionales-de-sant",
     "nom": "ARS - Agences régionales de santé",
     "sigle": "ARS",
@@ -1354,7 +1611,7 @@
       "AGENCE REGIONALE DE SANTE DE BRETAGNE",
       "AGENCE REGIONALE DE SANTE DE CORSE"
     ],
-    "rang": 20,
+    "rang": 23,
     "etpt_sous_plafond": 8249,
     "etpt_hors_plafond": 204,
     "historique_etpt": {
@@ -1412,11 +1669,11 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 0.25,
-    "financement_etat_Md": 0.575,
+    "financement_etat_Md": 0.576,
     "ressources_propres_Md": 0.002,
     "subvention_scp_Md": 0.255,
     "transferts_Md": 0.31,
-    "taxes_affectees_Md": 0,
+    "taxes_affectees_Md": 0.001,
     "part_financement_public_pct": 61.6,
     "charges_personnel_Md": 0.1,
     "charges_fonctionnement_Md": 0.05,
@@ -1427,7 +1684,7 @@
     "tresorerie_Md": 0.07,
     "surface_utile_m2": 27622,
     "top10_remunerations_kE": 284,
-    "rang": 21,
+    "rang": 24,
     "etpt_sous_plafond": 1209,
     "etpt_hors_plafond": 54,
     "historique_etpt": {
@@ -1459,7 +1716,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -1469,7 +1727,12 @@
     },
     "subvention_invest_Md": 0.009,
     "financement_etat_budget_Md": 0.575,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.001,
+      "2026": 0.001
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
     "id": "aefe-agence-pour-l-enseignement-fran-ais-l-tranger",
@@ -1501,7 +1764,7 @@
     "tresorerie_Md": 0.333,
     "surface_utile_m2": 37755,
     "top10_remunerations_kE": 386,
-    "rang": 22,
+    "rang": 25,
     "etpt_sous_plafond": 5441,
     "etpt_hors_plafond": 5001,
     "historique_etpt": {
@@ -1545,40 +1808,6 @@
     "financement_budget_real": true
   },
   {
-    "id": "conseil-national-des-communes-compagnon-de-la-lib-ration",
-    "nom": "Conseil national des communes « Compagnon de la Libération »",
-    "sigle": "Conseil national des communes ",
-    "statut": "EPA",
-    "mission": "Anciens combattants, mémoire et liens avec la Nation",
-    "programme": "169 – Reconnaissance et réparation en faveur du monde combattant, mémoire et liens avec la Nation",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.52,
-    "financement_etat_Md": 0.48,
-    "ressources_propres_Md": 0.05,
-    "subvention_scp_Md": 0.26,
-    "transferts_Md": 0.09,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 90.7,
-    "charges_personnel_Md": 0.3,
-    "charges_fonctionnement_Md": 0.08,
-    "charges_intervention_Md": 0.13,
-    "charges_investissement_Md": 0.01,
-    "etpt": 2913,
-    "masse_salariale_Md": 0.26,
-    "tresorerie_Md": 0.42,
-    "surface_utile_m2": 40071,
-    "top10_remunerations_kE": 320,
-    "rang": 23,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
     "id": "asc-agence-du-service-civique",
     "nom": "ASC - Agence du service civique",
     "sigle": "ASC",
@@ -1608,7 +1837,7 @@
     "tresorerie_Md": 0.054,
     "surface_utile_m2": 22615,
     "top10_remunerations_kE": 134,
-    "rang": 24,
+    "rang": 26,
     "etpt_sous_plafond": 69,
     "etpt_hors_plafond": 55,
     "historique_etpt": {
@@ -1652,40 +1881,6 @@
     "financement_budget_real": true
   },
   {
-    "id": "epccsl-etablissement-public-cit-de-la-c-ramique-s-vres-et-li",
-    "nom": "EPCCSL - Etablissement public Cité de la céramique - Sèvres et Limoges",
-    "sigle": "EPCCSL",
-    "statut": "EPA",
-    "mission": "Culture",
-    "programme": "131 – Création",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.6,
-    "financement_etat_Md": 0.42,
-    "ressources_propres_Md": 0.17,
-    "subvention_scp_Md": 0.25,
-    "transferts_Md": 0.05,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 70.8,
-    "charges_personnel_Md": 0.31,
-    "charges_fonctionnement_Md": 0.13,
-    "charges_intervention_Md": 0.14,
-    "charges_investissement_Md": 0.03,
-    "etpt": 802,
-    "masse_salariale_Md": 0.26,
-    "tresorerie_Md": 0.68,
-    "surface_utile_m2": 8798,
-    "top10_remunerations_kE": 205,
-    "rang": 25,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
     "id": "caisse-de-garantie-du-logement-locatif-social-cglls",
     "nom": "Caisse de garantie du logement locatif social (CGLLS)",
     "sigle": "Caisse de garantie du logement locatif social",
@@ -1699,7 +1894,7 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 0.45,
-    "financement_etat_Md": 0.4,
+    "financement_etat_Md": 0.41,
     "ressources_propres_Md": 0.01,
     "subvention_scp_Md": 0,
     "transferts_Md": 0.01,
@@ -1715,11 +1910,12 @@
     "surface_utile_m2": 1440,
     "top10_remunerations_kE": 167,
     "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 26,
+    "rang": 27,
     "sources_reelles": [
       "ressources_propres",
       "masse",
-      "tresorerie"
+      "tresorerie",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -1736,15 +1932,16 @@
       "2022": 0.722,
       "2023": 0.732,
       "2024": 0.742
-    }
+    },
+    "financement_etat_budget_Md": 0.01
   },
   {
-    "id": "ensmis-ecole-nationale-sup-rieure-des-m-tiers-de-l-image-et-",
-    "nom": "ENSMIS - Ecole nationale supérieure des métiers de l'image et du son",
-    "sigle": "ENSMIS",
-    "statut": "EPIC",
-    "mission": "Culture",
-    "programme": "361 – Transmission des savoirs et démocratisation de la culture",
+    "id": "vnf-voies-navigables-de-france",
+    "nom": "VNF - Voies navigables de France",
+    "sigle": "VNF",
+    "statut": "EPSCP",
+    "mission": "Écologie, développement et mobilité durables",
+    "programme": "203 – Infrastructures et services de transports",
     "nb_entities": 1,
     "perimetres": [
       "operateur",
@@ -1752,66 +1949,231 @@
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.57,
-    "financement_etat_Md": 0.37,
-    "ressources_propres_Md": 0.003,
-    "subvention_scp_Md": 0.16,
-    "transferts_Md": 0.07,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 64.3,
-    "charges_personnel_Md": 0.22,
-    "charges_fonctionnement_Md": 0.1,
-    "charges_intervention_Md": 0.1,
-    "charges_investissement_Md": 0.16,
-    "etpt": 66,
-    "masse_salariale_Md": 0.008,
-    "tresorerie_Md": 0.003,
-    "surface_utile_m2": 18930,
-    "top10_remunerations_kE": 396,
-    "rang": 27,
-    "etpt_sous_plafond": 62,
-    "etpt_hors_plafond": 4,
+    "ressources_totales_Md": 0.66,
+    "financement_etat_Md": 0.403,
+    "ressources_propres_Md": 0.228,
+    "subvention_scp_Md": 0.253,
+    "transferts_Md": 0.03,
+    "taxes_affectees_Md": 0.15,
+    "part_financement_public_pct": 40.4,
+    "charges_personnel_Md": 0.25,
+    "charges_fonctionnement_Md": 0.14,
+    "charges_intervention_Md": 0.2,
+    "charges_investissement_Md": 0.07,
+    "etpt": 4052,
+    "masse_salariale_Md": 0.255,
+    "tresorerie_Md": 0.05,
+    "surface_utile_m2": 31420,
+    "top10_remunerations_kE": 346,
+    "rang": 28,
+    "etpt_sous_plafond": 4019,
+    "etpt_hors_plafond": 33,
     "historique_etpt": {
       "2022": {
-        "sous": 62,
-        "hors": 2
+        "sous": 4054,
+        "hors": 34
       },
       "2023": {
-        "sous": 60,
-        "hors": 3
+        "sous": 4022,
+        "hors": 32
       },
       "2024": {
-        "sous": 62,
-        "hors": 4
+        "sous": 4019,
+        "hors": 33
       }
     },
     "historique_masse": {
-      "2022": 0.007,
-      "2023": 0.007,
-      "2024": 0.008
+      "2022": 0.238,
+      "2023": 0.248,
+      "2024": 0.255
     },
     "historique_tresorerie": {
-      "2022": 0.001,
-      "2023": 0.002,
-      "2024": 0.003
+      "2022": 0.169,
+      "2023": 0.062,
+      "2024": 0.05
     },
     "sources_reelles": [
       "ressources_propres",
       "etpt",
       "masse",
-      "tresorerie"
+      "tresorerie",
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
-      "2022": 0.002,
-      "2023": 0.002,
-      "2024": 0.003
-    }
+      "2022": 0.197,
+      "2023": 0.198,
+      "2024": 0.228
+    },
+    "financement_etat_budget_Md": 0.253,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.143,
+      "2026": 0.15
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
-    "id": "onac-vg-office-national-des-anciens-combattants-et-victimes-",
-    "nom": "ONAC-VG - Office national des anciens combattants et victimes de guerre",
-    "sigle": "ONAC-VG",
+    "id": "ans-agence-nationale-du-sport",
+    "nom": "ANS - Agence nationale du sport",
+    "sigle": "ANS",
+    "statut": "GIP",
+    "mission": "Sport, jeunesse et vie associative",
+    "programme": "219 – Sport",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.27,
+    "financement_etat_Md": 0.381,
+    "ressources_propres_Md": 0.004,
+    "subvention_scp_Md": 0.007,
+    "transferts_Md": 0.149,
+    "taxes_affectees_Md": 0.225,
+    "part_financement_public_pct": 90.0,
+    "charges_personnel_Md": 0.13,
+    "charges_fonctionnement_Md": 0.05,
+    "charges_intervention_Md": 0.07,
+    "charges_investissement_Md": 0.01,
+    "etpt": 80,
+    "masse_salariale_Md": 0.007,
+    "tresorerie_Md": 0.155,
+    "surface_utile_m2": 18717,
+    "top10_remunerations_kE": 101,
+    "rang": 29,
+    "etpt_sous_plafond": 70,
+    "etpt_hors_plafond": 10,
+    "historique_etpt": {
+      "2022": {
+        "sous": 66,
+        "hors": 4
+      },
+      "2023": {
+        "sous": 69,
+        "hors": 8
+      },
+      "2024": {
+        "sous": 70,
+        "hors": 10
+      }
+    },
+    "historique_masse": {
+      "2022": 0.006,
+      "2023": 0.007,
+      "2024": 0.007
+    },
+    "historique_tresorerie": {
+      "2022": 0.291,
+      "2023": 0.218,
+      "2024": 0.155
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "financement",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.001,
+      "2023": 0.003,
+      "2024": 0.004
+    },
+    "financement_etat_budget_Md": 0.156,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.225,
+      "2026": 0.225
+    },
+    "source_taxes": "Jaune 2026 p.66"
+  },
+  {
+    "id": "inpi-institut-national-de-la-propri-t-industrielle",
+    "nom": "INPI - Institut national de la propriété industrielle",
+    "sigle": "INPI",
+    "statut": "EPA",
+    "mission": "Économie",
+    "programme": "134 – Développement des entreprises et régulations",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.36,
+    "financement_etat_Md": 0.359,
+    "ressources_propres_Md": 0.099,
+    "subvention_scp_Md": 0.19,
+    "transferts_Md": 0.03,
+    "taxes_affectees_Md": 0.139,
+    "part_financement_public_pct": 86.2,
+    "charges_personnel_Md": 0.16,
+    "charges_fonctionnement_Md": 0.08,
+    "charges_intervention_Md": 0.09,
+    "charges_investissement_Md": 0.02,
+    "etpt": 5,
+    "masse_salariale_Md": 0.057,
+    "tresorerie_Md": 0.201,
+    "surface_utile_m2": 23572,
+    "top10_remunerations_kE": 312,
+    "rang": 30,
+    "etpt_sous_plafond": 5,
+    "etpt_hors_plafond": null,
+    "historique_etpt": {
+      "2022": {
+        "sous": 737,
+        "hors": 753
+      },
+      "2023": {
+        "sous": 3,
+        "hors": 788
+      },
+      "2024": {
+        "sous": 5,
+        "hors": null
+      }
+    },
+    "historique_masse": {
+      "2022": 0.05,
+      "2023": 0.053,
+      "2024": 0.057
+    },
+    "historique_tresorerie": {
+      "2022": 0.242,
+      "2023": 0.229,
+      "2024": 0.201
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.139,
+      "2023": 0.099,
+      "2024": 0.099
+    },
+    "historique_taxes": {
+      "2025": 0.094,
+      "2026": 0.139
+    },
+    "source_taxes": "Jaune 2026 p.66",
+    "financement_etat_budget_Md": 0.22
+  },
+  {
+    "id": "conseil-national-des-communes-compagnon-de-la-lib-ration",
+    "nom": "Conseil national des communes « Compagnon de la Libération »",
+    "sigle": "Conseil national des communes ",
     "statut": "EPA",
     "mission": "Anciens combattants, mémoire et liens avec la Nation",
     "programme": "169 – Reconnaissance et réparation en faveur du monde combattant, mémoire et liens avec la Nation",
@@ -1822,58 +2184,26 @@
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.53,
-    "financement_etat_Md": 0.36,
-    "ressources_propres_Md": 0.17,
-    "subvention_scp_Md": 0.15,
-    "transferts_Md": 0.1,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 67.6,
-    "charges_personnel_Md": 0.33,
-    "charges_fonctionnement_Md": 0.1,
-    "charges_intervention_Md": 0.03,
-    "charges_investissement_Md": 0.07,
-    "etpt": 2892,
-    "masse_salariale_Md": 0.28,
-    "tresorerie_Md": 0.33,
-    "surface_utile_m2": 40816,
-    "top10_remunerations_kE": 343,
-    "rang": 28,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
-    "id": "autorit-de-s-ret-nucl-aire-et-de-radioprotection-asnr-fusion",
-    "nom": "Autorité de sûreté nucléaire et de radioprotection (ASNR) - fusion IRSN+ASN 2025",
-    "sigle": "Autorité de sûreté nucléaire et de radioprotection",
-    "statut": "AAI",
-    "mission": "Sûreté nucléaire",
-    "programme": "235",
-    "nb_entities": 1,
-    "perimetres": [
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.35,
+    "ressources_totales_Md": 0.52,
     "financement_etat_Md": 0.35,
-    "ressources_propres_Md": 0.0,
-    "subvention_scp_Md": 0.18,
-    "transferts_Md": 0.05,
+    "ressources_propres_Md": 0.05,
+    "subvention_scp_Md": 0.26,
+    "transferts_Md": 0.09,
     "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 99,
-    "charges_personnel_Md": 0.15,
+    "part_financement_public_pct": 90.7,
+    "charges_personnel_Md": 0.3,
     "charges_fonctionnement_Md": 0.08,
-    "charges_intervention_Md": 0.05,
-    "charges_investissement_Md": 0.07,
-    "etpt": 1800,
-    "masse_salariale_Md": 0.13,
-    "tresorerie_Md": 0.33,
-    "surface_utile_m2": 21600,
-    "top10_remunerations_kE": 201,
-    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 29,
+    "charges_intervention_Md": 0.13,
+    "charges_investissement_Md": 0.01,
+    "etpt": 2913,
+    "masse_salariale_Md": 0.26,
+    "tresorerie_Md": 0.42,
+    "surface_utile_m2": 40071,
+    "top10_remunerations_kE": 320,
+    "rang": 31,
     "sources_reelles": [],
-    "donnees_confidence": "estimee"
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.35
   },
   {
     "id": "m-t-o-france",
@@ -1905,7 +2235,7 @@
     "tresorerie_Md": 0.036,
     "surface_utile_m2": 22455,
     "top10_remunerations_kE": 260,
-    "rang": 30,
+    "rang": 32,
     "etpt_sous_plafond": 2565,
     "etpt_hors_plafond": 59,
     "historique_etpt": {
@@ -1949,9 +2279,88 @@
     "financement_budget_real": true
   },
   {
-    "id": "etablissement-public-du-mobilier-national",
-    "nom": "Etablissement public du Mobilier National",
-    "sigle": "Etablissement public du Mobili",
+    "id": "ants-agence-nationale-des-titres-s-curis-s",
+    "nom": "ANTS - Agence nationale des titres sécurisés",
+    "sigle": "ANTS",
+    "statut": "EPA",
+    "mission": "Administration générale et territoriale de l'État",
+    "programme": "354 – Administration territoriale de l'État",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.2,
+    "financement_etat_Md": 0.316,
+    "ressources_propres_Md": 0.024,
+    "subvention_scp_Md": 0.09,
+    "transferts_Md": 0.029,
+    "taxes_affectees_Md": 0.287,
+    "part_financement_public_pct": 83.6,
+    "charges_personnel_Md": 0.13,
+    "charges_fonctionnement_Md": 0.02,
+    "charges_intervention_Md": 0.02,
+    "charges_investissement_Md": 0.03,
+    "etpt": 155,
+    "masse_salariale_Md": 0.01,
+    "tresorerie_Md": 0.036,
+    "surface_utile_m2": 31504,
+    "top10_remunerations_kE": 138,
+    "rang": 33,
+    "etpt_sous_plafond": 148,
+    "etpt_hors_plafond": 7,
+    "historique_etpt": {
+      "2022": {
+        "sous": 137,
+        "hors": 7
+      },
+      "2023": {
+        "sous": 134,
+        "hors": 9
+      },
+      "2024": {
+        "sous": 148,
+        "hors": 7
+      }
+    },
+    "historique_masse": {
+      "2022": 0.008,
+      "2023": 0.009,
+      "2024": 0.01
+    },
+    "historique_tresorerie": {
+      "2022": 0.113,
+      "2023": 0.09,
+      "2024": 0.036
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "financement",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.028,
+      "2023": 0.024,
+      "2024": 0.024
+    },
+    "financement_etat_budget_Md": 0.029,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.287,
+      "2026": 0.287
+    },
+    "source_taxes": "Jaune 2026 p.66"
+  },
+  {
+    "id": "epccsl-etablissement-public-cit-de-la-c-ramique-s-vres-et-li",
+    "nom": "EPCCSL - Etablissement public Cité de la céramique - Sèvres et Limoges",
+    "sigle": "EPCCSL",
     "statut": "EPA",
     "mission": "Culture",
     "programme": "131 – Création",
@@ -1962,95 +2371,26 @@
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.49,
-    "financement_etat_Md": 0.33,
-    "ressources_propres_Md": 0.16,
-    "subvention_scp_Md": 0.17,
-    "transferts_Md": 0.09,
+    "ressources_totales_Md": 0.6,
+    "financement_etat_Md": 0.3,
+    "ressources_propres_Md": 0.17,
+    "subvention_scp_Md": 0.25,
+    "transferts_Md": 0.05,
     "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 67.2,
+    "part_financement_public_pct": 70.8,
     "charges_personnel_Md": 0.31,
-    "charges_fonctionnement_Md": 0.08,
-    "charges_intervention_Md": 0.07,
-    "charges_investissement_Md": 0.02,
-    "etpt": 2905,
+    "charges_fonctionnement_Md": 0.13,
+    "charges_intervention_Md": 0.14,
+    "charges_investissement_Md": 0.03,
+    "etpt": 802,
     "masse_salariale_Md": 0.26,
-    "tresorerie_Md": 0.43,
-    "surface_utile_m2": 41853,
-    "top10_remunerations_kE": 131,
-    "rang": 31,
+    "tresorerie_Md": 0.68,
+    "surface_utile_m2": 8798,
+    "top10_remunerations_kE": 205,
+    "rang": 34,
     "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
-    "id": "inpi-institut-national-de-la-propri-t-industrielle",
-    "nom": "INPI - Institut national de la propriété industrielle",
-    "sigle": "INPI",
-    "statut": "EPA",
-    "mission": "Économie",
-    "programme": "134 – Développement des entreprises et régulations",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.36,
-    "financement_etat_Md": 0.31,
-    "ressources_propres_Md": 0.099,
-    "subvention_scp_Md": 0.19,
-    "transferts_Md": 0.03,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 86.2,
-    "charges_personnel_Md": 0.16,
-    "charges_fonctionnement_Md": 0.08,
-    "charges_intervention_Md": 0.09,
-    "charges_investissement_Md": 0.02,
-    "etpt": 5,
-    "masse_salariale_Md": 0.057,
-    "tresorerie_Md": 0.201,
-    "surface_utile_m2": 23572,
-    "top10_remunerations_kE": 312,
-    "rang": 32,
-    "etpt_sous_plafond": 5,
-    "etpt_hors_plafond": null,
-    "historique_etpt": {
-      "2022": {
-        "sous": 737,
-        "hors": 753
-      },
-      "2023": {
-        "sous": 3,
-        "hors": 788
-      },
-      "2024": {
-        "sous": 5,
-        "hors": null
-      }
-    },
-    "historique_masse": {
-      "2022": 0.05,
-      "2023": 0.053,
-      "2024": 0.057
-    },
-    "historique_tresorerie": {
-      "2022": 0.242,
-      "2023": 0.229,
-      "2024": 0.201
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.139,
-      "2023": 0.099,
-      "2024": 0.099
-    }
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.3
   },
   {
     "id": "groupe-mines-t-l-com",
@@ -2086,7 +2426,7 @@
       "MINES PARIS TECH",
       "INSTITUT MINES TELECOM"
     ],
-    "rang": 33,
+    "rang": 35,
     "etpt_sous_plafond": 2843,
     "etpt_hors_plafond": 1171,
     "historique_etpt": {
@@ -2160,7 +2500,7 @@
     "tresorerie_Md": 0.026,
     "surface_utile_m2": 7072,
     "top10_remunerations_kE": 323,
-    "rang": 34,
+    "rang": 36,
     "etpt_sous_plafond": 1402,
     "etpt_hors_plafond": 42,
     "historique_etpt": {
@@ -2192,7 +2532,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -2204,12 +2545,12 @@
     "financement_budget_real": true
   },
   {
-    "id": "p-le-emploi",
-    "nom": "Pôle emploi",
-    "sigle": "Pôle emploi",
+    "id": "etablissement-public-du-mobilier-national",
+    "nom": "Etablissement public du Mobilier National",
+    "sigle": "Etablissement public du Mobili",
     "statut": "EPA",
-    "mission": "Travail et emploi",
-    "programme": "102 – Accès et retour à l'emploi",
+    "mission": "Culture",
+    "programme": "131 – Création",
     "nb_entities": 1,
     "perimetres": [
       "operateur",
@@ -2217,33 +2558,34 @@
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.33,
-    "financement_etat_Md": 0.27,
-    "ressources_propres_Md": 0.07,
-    "subvention_scp_Md": 0.18,
-    "transferts_Md": 0.05,
+    "ressources_totales_Md": 0.49,
+    "financement_etat_Md": 0.26,
+    "ressources_propres_Md": 0.16,
+    "subvention_scp_Md": 0.17,
+    "transferts_Md": 0.09,
     "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 79.5,
-    "charges_personnel_Md": 0.19,
-    "charges_fonctionnement_Md": 0.06,
-    "charges_intervention_Md": 0.05,
-    "charges_investissement_Md": 0.04,
-    "etpt": 2427,
-    "masse_salariale_Md": 0.16,
-    "tresorerie_Md": 0.42,
-    "surface_utile_m2": 30570,
-    "top10_remunerations_kE": 314,
-    "rang": 35,
+    "part_financement_public_pct": 67.2,
+    "charges_personnel_Md": 0.31,
+    "charges_fonctionnement_Md": 0.08,
+    "charges_intervention_Md": 0.07,
+    "charges_investissement_Md": 0.02,
+    "etpt": 2905,
+    "masse_salariale_Md": 0.26,
+    "tresorerie_Md": 0.43,
+    "surface_utile_m2": 41853,
+    "top10_remunerations_kE": 131,
+    "rang": 37,
     "sources_reelles": [],
-    "donnees_confidence": "estimee"
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.26
   },
   {
-    "id": "ensta-bretagne-ecole-nationale-sup-rieure-de-techniques-avan",
-    "nom": "ENSTA Bretagne - Ecole nationale supérieure de techniques avancées Bretagne",
-    "sigle": "ENSTA Bretagne",
-    "statut": "EPSCP",
-    "mission": "Défense",
-    "programme": "144 – Environnement et prospective de la politique de défense",
+    "id": "franceagrimer",
+    "nom": "FranceAgriMer",
+    "sigle": "FranceAgriMer",
+    "statut": "EPA",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales",
+    "programme": "149 – Compétitivité et durabilité de l'agriculture, de l'agroalimentaire et de la forêt",
     "nb_entities": 1,
     "perimetres": [
       "operateur",
@@ -2251,25 +2593,65 @@
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.48,
-    "financement_etat_Md": 0.26,
-    "ressources_propres_Md": 0.22,
-    "subvention_scp_Md": 0.15,
-    "transferts_Md": 0.03,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 54.1,
-    "charges_personnel_Md": 0.28,
-    "charges_fonctionnement_Md": 0.06,
-    "charges_intervention_Md": 0.05,
-    "charges_investissement_Md": 0.08,
-    "etpt": 613,
-    "masse_salariale_Md": 0.24,
-    "tresorerie_Md": 0.3,
-    "surface_utile_m2": 5895,
-    "top10_remunerations_kE": 397,
-    "rang": 36,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
+    "ressources_totales_Md": 0.46,
+    "financement_etat_Md": 0.258,
+    "ressources_propres_Md": 0.01,
+    "subvention_scp_Md": 0.108,
+    "transferts_Md": 0.143,
+    "taxes_affectees_Md": 0.001,
+    "part_financement_public_pct": 98.9,
+    "charges_personnel_Md": 0.22,
+    "charges_fonctionnement_Md": 0.09,
+    "charges_intervention_Md": 0.06,
+    "charges_investissement_Md": 0.1,
+    "etpt": 973,
+    "masse_salariale_Md": 0.075,
+    "tresorerie_Md": 0.7,
+    "surface_utile_m2": 36117,
+    "top10_remunerations_kE": 105,
+    "rang": 38,
+    "etpt_sous_plafond": 958,
+    "etpt_hors_plafond": 15,
+    "historique_etpt": {
+      "2022": {
+        "sous": 953,
+        "hors": 16
+      },
+      "2023": {
+        "sous": 962,
+        "hors": 14
+      },
+      "2024": {
+        "sous": 958,
+        "hors": 15
+      }
+    },
+    "historique_masse": {
+      "2022": 0.072,
+      "2023": 0.074,
+      "2024": 0.075
+    },
+    "historique_tresorerie": {
+      "2022": 0.627,
+      "2023": 0.887,
+      "2024": 0.7
+    },
+    "sources_reelles": [
+      "etpt",
+      "masse",
+      "tresorerie",
+      "financement",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "subvention_invest_Md": 0.006,
+    "financement_etat_budget_Md": 0.257,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.001,
+      "2026": 0.001
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
     "id": "onf-office-national-des-for-ts",
@@ -2300,7 +2682,7 @@
     "tresorerie_Md": -0.205,
     "surface_utile_m2": 15011,
     "top10_remunerations_kE": 261,
-    "rang": 37,
+    "rang": 39,
     "etpt_sous_plafond": 7607,
     "etpt_hors_plafond": 482,
     "historique_etpt": {
@@ -2344,12 +2726,12 @@
     "financement_budget_real": true
   },
   {
-    "id": "franceagrimer",
-    "nom": "FranceAgriMer",
-    "sigle": "FranceAgriMer",
+    "id": "onac-vg-office-national-des-anciens-combattants-et-victimes-",
+    "nom": "ONAC-VG - Office national des anciens combattants et victimes de guerre",
+    "sigle": "ONAC-VG",
     "statut": "EPA",
-    "mission": "Agriculture, alimentation, forêt et affaires rurales",
-    "programme": "149 – Compétitivité et durabilité de l'agriculture, de l'agroalimentaire et de la forêt",
+    "mission": "Anciens combattants, mémoire et liens avec la Nation",
+    "programme": "169 – Reconnaissance et réparation en faveur du monde combattant, mémoire et liens avec la Nation",
     "nb_entities": 1,
     "perimetres": [
       "operateur",
@@ -2357,132 +2739,26 @@
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.46,
-    "financement_etat_Md": 0.257,
-    "ressources_propres_Md": 0.01,
-    "subvention_scp_Md": 0.108,
-    "transferts_Md": 0.143,
+    "ressources_totales_Md": 0.53,
+    "financement_etat_Md": 0.25,
+    "ressources_propres_Md": 0.17,
+    "subvention_scp_Md": 0.15,
+    "transferts_Md": 0.1,
     "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 98.9,
-    "charges_personnel_Md": 0.22,
-    "charges_fonctionnement_Md": 0.09,
-    "charges_intervention_Md": 0.06,
-    "charges_investissement_Md": 0.1,
-    "etpt": 973,
-    "masse_salariale_Md": 0.075,
-    "tresorerie_Md": 0.7,
-    "surface_utile_m2": 36117,
-    "top10_remunerations_kE": 105,
-    "rang": 38,
-    "etpt_sous_plafond": 958,
-    "etpt_hors_plafond": 15,
-    "historique_etpt": {
-      "2022": {
-        "sous": 953,
-        "hors": 16
-      },
-      "2023": {
-        "sous": 962,
-        "hors": 14
-      },
-      "2024": {
-        "sous": 958,
-        "hors": 15
-      }
-    },
-    "historique_masse": {
-      "2022": 0.072,
-      "2023": 0.074,
-      "2024": 0.075
-    },
-    "historique_tresorerie": {
-      "2022": 0.627,
-      "2023": 0.887,
-      "2024": 0.7
-    },
-    "sources_reelles": [
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "subvention_invest_Md": 0.006,
-    "financement_etat_budget_Md": 0.257,
-    "financement_budget_real": true
-  },
-  {
-    "id": "vnf-voies-navigables-de-france",
-    "nom": "VNF - Voies navigables de France",
-    "sigle": "VNF",
-    "statut": "EPSCP",
-    "mission": "Écologie, développement et mobilité durables",
-    "programme": "203 – Infrastructures et services de transports",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.66,
-    "financement_etat_Md": 0.253,
-    "ressources_propres_Md": 0.228,
-    "subvention_scp_Md": 0.253,
-    "transferts_Md": 0.03,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 40.4,
-    "charges_personnel_Md": 0.25,
-    "charges_fonctionnement_Md": 0.14,
-    "charges_intervention_Md": 0.2,
+    "part_financement_public_pct": 67.6,
+    "charges_personnel_Md": 0.33,
+    "charges_fonctionnement_Md": 0.1,
+    "charges_intervention_Md": 0.03,
     "charges_investissement_Md": 0.07,
-    "etpt": 4052,
-    "masse_salariale_Md": 0.255,
-    "tresorerie_Md": 0.05,
-    "surface_utile_m2": 31420,
-    "top10_remunerations_kE": 346,
-    "rang": 39,
-    "etpt_sous_plafond": 4019,
-    "etpt_hors_plafond": 33,
-    "historique_etpt": {
-      "2022": {
-        "sous": 4054,
-        "hors": 34
-      },
-      "2023": {
-        "sous": 4022,
-        "hors": 32
-      },
-      "2024": {
-        "sous": 4019,
-        "hors": 33
-      }
-    },
-    "historique_masse": {
-      "2022": 0.238,
-      "2023": 0.248,
-      "2024": 0.255
-    },
-    "historique_tresorerie": {
-      "2022": 0.169,
-      "2023": 0.062,
-      "2024": 0.05
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.197,
-      "2023": 0.198,
-      "2024": 0.228
-    },
-    "financement_etat_budget_Md": 0.253,
-    "financement_budget_real": true
+    "etpt": 2892,
+    "masse_salariale_Md": 0.28,
+    "tresorerie_Md": 0.33,
+    "surface_utile_m2": 40816,
+    "top10_remunerations_kE": 343,
+    "rang": 40,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.25
   },
   {
     "id": "bnf-biblioth-que-nationale-de-france",
@@ -2514,7 +2790,7 @@
     "tresorerie_Md": 0.066,
     "surface_utile_m2": 9349,
     "top10_remunerations_kE": 170,
-    "rang": 40,
+    "rang": 41,
     "etpt_sous_plafond": 2131,
     "etpt_hors_plafond": 15,
     "historique_etpt": {
@@ -2559,12 +2835,12 @@
     "financement_budget_real": true
   },
   {
-    "id": "cnc-centre-national-du-cin-ma-et-de-l-image-anim-e",
-    "nom": "CNC - Centre national du cinéma et de l'image animée",
-    "sigle": "CNC",
-    "statut": "EPA",
-    "mission": "Médias, livre et industries culturelles",
-    "programme": "334 – Livre et industries culturelles",
+    "id": "ensmis-ecole-nationale-sup-rieure-des-m-tiers-de-l-image-et-",
+    "nom": "ENSMIS - Ecole nationale supérieure des métiers de l'image et du son",
+    "sigle": "ENSMIS",
+    "statut": "EPIC",
+    "mission": "Culture",
+    "programme": "361 – Transmission des savoirs et démocratisation de la culture",
     "nb_entities": 1,
     "perimetres": [
       "operateur",
@@ -2572,48 +2848,48 @@
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.42,
-    "financement_etat_Md": 0.24,
-    "ressources_propres_Md": 0.018,
-    "subvention_scp_Md": 0.13,
-    "transferts_Md": 0.05,
+    "ressources_totales_Md": 0.57,
+    "financement_etat_Md": 0.23,
+    "ressources_propres_Md": 0.003,
+    "subvention_scp_Md": 0.16,
+    "transferts_Md": 0.07,
     "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 57.8,
-    "charges_personnel_Md": 0.2,
-    "charges_fonctionnement_Md": 0.09,
-    "charges_intervention_Md": 0.06,
-    "charges_investissement_Md": 0.07,
-    "etpt": 472,
-    "masse_salariale_Md": 0.033,
-    "tresorerie_Md": 0.88,
-    "surface_utile_m2": 9712,
-    "top10_remunerations_kE": 124,
-    "rang": 41,
-    "etpt_sous_plafond": 460,
-    "etpt_hors_plafond": 12,
+    "part_financement_public_pct": 64.3,
+    "charges_personnel_Md": 0.22,
+    "charges_fonctionnement_Md": 0.1,
+    "charges_intervention_Md": 0.1,
+    "charges_investissement_Md": 0.16,
+    "etpt": 66,
+    "masse_salariale_Md": 0.008,
+    "tresorerie_Md": 0.003,
+    "surface_utile_m2": 18930,
+    "top10_remunerations_kE": 396,
+    "rang": 42,
+    "etpt_sous_plafond": 62,
+    "etpt_hors_plafond": 4,
     "historique_etpt": {
       "2022": {
-        "sous": 459,
-        "hors": 8
+        "sous": 62,
+        "hors": 2
       },
       "2023": {
-        "sous": 459,
-        "hors": 15
+        "sous": 60,
+        "hors": 3
       },
       "2024": {
-        "sous": 460,
-        "hors": 12
+        "sous": 62,
+        "hors": 4
       }
     },
     "historique_masse": {
-      "2022": 0.031,
-      "2023": 0.032,
-      "2024": 0.033
+      "2022": 0.007,
+      "2023": 0.007,
+      "2024": 0.008
     },
     "historique_tresorerie": {
-      "2022": 0.727,
-      "2023": 0.827,
-      "2024": 0.88
+      "2022": 0.001,
+      "2023": 0.002,
+      "2024": 0.003
     },
     "sources_reelles": [
       "ressources_propres",
@@ -2623,10 +2899,80 @@
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
-      "2022": 0.077,
-      "2023": 0.106,
-      "2024": 0.018
-    }
+      "2022": 0.002,
+      "2023": 0.002,
+      "2024": 0.003
+    },
+    "financement_etat_budget_Md": 0.23
+  },
+  {
+    "id": "autorit-de-s-ret-nucl-aire-et-de-radioprotection-asnr-fusion",
+    "nom": "Autorité de sûreté nucléaire et de radioprotection (ASNR) - fusion IRSN+ASN 2025",
+    "sigle": "Autorité de sûreté nucléaire et de radioprotection",
+    "statut": "AAI",
+    "mission": "Sûreté nucléaire",
+    "programme": "235",
+    "nb_entities": 1,
+    "perimetres": [
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.35,
+    "financement_etat_Md": 0.23,
+    "ressources_propres_Md": 0.0,
+    "subvention_scp_Md": 0.18,
+    "transferts_Md": 0.05,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 99,
+    "charges_personnel_Md": 0.15,
+    "charges_fonctionnement_Md": 0.08,
+    "charges_intervention_Md": 0.05,
+    "charges_investissement_Md": 0.07,
+    "etpt": 1800,
+    "masse_salariale_Md": 0.13,
+    "tresorerie_Md": 0.33,
+    "surface_utile_m2": 21600,
+    "top10_remunerations_kE": 201,
+    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
+    "rang": 43,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.23
+  },
+  {
+    "id": "p-le-emploi",
+    "nom": "Pôle emploi",
+    "sigle": "Pôle emploi",
+    "statut": "EPA",
+    "mission": "Travail et emploi",
+    "programme": "102 – Accès et retour à l'emploi",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.33,
+    "financement_etat_Md": 0.23,
+    "ressources_propres_Md": 0.07,
+    "subvention_scp_Md": 0.18,
+    "transferts_Md": 0.05,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 79.5,
+    "charges_personnel_Md": 0.19,
+    "charges_fonctionnement_Md": 0.06,
+    "charges_intervention_Md": 0.05,
+    "charges_investissement_Md": 0.04,
+    "etpt": 2427,
+    "masse_salariale_Md": 0.16,
+    "tresorerie_Md": 0.42,
+    "surface_utile_m2": 30570,
+    "top10_remunerations_kE": 314,
+    "rang": 44,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.23
   },
   {
     "id": "ird-institut-de-recherche-pour-le-d-veloppement",
@@ -2658,7 +3004,7 @@
     "tresorerie_Md": 0.101,
     "surface_utile_m2": 4267,
     "top10_remunerations_kE": 230,
-    "rang": 42,
+    "rang": 45,
     "etpt_sous_plafond": 1887,
     "etpt_hors_plafond": 306,
     "historique_etpt": {
@@ -2730,7 +3076,7 @@
     "tresorerie_Md": 0.019,
     "surface_utile_m2": 521,
     "top10_remunerations_kE": 401,
-    "rang": 43,
+    "rang": 46,
     "etpt_sous_plafond": 13,
     "etpt_hors_plafond": 765,
     "historique_etpt": {
@@ -2804,7 +3150,7 @@
     "tresorerie_Md": 0.118,
     "surface_utile_m2": 13954,
     "top10_remunerations_kE": 197,
-    "rang": 44,
+    "rang": 47,
     "etpt_sous_plafond": 1786,
     "etpt_hors_plafond": 1227,
     "historique_etpt": {
@@ -2848,76 +3194,6 @@
     "financement_budget_real": true
   },
   {
-    "id": "sgp-soci-t-du-grand-paris",
-    "nom": "SGP - Societe des Grands Projets (ex Societe du Grand Paris)",
-    "sigle": "SGP",
-    "statut": "EPIC",
-    "mission": "Écologie, développement et mobilité durables",
-    "programme": "203 – Infrastructures et services de transports",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.24,
-    "financement_etat_Md": 0.21,
-    "ressources_propres_Md": 0.405,
-    "subvention_scp_Md": 0.11,
-    "transferts_Md": 0.03,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 84.8,
-    "charges_personnel_Md": 0.09,
-    "charges_fonctionnement_Md": 0.03,
-    "charges_intervention_Md": 0.04,
-    "charges_investissement_Md": 0.09,
-    "etpt": 1108,
-    "masse_salariale_Md": 0.127,
-    "tresorerie_Md": 10.358,
-    "surface_utile_m2": 32498,
-    "top10_remunerations_kE": 248,
-    "rang": 45,
-    "etpt_sous_plafond": 1057,
-    "etpt_hors_plafond": 51,
-    "historique_etpt": {
-      "2022": {
-        "sous": 911,
-        "hors": 45
-      },
-      "2023": {
-        "sous": 988,
-        "hors": 47
-      },
-      "2024": {
-        "sous": 1057,
-        "hors": 51
-      }
-    },
-    "historique_masse": {
-      "2022": 0.107,
-      "2023": 0.116,
-      "2024": 0.127
-    },
-    "historique_tresorerie": {
-      "2022": 13.63,
-      "2023": 11.981,
-      "2024": 10.358
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.052,
-      "2023": 0.931,
-      "2024": 0.405
-    }
-  },
-  {
     "id": "enac-ecole-nationale-de-l-aviation-civile",
     "nom": "ENAC - Ecole nationale de l'aviation civile",
     "sigle": "ENAC",
@@ -2947,7 +3223,7 @@
     "tresorerie_Md": 0.013,
     "surface_utile_m2": 6187,
     "top10_remunerations_kE": 142,
-    "rang": 46,
+    "rang": 48,
     "etpt_sous_plafond": 784,
     "etpt_hors_plafond": 120,
     "historique_etpt": {
@@ -2979,7 +3255,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -3021,7 +3298,7 @@
     "tresorerie_Md": 0.007,
     "surface_utile_m2": 34746,
     "top10_remunerations_kE": 116,
-    "rang": 47,
+    "rang": 49,
     "etpt_sous_plafond": 111,
     "etpt_hors_plafond": 2,
     "historique_etpt": {
@@ -3101,7 +3378,7 @@
       "PARC NATIONAL DE LA REUNION",
       "PARC NATIONAL DE PORT CROS"
     ],
-    "rang": 48,
+    "rang": 50,
     "etpt_sous_plafond": 856,
     "etpt_hors_plafond": 82,
     "historique_etpt": {
@@ -3133,7 +3410,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -3146,12 +3424,12 @@
     "financement_budget_real": true
   },
   {
-    "id": "cglls-caisse-de-garantie-du-logement-locatif-social",
-    "nom": "CGLLS - Caisse de garantie du logement locatif social",
-    "sigle": "CGLLS",
-    "statut": "EPA",
-    "mission": "Cohésion des territoires",
-    "programme": "135 – Urbanisme, territoires et amélioration de l'habitat",
+    "id": "andra-agence-nationale-pour-la-gestion-des-d-chets-radioacti",
+    "nom": "ANDRA - Agence nationale pour la gestion des déchets radioactifs",
+    "sigle": "ANDRA",
+    "statut": "EPIC",
+    "mission": "Écologie, développement et mobilité durables",
+    "programme": "174 – Énergie, climat et après-mines",
     "nb_entities": 1,
     "perimetres": [
       "operateur",
@@ -3159,44 +3437,70 @@
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.24,
-    "financement_etat_Md": 0.2,
-    "ressources_propres_Md": 0.01,
-    "subvention_scp_Md": 0.09,
-    "transferts_Md": 0.02,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 83.6,
-    "charges_personnel_Md": 0.08,
+    "ressources_totales_Md": 0.34,
+    "financement_etat_Md": 0.191,
+    "ressources_propres_Md": 0.13,
+    "subvention_scp_Md": 0.003,
+    "transferts_Md": 0.04,
+    "taxes_affectees_Md": 0.188,
+    "part_financement_public_pct": 55.4,
+    "charges_personnel_Md": 0.19,
     "charges_fonctionnement_Md": 0.04,
-    "charges_intervention_Md": 0.08,
-    "charges_investissement_Md": 0.03,
-    "etpt": 2387,
-    "masse_salariale_Md": 0.003,
-    "tresorerie_Md": 0.742,
-    "surface_utile_m2": 33717,
-    "top10_remunerations_kE": 431,
-    "rang": 49,
+    "charges_intervention_Md": 0.05,
+    "charges_investissement_Md": 0.05,
+    "etpt": 757,
+    "masse_salariale_Md": 0.08,
+    "tresorerie_Md": 0.206,
+    "surface_utile_m2": 14724,
+    "top10_remunerations_kE": 163,
+    "rang": 51,
+    "etpt_sous_plafond": 240,
+    "etpt_hors_plafond": 517,
+    "historique_etpt": {
+      "2022": {
+        "sous": 250,
+        "hors": 480
+      },
+      "2023": {
+        "sous": 244,
+        "hors": 487
+      },
+      "2024": {
+        "sous": 240,
+        "hors": 517
+      }
+    },
     "historique_masse": {
-      "2022": 0.002,
-      "2023": 0.003,
-      "2024": 0.003
+      "2022": 0.072,
+      "2023": 0.074,
+      "2024": 0.08
     },
     "historique_tresorerie": {
-      "2022": 0.722,
-      "2023": 0.732,
-      "2024": 0.742
+      "2022": 0.206,
+      "2023": 0.209,
+      "2024": 0.206
     },
     "sources_reelles": [
       "ressources_propres",
+      "etpt",
       "masse",
-      "tresorerie"
+      "tresorerie",
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
-      "2022": 0.011,
-      "2023": 0.008,
-      "2024": 0.01
-    }
+      "2022": 0.115,
+      "2023": 0.132,
+      "2024": 0.13
+    },
+    "financement_etat_budget_Md": 0.003,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.188,
+      "2026": 0.188
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
     "id": "cerema-centre-d-tudes-et-d-expertise-sur-les-risques-l-envir",
@@ -3228,7 +3532,7 @@
     "tresorerie_Md": 0.113,
     "surface_utile_m2": 16522,
     "top10_remunerations_kE": 127,
-    "rang": 50,
+    "rang": 52,
     "etpt_sous_plafond": 2473,
     "etpt_hors_plafond": 114,
     "historique_etpt": {
@@ -3301,7 +3605,7 @@
     "tresorerie_Md": 0.188,
     "surface_utile_m2": 7244,
     "top10_remunerations_kE": 342,
-    "rang": 51,
+    "rang": 53,
     "etpt_sous_plafond": 1306,
     "etpt_hors_plafond": 209,
     "historique_etpt": {
@@ -3333,7 +3637,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -3373,7 +3678,7 @@
     "tresorerie_Md": 0.029,
     "surface_utile_m2": 31185,
     "top10_remunerations_kE": 216,
-    "rang": 52,
+    "rang": 54,
     "etpt_sous_plafond": 577,
     "etpt_hors_plafond": 10,
     "historique_etpt": {
@@ -3405,7 +3710,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -3445,7 +3751,7 @@
     "tresorerie_Md": 0.075,
     "surface_utile_m2": 41374,
     "top10_remunerations_kE": 265,
-    "rang": 53,
+    "rang": 55,
     "etpt_sous_plafond": 1815,
     "etpt_hors_plafond": 263,
     "historique_etpt": {
@@ -3490,6 +3796,41 @@
     "financement_budget_real": true
   },
   {
+    "id": "ensta-bretagne-ecole-nationale-sup-rieure-de-techniques-avan",
+    "nom": "ENSTA Bretagne - Ecole nationale supérieure de techniques avancées Bretagne",
+    "sigle": "ENSTA Bretagne",
+    "statut": "EPSCP",
+    "mission": "Défense",
+    "programme": "144 – Environnement et prospective de la politique de défense",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.48,
+    "financement_etat_Md": 0.18,
+    "ressources_propres_Md": 0.22,
+    "subvention_scp_Md": 0.15,
+    "transferts_Md": 0.03,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 54.1,
+    "charges_personnel_Md": 0.28,
+    "charges_fonctionnement_Md": 0.06,
+    "charges_intervention_Md": 0.05,
+    "charges_investissement_Md": 0.08,
+    "etpt": 613,
+    "masse_salariale_Md": 0.24,
+    "tresorerie_Md": 0.3,
+    "surface_utile_m2": 5895,
+    "top10_remunerations_kE": 397,
+    "rang": 56,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.18
+  },
+  {
     "id": "cnpf-centre-national-de-la-propri-t-foresti-re",
     "nom": "CNPF - Centre national de la propriété forestière",
     "sigle": "CNPF",
@@ -3518,7 +3859,7 @@
     "tresorerie_Md": 0.009,
     "surface_utile_m2": 26637,
     "top10_remunerations_kE": 193,
-    "rang": 54,
+    "rang": 57,
     "etpt_sous_plafond": 364,
     "etpt_hors_plafond": 95,
     "historique_etpt": {
@@ -3550,7 +3891,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -3591,7 +3933,7 @@
     "tresorerie_Md": 0.041,
     "surface_utile_m2": 18772,
     "top10_remunerations_kE": 201,
-    "rang": 55,
+    "rang": 58,
     "etpt_sous_plafond": 380,
     "etpt_hors_plafond": 8,
     "historique_etpt": {
@@ -3623,7 +3965,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -3634,122 +3977,6 @@
     "subvention_invest_Md": 0.007,
     "financement_etat_budget_Md": 0.022,
     "financement_budget_real": true
-  },
-  {
-    "id": "ancols-agence-nationale-de-contr-le-du-logement-social",
-    "nom": "ANCOLS - Agence nationale de contrôle du logement social",
-    "sigle": "ANCOLS",
-    "statut": "EPA",
-    "mission": "Cohésion des territoires",
-    "programme": "135 – Urbanisme, territoires et amélioration de l'habitat",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.31,
-    "financement_etat_Md": 0.16,
-    "ressources_propres_Md": 0.0,
-    "subvention_scp_Md": 0,
-    "transferts_Md": 0.01,
-    "taxes_affectees_Md": 0.17,
-    "part_financement_public_pct": 50.4,
-    "charges_personnel_Md": 0.16,
-    "charges_fonctionnement_Md": 0.04,
-    "charges_intervention_Md": 0.09,
-    "charges_investissement_Md": 0.02,
-    "etpt": 123,
-    "masse_salariale_Md": 0.013,
-    "tresorerie_Md": 0.011,
-    "surface_utile_m2": 19441,
-    "top10_remunerations_kE": 87,
-    "rang": 56,
-    "etpt_sous_plafond": 122,
-    "etpt_hors_plafond": 1,
-    "historique_etpt": {
-      "2022": {
-        "sous": 123,
-        "hors": 3
-      },
-      "2023": {
-        "sous": 118,
-        "hors": 3
-      },
-      "2024": {
-        "sous": 122,
-        "hors": 1
-      }
-    },
-    "historique_masse": {
-      "2022": 0.013,
-      "2023": 0.012,
-      "2024": 0.013
-    },
-    "historique_tresorerie": {
-      "2022": 0.01,
-      "2023": 0.012,
-      "2024": 0.011
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.0,
-      "2023": 0.0,
-      "2024": 0.0
-    }
-  },
-  {
-    "id": "fnap-fonds-national-des-aides-la-pierre",
-    "nom": "FNAP - Fonds national des aides à la pierre",
-    "sigle": "FNAP",
-    "statut": "EPA",
-    "mission": "Cohésion des territoires",
-    "programme": "135 – Urbanisme, territoires et amélioration de l'habitat",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.18,
-    "financement_etat_Md": 0.16,
-    "ressources_propres_Md": 0.213,
-    "subvention_scp_Md": 0.07,
-    "transferts_Md": 0.04,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 88.1,
-    "charges_personnel_Md": 0.09,
-    "charges_fonctionnement_Md": 0.02,
-    "charges_intervention_Md": 0.01,
-    "charges_investissement_Md": 0.06,
-    "etpt": 1736,
-    "masse_salariale_Md": 0.08,
-    "tresorerie_Md": 0.286,
-    "surface_utile_m2": 22162,
-    "top10_remunerations_kE": 121,
-    "rang": 57,
-    "historique_tresorerie": {
-      "2022": 0.23,
-      "2023": 0.286,
-      "2024": 0.286
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "tresorerie"
-    ],
-    "donnees_confidence": "moyenne",
-    "historique_ressources_propres": {
-      "2022": 0.562,
-      "2023": 0.052,
-      "2024": 0.213
-    }
   },
   {
     "id": "inp-institut-national-du-patrimoine",
@@ -3780,7 +4007,7 @@
     "tresorerie_Md": 0.006,
     "surface_utile_m2": 16794,
     "top10_remunerations_kE": 442,
-    "rang": 58,
+    "rang": 59,
     "etpt_sous_plafond": 73,
     "etpt_hors_plafond": 3,
     "historique_etpt": {
@@ -3812,7 +4039,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -3822,79 +4050,6 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.008,
-    "financement_budget_real": true
-  },
-  {
-    "id": "ans-agence-nationale-du-sport",
-    "nom": "ANS - Agence nationale du sport",
-    "sigle": "ANS",
-    "statut": "GIP",
-    "mission": "Sport, jeunesse et vie associative",
-    "programme": "219 – Sport",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.27,
-    "financement_etat_Md": 0.156,
-    "ressources_propres_Md": 0.004,
-    "subvention_scp_Md": 0.007,
-    "transferts_Md": 0.149,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 90.0,
-    "charges_personnel_Md": 0.13,
-    "charges_fonctionnement_Md": 0.05,
-    "charges_intervention_Md": 0.07,
-    "charges_investissement_Md": 0.01,
-    "etpt": 80,
-    "masse_salariale_Md": 0.007,
-    "tresorerie_Md": 0.155,
-    "surface_utile_m2": 18717,
-    "top10_remunerations_kE": 101,
-    "rang": 59,
-    "etpt_sous_plafond": 70,
-    "etpt_hors_plafond": 10,
-    "historique_etpt": {
-      "2022": {
-        "sous": 66,
-        "hors": 4
-      },
-      "2023": {
-        "sous": 69,
-        "hors": 8
-      },
-      "2024": {
-        "sous": 70,
-        "hors": 10
-      }
-    },
-    "historique_masse": {
-      "2022": 0.006,
-      "2023": 0.007,
-      "2024": 0.007
-    },
-    "historique_tresorerie": {
-      "2022": 0.291,
-      "2023": 0.218,
-      "2024": 0.155
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.001,
-      "2023": 0.003,
-      "2024": 0.004
-    },
-    "financement_etat_budget_Md": 0.156,
     "financement_budget_real": true
   },
   {
@@ -4044,6 +4199,86 @@
     "financement_budget_real": true
   },
   {
+    "id": "ans-s-agence-nationale-de-s-curit-sanitaire-de-l-alimentatio",
+    "nom": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
+    "sigle": "ANSéS",
+    "statut": "EPA",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales",
+    "programme": "206 – Sécurité et qualité sanitaires de l'alimentation",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.33,
+    "financement_etat_Md": 0.142,
+    "ressources_propres_Md": 0.002,
+    "subvention_scp_Md": 0.116,
+    "transferts_Md": 0.0,
+    "taxes_affectees_Md": 0.026,
+    "part_financement_public_pct": 83.4,
+    "charges_personnel_Md": 0.18,
+    "charges_fonctionnement_Md": 0.04,
+    "charges_intervention_Md": 0.1,
+    "charges_investissement_Md": 0.01,
+    "etpt": 1451,
+    "masse_salariale_Md": 0.107,
+    "tresorerie_Md": 0.072,
+    "surface_utile_m2": 20546,
+    "top10_remunerations_kE": 124,
+    "rang": 62,
+    "etpt_sous_plafond": 1340,
+    "etpt_hors_plafond": 111,
+    "historique_etpt": {
+      "2022": {
+        "sous": 1279,
+        "hors": 98
+      },
+      "2023": {
+        "sous": 1323,
+        "hors": 87
+      },
+      "2024": {
+        "sous": 1340,
+        "hors": 111
+      }
+    },
+    "historique_masse": {
+      "2022": 0.096,
+      "2023": 0.102,
+      "2024": 0.107
+    },
+    "historique_tresorerie": {
+      "2022": 0.061,
+      "2023": 0.058,
+      "2024": 0.072
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "financement",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.008,
+      "2023": 0.006,
+      "2024": 0.002
+    },
+    "subvention_invest_Md": 0.0,
+    "financement_etat_budget_Md": 0.116,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.027,
+      "2026": 0.026
+    },
+    "source_taxes": "Jaune 2026 p.66"
+  },
+  {
     "id": "inca-institut-national-du-cancer",
     "nom": "INCa - Institut National du Cancer",
     "sigle": "INCa",
@@ -4073,7 +4308,7 @@
     "tresorerie_Md": 0.044,
     "surface_utile_m2": 13451,
     "top10_remunerations_kE": 171,
-    "rang": 62,
+    "rang": 63,
     "etpt_sous_plafond": 131,
     "etpt_hors_plafond": 23,
     "historique_etpt": {
@@ -4104,45 +4339,12 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "financement_etat_budget_Md": 0.11,
     "financement_budget_real": true
-  },
-  {
-    "id": "agence-nationale-de-s-curit-du-m-dicament-ansm",
-    "nom": "Agence nationale de sécurité du médicament (ANSM)",
-    "sigle": "Agence nationale de sécurité du médicament",
-    "statut": "EPA",
-    "mission": "Santé",
-    "programme": "124",
-    "nb_entities": 1,
-    "perimetres": [
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.15,
-    "financement_etat_Md": 0.14,
-    "ressources_propres_Md": 0.01,
-    "subvention_scp_Md": 0.07,
-    "transferts_Md": 0.02,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 92,
-    "charges_personnel_Md": 0.06,
-    "charges_fonctionnement_Md": 0.02,
-    "charges_intervention_Md": 0.04,
-    "charges_investissement_Md": 0.03,
-    "etpt": 980,
-    "masse_salariale_Md": 0.05,
-    "tresorerie_Md": 0.09,
-    "surface_utile_m2": 11760,
-    "top10_remunerations_kE": 292,
-    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 63,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
   },
   {
     "id": "cned-centre-national-d-enseignement-distance",
@@ -4206,7 +4408,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -4279,7 +4482,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -4359,7 +4563,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -4385,11 +4590,11 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 0.58,
-    "financement_etat_Md": 0.13,
+    "financement_etat_Md": 0.125,
     "ressources_propres_Md": 0.014,
     "subvention_scp_Md": 0.119,
     "transferts_Md": 0.001,
-    "taxes_affectees_Md": 0.01,
+    "taxes_affectees_Md": 0.005,
     "part_financement_public_pct": 97.0,
     "charges_personnel_Md": 0.31,
     "charges_fonctionnement_Md": 0.12,
@@ -4432,7 +4637,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -4441,7 +4647,12 @@
       "2024": 0.014
     },
     "financement_etat_budget_Md": 0.12,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.004,
+      "2026": 0.005
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
     "id": "antai-agence-nationale-de-traitement-automatis-des-infractio",
@@ -4725,7 +4936,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -4799,7 +5011,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -4808,153 +5021,6 @@
       "2024": 0.005
     },
     "financement_etat_budget_Md": 0.008,
-    "financement_budget_real": true
-  },
-  {
-    "id": "inao-institut-national-de-l-origine-et-de-la-qualit",
-    "nom": "INAO - Institut national de l'origine et de la qualité",
-    "sigle": "INAO",
-    "statut": "EPA",
-    "mission": "Agriculture, alimentation, forêt et affaires rurales",
-    "programme": "149 – Compétitivité et durabilité de l'agriculture, de l'agroalimentaire et de la forêt",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.38,
-    "financement_etat_Md": 0.117,
-    "ressources_propres_Md": 0.0,
-    "subvention_scp_Md": 0.017,
-    "transferts_Md": 0.05,
-    "taxes_affectees_Md": 0.1,
-    "part_financement_public_pct": 56.8,
-    "charges_personnel_Md": 0.17,
-    "charges_fonctionnement_Md": 0.04,
-    "charges_intervention_Md": 0.03,
-    "charges_investissement_Md": 0.15,
-    "etpt": 2,
-    "masse_salariale_Md": 0.019,
-    "tresorerie_Md": 0.007,
-    "surface_utile_m2": 8847,
-    "top10_remunerations_kE": 345,
-    "rang": 73,
-    "etpt_sous_plafond": 2,
-    "etpt_hors_plafond": null,
-    "historique_etpt": {
-      "2022": {
-        "sous": 231,
-        "hors": 232
-      },
-      "2023": {
-        "sous": 2,
-        "hors": 232
-      },
-      "2024": {
-        "sous": 2,
-        "hors": null
-      }
-    },
-    "historique_masse": {
-      "2022": 0.018,
-      "2023": 0.018,
-      "2024": 0.019
-    },
-    "historique_tresorerie": {
-      "2022": 0.009,
-      "2023": 0.008,
-      "2024": 0.007
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.001,
-      "2023": 0.0,
-      "2024": 0.0
-    },
-    "financement_etat_budget_Md": 0.017,
-    "financement_budget_real": true
-  },
-  {
-    "id": "ans-s-agence-nationale-de-s-curit-sanitaire-de-l-alimentatio",
-    "nom": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
-    "sigle": "ANSéS",
-    "statut": "EPA",
-    "mission": "Agriculture, alimentation, forêt et affaires rurales",
-    "programme": "206 – Sécurité et qualité sanitaires de l'alimentation",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.33,
-    "financement_etat_Md": 0.116,
-    "ressources_propres_Md": 0.002,
-    "subvention_scp_Md": 0.116,
-    "transferts_Md": 0.0,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 83.4,
-    "charges_personnel_Md": 0.18,
-    "charges_fonctionnement_Md": 0.04,
-    "charges_intervention_Md": 0.1,
-    "charges_investissement_Md": 0.01,
-    "etpt": 1451,
-    "masse_salariale_Md": 0.107,
-    "tresorerie_Md": 0.072,
-    "surface_utile_m2": 20546,
-    "top10_remunerations_kE": 124,
-    "rang": 74,
-    "etpt_sous_plafond": 1340,
-    "etpt_hors_plafond": 111,
-    "historique_etpt": {
-      "2022": {
-        "sous": 1279,
-        "hors": 98
-      },
-      "2023": {
-        "sous": 1323,
-        "hors": 87
-      },
-      "2024": {
-        "sous": 1340,
-        "hors": 111
-      }
-    },
-    "historique_masse": {
-      "2022": 0.096,
-      "2023": 0.102,
-      "2024": 0.107
-    },
-    "historique_tresorerie": {
-      "2022": 0.061,
-      "2023": 0.058,
-      "2024": 0.072
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.008,
-      "2023": 0.006,
-      "2024": 0.002
-    },
-    "subvention_invest_Md": 0.0,
-    "financement_etat_budget_Md": 0.116,
     "financement_budget_real": true
   },
   {
@@ -4987,7 +5053,7 @@
     "tresorerie_Md": 0.075,
     "surface_utile_m2": 15907,
     "top10_remunerations_kE": 395,
-    "rang": 75,
+    "rang": 73,
     "etpt_sous_plafond": 1009,
     "etpt_hors_plafond": 73,
     "historique_etpt": {
@@ -5032,12 +5098,12 @@
     "financement_budget_real": true
   },
   {
-    "id": "cin-math-que-fran-aise",
-    "nom": "Cinémathèque française",
-    "sigle": "Cinémathèque française",
-    "statut": "Association",
-    "mission": "Médias, livre et industries culturelles",
-    "programme": "334 – Livre et industries culturelles",
+    "id": "fnap-fonds-national-des-aides-la-pierre",
+    "nom": "FNAP - Fonds national des aides à la pierre",
+    "sigle": "FNAP",
+    "statut": "EPA",
+    "mission": "Cohésion des territoires",
+    "programme": "135 – Urbanisme, territoires et amélioration de l'habitat",
     "nb_entities": 1,
     "perimetres": [
       "operateur",
@@ -5045,43 +5111,39 @@
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.16,
+    "ressources_totales_Md": 0.18,
     "financement_etat_Md": 0.11,
-    "ressources_propres_Md": 0.04,
-    "subvention_scp_Md": 0.08,
-    "transferts_Md": 0.02,
+    "ressources_propres_Md": 0.213,
+    "subvention_scp_Md": 0.07,
+    "transferts_Md": 0.04,
     "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 72.0,
-    "charges_personnel_Md": 0.1,
-    "charges_fonctionnement_Md": 0.04,
-    "charges_intervention_Md": 0.02,
-    "charges_investissement_Md": 0.0,
-    "etpt": 210,
-    "masse_salariale_Md": 0.09,
-    "tresorerie_Md": 0.12,
-    "surface_utile_m2": 40883,
-    "top10_remunerations_kE": 184,
-    "rang": 76,
-    "etpt_sous_plafond": 206,
-    "etpt_hors_plafond": 4,
-    "historique_etpt": {
-      "2022": {
-        "sous": 205,
-        "hors": 5
-      },
-      "2023": {
-        "sous": 203,
-        "hors": 3
-      },
-      "2024": {
-        "sous": 206,
-        "hors": 4
-      }
+    "part_financement_public_pct": 88.1,
+    "charges_personnel_Md": 0.09,
+    "charges_fonctionnement_Md": 0.02,
+    "charges_intervention_Md": 0.01,
+    "charges_investissement_Md": 0.06,
+    "etpt": 1736,
+    "masse_salariale_Md": 0.08,
+    "tresorerie_Md": 0.286,
+    "surface_utile_m2": 22162,
+    "top10_remunerations_kE": 121,
+    "rang": 74,
+    "historique_tresorerie": {
+      "2022": 0.23,
+      "2023": 0.286,
+      "2024": 0.286
     },
     "sources_reelles": [
-      "etpt"
+      "ressources_propres",
+      "tresorerie"
     ],
-    "donnees_confidence": "moyenne"
+    "donnees_confidence": "moyenne",
+    "historique_ressources_propres": {
+      "2022": 0.562,
+      "2023": 0.052,
+      "2024": 0.213
+    },
+    "financement_etat_budget_Md": 0.11
   },
   {
     "id": "universcience",
@@ -5113,7 +5175,7 @@
     "tresorerie_Md": 0.043,
     "surface_utile_m2": 4873,
     "top10_remunerations_kE": 390,
-    "rang": 77,
+    "rang": 75,
     "etpt_sous_plafond": 1001,
     "etpt_hors_plafond": 18,
     "historique_etpt": {
@@ -5158,6 +5220,42 @@
     "financement_budget_real": true
   },
   {
+    "id": "autorit-des-march-s-financiers-amf",
+    "nom": "Autorité des marchés financiers (AMF)",
+    "sigle": "Autorité des marchés financiers",
+    "statut": "AAI",
+    "mission": "Economie",
+    "programme": "134",
+    "nb_entities": 1,
+    "perimetres": [
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.12,
+    "financement_etat_Md": 0.11,
+    "ressources_propres_Md": 0.12,
+    "subvention_scp_Md": 0,
+    "transferts_Md": 0,
+    "taxes_affectees_Md": 0.11,
+    "part_financement_public_pct": 0,
+    "charges_personnel_Md": 0.07,
+    "charges_fonctionnement_Md": 0.02,
+    "charges_intervention_Md": 0.03,
+    "charges_investissement_Md": 0.01,
+    "etpt": 480,
+    "masse_salariale_Md": 0.06,
+    "tresorerie_Md": 0.08,
+    "surface_utile_m2": 5760,
+    "top10_remunerations_kE": 297,
+    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
+    "rang": 76,
+    "sources_reelles": [
+      "taxes"
+    ],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0
+  },
+  {
     "id": "odeadom-office-de-d-veloppement-de-l-conomie-agricole-d-outr",
     "nom": "ODEADOM - Office de développement de l'économie agricole d'Outre-mer",
     "sigle": "ODEADOM",
@@ -5187,7 +5285,7 @@
     "tresorerie_Md": 0.031,
     "surface_utile_m2": 35424,
     "top10_remunerations_kE": 83,
-    "rang": 78,
+    "rang": 77,
     "etpt_sous_plafond": 154,
     "etpt_hors_plafond": 202,
     "historique_etpt": {
@@ -5260,7 +5358,7 @@
     "tresorerie_Md": 0.012,
     "surface_utile_m2": 39115,
     "top10_remunerations_kE": 240,
-    "rang": 79,
+    "rang": 78,
     "etpt_sous_plafond": 248,
     "etpt_hors_plafond": 4,
     "historique_etpt": {
@@ -5292,7 +5390,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -5334,7 +5433,7 @@
     "tresorerie_Md": 0.033,
     "surface_utile_m2": 34087,
     "top10_remunerations_kE": 293,
-    "rang": 80,
+    "rang": 79,
     "historique_masse": {
       "2022": 0.049,
       "2023": 0.053,
@@ -5360,6 +5459,59 @@
     "subvention_invest_Md": 0.017,
     "financement_etat_budget_Md": 0.102,
     "financement_budget_real": true
+  },
+  {
+    "id": "cin-math-que-fran-aise",
+    "nom": "Cinémathèque française",
+    "sigle": "Cinémathèque française",
+    "statut": "Association",
+    "mission": "Médias, livre et industries culturelles",
+    "programme": "334 – Livre et industries culturelles",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.16,
+    "financement_etat_Md": 0.1,
+    "ressources_propres_Md": 0.04,
+    "subvention_scp_Md": 0.08,
+    "transferts_Md": 0.02,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 72.0,
+    "charges_personnel_Md": 0.1,
+    "charges_fonctionnement_Md": 0.04,
+    "charges_intervention_Md": 0.02,
+    "charges_investissement_Md": 0.0,
+    "etpt": 210,
+    "masse_salariale_Md": 0.09,
+    "tresorerie_Md": 0.12,
+    "surface_utile_m2": 40883,
+    "top10_remunerations_kE": 184,
+    "rang": 80,
+    "etpt_sous_plafond": 206,
+    "etpt_hors_plafond": 4,
+    "historique_etpt": {
+      "2022": {
+        "sous": 205,
+        "hors": 5
+      },
+      "2023": {
+        "sous": 203,
+        "hors": 3
+      },
+      "2024": {
+        "sous": 206,
+        "hors": 4
+      }
+    },
+    "sources_reelles": [
+      "etpt"
+    ],
+    "donnees_confidence": "moyenne",
+    "financement_etat_budget_Md": 0.1
   },
   {
     "id": "mus-e-du-louvre",
@@ -5436,38 +5588,83 @@
     "financement_budget_real": true
   },
   {
-    "id": "institut-national-de-l-audiovisuel-ina",
-    "nom": "Institut national de l'audiovisuel (INA)",
-    "sigle": "Institut national de l'audiovisuel",
+    "id": "cnm-centre-national-de-la-musique",
+    "nom": "CNM - Centre national de la musique",
+    "sigle": "CNM",
     "statut": "EPIC",
-    "mission": "Médias",
-    "programme": "334",
+    "mission": "Médias, livre et industries culturelles",
+    "programme": "334 – Livre et industries culturelles",
     "nb_entities": 1,
     "perimetres": [
+      "operateur",
       "odac",
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.12,
-    "financement_etat_Md": 0.1,
-    "ressources_propres_Md": 0.02,
-    "subvention_scp_Md": 0.07,
-    "transferts_Md": 0.01,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 85,
-    "charges_personnel_Md": 0.07,
-    "charges_fonctionnement_Md": 0.02,
+    "ressources_totales_Md": 0.57,
+    "financement_etat_Md": 0.099,
+    "ressources_propres_Md": 0.01,
+    "subvention_scp_Md": 0.02,
+    "transferts_Md": 0.04,
+    "taxes_affectees_Md": 0.079,
+    "part_financement_public_pct": 52.1,
+    "charges_personnel_Md": 0.23,
+    "charges_fonctionnement_Md": 0.06,
     "charges_intervention_Md": 0.03,
-    "charges_investissement_Md": 0.01,
-    "etpt": 950,
-    "masse_salariale_Md": 0.06,
-    "tresorerie_Md": 0.14,
-    "surface_utile_m2": 11400,
-    "top10_remunerations_kE": 286,
-    "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
+    "charges_investissement_Md": 0.25,
+    "etpt": 129,
+    "masse_salariale_Md": 0.009,
+    "tresorerie_Md": 0.11,
+    "surface_utile_m2": 14049,
+    "top10_remunerations_kE": 340,
     "rang": 82,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
+    "etpt_sous_plafond": 119,
+    "etpt_hors_plafond": 10,
+    "historique_etpt": {
+      "2022": {
+        "sous": 109,
+        "hors": 4
+      },
+      "2023": {
+        "sous": 108,
+        "hors": 9
+      },
+      "2024": {
+        "sous": 119,
+        "hors": 10
+      }
+    },
+    "historique_masse": {
+      "2022": 0.008,
+      "2023": 0.008,
+      "2024": 0.009
+    },
+    "historique_tresorerie": {
+      "2022": 0.149,
+      "2023": 0.122,
+      "2024": 0.11
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "financement",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.025,
+      "2023": 0.024,
+      "2024": 0.01
+    },
+    "financement_etat_budget_Md": 0.02,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.071,
+      "2026": 0.079
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
     "id": "inrap-institut-national-de-recherches-arch-ologiques-pr-vent",
@@ -5618,6 +5815,41 @@
     "financement_budget_real": true
   },
   {
+    "id": "agence-nationale-de-s-curit-du-m-dicament-ansm",
+    "nom": "Agence nationale de sécurité du médicament (ANSM)",
+    "sigle": "Agence nationale de sécurité du médicament",
+    "statut": "EPA",
+    "mission": "Santé",
+    "programme": "124",
+    "nb_entities": 1,
+    "perimetres": [
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.15,
+    "financement_etat_Md": 0.09,
+    "ressources_propres_Md": 0.01,
+    "subvention_scp_Md": 0.07,
+    "transferts_Md": 0.02,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 92,
+    "charges_personnel_Md": 0.06,
+    "charges_fonctionnement_Md": 0.02,
+    "charges_intervention_Md": 0.04,
+    "charges_investissement_Md": 0.03,
+    "etpt": 980,
+    "masse_salariale_Md": 0.05,
+    "tresorerie_Md": 0.09,
+    "surface_utile_m2": 11760,
+    "top10_remunerations_kE": 292,
+    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
+    "rang": 85,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.09
+  },
+  {
     "id": "business-france",
     "nom": "Business France",
     "sigle": "Business France",
@@ -5646,7 +5878,7 @@
     "tresorerie_Md": 0.131,
     "surface_utile_m2": 47977,
     "top10_remunerations_kE": 271,
-    "rang": 85,
+    "rang": 86,
     "etpt_sous_plafond": 1422,
     "etpt_hors_plafond": 81,
     "historique_etpt": {
@@ -5687,79 +5919,6 @@
       "2024": 0.505
     },
     "financement_etat_budget_Md": 0.089,
-    "financement_budget_real": true
-  },
-  {
-    "id": "andra-agence-nationale-pour-la-gestion-des-d-chets-radioacti",
-    "nom": "ANDRA - Agence nationale pour la gestion des déchets radioactifs",
-    "sigle": "ANDRA",
-    "statut": "EPIC",
-    "mission": "Écologie, développement et mobilité durables",
-    "programme": "174 – Énergie, climat et après-mines",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.34,
-    "financement_etat_Md": 0.083,
-    "ressources_propres_Md": 0.13,
-    "subvention_scp_Md": 0.003,
-    "transferts_Md": 0.04,
-    "taxes_affectees_Md": 0.08,
-    "part_financement_public_pct": 55.4,
-    "charges_personnel_Md": 0.19,
-    "charges_fonctionnement_Md": 0.04,
-    "charges_intervention_Md": 0.05,
-    "charges_investissement_Md": 0.05,
-    "etpt": 757,
-    "masse_salariale_Md": 0.08,
-    "tresorerie_Md": 0.206,
-    "surface_utile_m2": 14724,
-    "top10_remunerations_kE": 163,
-    "rang": 86,
-    "etpt_sous_plafond": 240,
-    "etpt_hors_plafond": 517,
-    "historique_etpt": {
-      "2022": {
-        "sous": 250,
-        "hors": 480
-      },
-      "2023": {
-        "sous": 244,
-        "hors": 487
-      },
-      "2024": {
-        "sous": 240,
-        "hors": 517
-      }
-    },
-    "historique_masse": {
-      "2022": 0.072,
-      "2023": 0.074,
-      "2024": 0.08
-    },
-    "historique_tresorerie": {
-      "2022": 0.206,
-      "2023": 0.209,
-      "2024": 0.206
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.115,
-      "2023": 0.132,
-      "2024": 0.13
-    },
-    "financement_etat_budget_Md": 0.003,
     "financement_budget_real": true
   },
   {
@@ -5897,7 +6056,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -5907,6 +6067,41 @@
     },
     "financement_etat_budget_Md": 0.022,
     "financement_budget_real": true
+  },
+  {
+    "id": "institut-national-de-l-audiovisuel-ina",
+    "nom": "Institut national de l'audiovisuel (INA)",
+    "sigle": "Institut national de l'audiovisuel",
+    "statut": "EPIC",
+    "mission": "Médias",
+    "programme": "334",
+    "nb_entities": 1,
+    "perimetres": [
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.12,
+    "financement_etat_Md": 0.08,
+    "ressources_propres_Md": 0.02,
+    "subvention_scp_Md": 0.07,
+    "transferts_Md": 0.01,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 85,
+    "charges_personnel_Md": 0.07,
+    "charges_fonctionnement_Md": 0.02,
+    "charges_intervention_Md": 0.03,
+    "charges_investissement_Md": 0.01,
+    "etpt": 950,
+    "masse_salariale_Md": 0.06,
+    "tresorerie_Md": 0.14,
+    "surface_utile_m2": 11400,
+    "top10_remunerations_kE": 286,
+    "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
+    "rang": 89,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.08
   },
   {
     "id": "op-ra-national-de-paris",
@@ -5938,7 +6133,7 @@
     "tresorerie_Md": 0.132,
     "surface_utile_m2": 19070,
     "top10_remunerations_kE": 192,
-    "rang": 89,
+    "rang": 90,
     "etpt_sous_plafond": 1467,
     "etpt_hors_plafond": 77,
     "historique_etpt": {
@@ -5983,73 +6178,6 @@
     "financement_budget_real": true
   },
   {
-    "id": "solideo-soci-t-de-livraison-des-quipements-olympiques-et-par",
-    "nom": "SOLIDEO - Société de livraison des équipements olympiques et paralympiques",
-    "sigle": "SOLIDEO",
-    "statut": "EPIC",
-    "mission": "Sport, jeunesse et vie associative",
-    "programme": "350 – Jeux olympiques et paralympiques 2024",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.16,
-    "financement_etat_Md": 0.08,
-    "ressources_propres_Md": 0.08,
-    "subvention_scp_Md": 0.04,
-    "transferts_Md": 0.02,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 50.1,
-    "charges_personnel_Md": 0.07,
-    "charges_fonctionnement_Md": 0.03,
-    "charges_intervention_Md": 0.02,
-    "charges_investissement_Md": 0.05,
-    "etpt": 281,
-    "masse_salariale_Md": 0.06,
-    "tresorerie_Md": 0.12,
-    "surface_utile_m2": 3030,
-    "top10_remunerations_kE": 299,
-    "rang": 90,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
-    "id": "haute-autorit-de-sant-has",
-    "nom": "Haute autorité de santé (HAS)",
-    "sigle": "Haute autorité de santé",
-    "statut": "AAI",
-    "mission": "Santé",
-    "programme": "124",
-    "nb_entities": 1,
-    "perimetres": [
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.08,
-    "financement_etat_Md": 0.08,
-    "ressources_propres_Md": 0.0,
-    "subvention_scp_Md": 0.04,
-    "transferts_Md": 0.01,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 95,
-    "charges_personnel_Md": 0.05,
-    "charges_fonctionnement_Md": 0.01,
-    "charges_intervention_Md": 0.02,
-    "charges_investissement_Md": 0.0,
-    "etpt": 450,
-    "masse_salariale_Md": 0.04,
-    "tresorerie_Md": 0.08,
-    "surface_utile_m2": 5400,
-    "top10_remunerations_kE": 126,
-    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 91,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
     "id": "ecoles-d-enseignement-sup-rieur-agricole-et-v-t-rinaire",
     "nom": "Ecoles d'enseignement supérieur agricole et vétérinaire",
     "sigle": "Ecoles d'enseignement supérieu",
@@ -6086,7 +6214,7 @@
       "ECOLE NATIONALE SUPERIEURE DU PAYSAGE",
       "ECOLE NATIONALE VETERINAIRE AGROALIMENTAIRE ET DE L'ALIMENTATION NANTES ATLANTIQUE"
     ],
-    "rang": 92,
+    "rang": 91,
     "etpt_sous_plafond": 1101,
     "etpt_hors_plafond": 442,
     "historique_etpt": {
@@ -6160,7 +6288,7 @@
     "tresorerie_Md": 0.088,
     "surface_utile_m2": 21780,
     "top10_remunerations_kE": 365,
-    "rang": 93,
+    "rang": 92,
     "etpt_sous_plafond": 1493,
     "etpt_hors_plafond": 34,
     "historique_etpt": {
@@ -6233,7 +6361,7 @@
     "tresorerie_Md": 0.09,
     "surface_utile_m2": 10257,
     "top10_remunerations_kE": 89,
-    "rang": 94,
+    "rang": 93,
     "sources_reelles": [
       "financement"
     ],
@@ -6276,9 +6404,10 @@
       "ASSOCIATION DE COORDINATION TECHNIQUE AGRICOLE",
       "ASSOCIATION DE COORDINATION TECHNIQUE POUR L'INDUSTRIE AGRO ALIMENTAIRE"
     ],
-    "rang": 95,
+    "rang": 94,
     "sources_reelles": [
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.01,
@@ -6314,7 +6443,7 @@
     "tresorerie_Md": 0.136,
     "surface_utile_m2": 24152,
     "top10_remunerations_kE": 255,
-    "rang": 96,
+    "rang": 95,
     "etpt_sous_plafond": 358,
     "etpt_hors_plafond": 21,
     "historique_etpt": {
@@ -6388,7 +6517,7 @@
     "tresorerie_Md": 0.016,
     "surface_utile_m2": 20070,
     "top10_remunerations_kE": 269,
-    "rang": 97,
+    "rang": 96,
     "etpt_sous_plafond": 137,
     "etpt_hors_plafond": 13,
     "historique_etpt": {
@@ -6462,7 +6591,7 @@
       "ECOLE NATIONALE SUPERIEURE D ARCHITECTURE DE LYON",
       "ECOLE NATIONALE SUPERIEURE D ARCHITECTURE DE MARNE-VALLEE"
     ],
-    "rang": 98,
+    "rang": 97,
     "etpt_sous_plafond": 51,
     "etpt_hors_plafond": null,
     "historique_etpt": {
@@ -6535,7 +6664,7 @@
     "tresorerie_Md": 0.011,
     "surface_utile_m2": 28325,
     "top10_remunerations_kE": 405,
-    "rang": 99,
+    "rang": 98,
     "etpt_sous_plafond": 21,
     "etpt_hors_plafond": 5,
     "historique_etpt": {
@@ -6567,7 +6696,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -6608,7 +6738,7 @@
     "tresorerie_Md": 0.018,
     "surface_utile_m2": 11619,
     "top10_remunerations_kE": 447,
-    "rang": 100,
+    "rang": 99,
     "etpt_sous_plafond": 282,
     "etpt_hors_plafond": 311,
     "historique_etpt": {
@@ -6682,7 +6812,7 @@
     "tresorerie_Md": 0.073,
     "surface_utile_m2": 6251,
     "top10_remunerations_kE": 387,
-    "rang": 101,
+    "rang": 100,
     "etpt_sous_plafond": 210,
     "etpt_hors_plafond": 5,
     "historique_etpt": {
@@ -6724,6 +6854,41 @@
     },
     "financement_etat_budget_Md": 0.061,
     "financement_budget_real": true
+  },
+  {
+    "id": "solideo-soci-t-de-livraison-des-quipements-olympiques-et-par",
+    "nom": "SOLIDEO - Société de livraison des équipements olympiques et paralympiques",
+    "sigle": "SOLIDEO",
+    "statut": "EPIC",
+    "mission": "Sport, jeunesse et vie associative",
+    "programme": "350 – Jeux olympiques et paralympiques 2024",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.16,
+    "financement_etat_Md": 0.06,
+    "ressources_propres_Md": 0.08,
+    "subvention_scp_Md": 0.04,
+    "transferts_Md": 0.02,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 50.1,
+    "charges_personnel_Md": 0.07,
+    "charges_fonctionnement_Md": 0.03,
+    "charges_intervention_Md": 0.02,
+    "charges_investissement_Md": 0.05,
+    "etpt": 281,
+    "masse_salariale_Md": 0.06,
+    "tresorerie_Md": 0.12,
+    "surface_utile_m2": 3030,
+    "top10_remunerations_kE": 299,
+    "rang": 101,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.06
   },
   {
     "id": "cnsmd-lyon-conservatoire-national-sup-rieur-de-musique-et-de",
@@ -6787,7 +6952,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -6948,6 +7114,40 @@
     "financement_budget_real": true
   },
   {
+    "id": "haute-autorit-de-sant-has",
+    "nom": "Haute autorité de santé (HAS)",
+    "sigle": "Haute autorité de santé",
+    "statut": "AAI",
+    "mission": "Santé",
+    "programme": "124",
+    "nb_entities": 1,
+    "perimetres": [
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.08,
+    "financement_etat_Md": 0.05,
+    "ressources_propres_Md": 0.0,
+    "subvention_scp_Md": 0.04,
+    "transferts_Md": 0.01,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 95,
+    "charges_personnel_Md": 0.05,
+    "charges_fonctionnement_Md": 0.01,
+    "charges_intervention_Md": 0.02,
+    "charges_investissement_Md": 0.0,
+    "etpt": 450,
+    "masse_salariale_Md": 0.04,
+    "tresorerie_Md": 0.08,
+    "surface_utile_m2": 5400,
+    "top10_remunerations_kE": 126,
+    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
+    "rang": 105,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.05
+  },
+  {
     "id": "ira-instituts-r-gionaux-d-administration",
     "nom": "IRA - Instituts régionaux d'administration",
     "sigle": "IRA",
@@ -6984,7 +7184,7 @@
       "INSTITUT REGIONAL D'ADMINISTRATION - METZ",
       "INSTITUT REGIONAL D'ADMINISTRATION - NANTES"
     ],
-    "rang": 105,
+    "rang": 106,
     "etpt_sous_plafond": 617,
     "etpt_hors_plafond": 3,
     "historique_etpt": {
@@ -7026,39 +7226,6 @@
     },
     "financement_etat_budget_Md": 0.05,
     "financement_budget_real": true
-  },
-  {
-    "id": "ensta-paris-ecole-nationale-sup-rieure-de-techniques-avanc-e",
-    "nom": "ENSTA Paris - Ecole nationale supérieure de techniques avancées",
-    "sigle": "ENSTA Paris",
-    "statut": "EPSCP",
-    "mission": "Défense",
-    "programme": "144 – Environnement et prospective de la politique de défense",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.1,
-    "financement_etat_Md": 0.05,
-    "ressources_propres_Md": 0.05,
-    "subvention_scp_Md": 0.02,
-    "transferts_Md": 0.01,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 47.5,
-    "charges_personnel_Md": 0.04,
-    "charges_fonctionnement_Md": 0.01,
-    "charges_intervention_Md": 0.03,
-    "charges_investissement_Md": 0.03,
-    "etpt": 151,
-    "masse_salariale_Md": 0.03,
-    "tresorerie_Md": 0.06,
-    "surface_utile_m2": 1497,
-    "top10_remunerations_kE": 354,
-    "rang": 106,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
   },
   {
     "id": "enm-ecole-nationale-de-la-magistrature",
@@ -7356,6 +7523,86 @@
     "financement_budget_real": true
   },
   {
+    "id": "celrl-conservatoire-de-l-espace-littoral-et-des-rivages-lacu",
+    "nom": "CELRL - Conservatoire de l'espace littoral et des rivages lacustres",
+    "sigle": "CELRL",
+    "statut": "EPA",
+    "mission": "Écologie, développement et mobilité durables",
+    "programme": "113 – Paysages, eau et biodiversité",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.26,
+    "financement_etat_Md": 0.044,
+    "ressources_propres_Md": 0.003,
+    "subvention_scp_Md": 0.09,
+    "transferts_Md": 0.001,
+    "taxes_affectees_Md": 0.043,
+    "part_financement_public_pct": 52.0,
+    "charges_personnel_Md": 0.13,
+    "charges_fonctionnement_Md": 0.05,
+    "charges_intervention_Md": 0.06,
+    "charges_investissement_Md": 0.01,
+    "etpt": 186,
+    "masse_salariale_Md": 0.013,
+    "tresorerie_Md": 0.014,
+    "surface_utile_m2": 17429,
+    "top10_remunerations_kE": 432,
+    "rang": 111,
+    "etpt_sous_plafond": 166,
+    "etpt_hors_plafond": 20,
+    "historique_etpt": {
+      "2022": {
+        "sous": 140,
+        "hors": 15
+      },
+      "2023": {
+        "sous": 148,
+        "hors": 17
+      },
+      "2024": {
+        "sous": 166,
+        "hors": 20
+      }
+    },
+    "historique_masse": {
+      "2022": 0.01,
+      "2023": 0.011,
+      "2024": 0.013
+    },
+    "historique_tresorerie": {
+      "2022": 0.013,
+      "2023": 0.007,
+      "2024": 0.014
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "financement",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.002,
+      "2023": 0.001,
+      "2024": 0.003
+    },
+    "subvention_invest_Md": 0.001,
+    "financement_etat_budget_Md": 0.001,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.04,
+      "2026": 0.043
+    },
+    "source_taxes": "Jaune 2026 p.66"
+  },
+  {
     "id": "insp-institut-national-du-service-public",
     "nom": "INSP - Institut national du service public",
     "sigle": "INSP",
@@ -7385,7 +7632,7 @@
     "tresorerie_Md": 0.011,
     "surface_utile_m2": 3247,
     "top10_remunerations_kE": 230,
-    "rang": 111,
+    "rang": 112,
     "etpt_sous_plafond": 455,
     "etpt_hors_plafond": 13,
     "historique_etpt": {
@@ -7458,7 +7705,7 @@
     "tresorerie_Md": 0.019,
     "surface_utile_m2": 19634,
     "top10_remunerations_kE": 362,
-    "rang": 112,
+    "rang": 113,
     "etpt_sous_plafond": 489,
     "etpt_hors_plafond": 42,
     "historique_etpt": {
@@ -7520,7 +7767,7 @@
     "ressources_propres_Md": 0.001,
     "subvention_scp_Md": 0.039,
     "transferts_Md": 0.02,
-    "taxes_affectees_Md": 0,
+    "taxes_affectees_Md": 0.0,
     "part_financement_public_pct": 74.1,
     "charges_personnel_Md": 0.11,
     "charges_fonctionnement_Md": 0.03,
@@ -7531,7 +7778,7 @@
     "tresorerie_Md": 0.071,
     "surface_utile_m2": 9426,
     "top10_remunerations_kE": 128,
-    "rang": 113,
+    "rang": 114,
     "etpt_sous_plafond": 309,
     "etpt_hors_plafond": null,
     "historique_etpt": {
@@ -7572,7 +7819,12 @@
       "2024": 0.001
     },
     "financement_etat_budget_Md": 0.039,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.0,
+      "2026": 0.0
+    },
+    "source_taxes": "Jaune 2026 p.66"
   },
   {
     "id": "mus-e-d-orsay-et-mus-e-de-l-orangerie",
@@ -7604,7 +7856,7 @@
     "tresorerie_Md": 0.09,
     "surface_utile_m2": 16187,
     "top10_remunerations_kE": 359,
-    "rang": 114,
+    "rang": 115,
     "etpt_sous_plafond": 651,
     "etpt_hors_plafond": 46,
     "historique_etpt": {
@@ -7678,7 +7930,7 @@
     "tresorerie_Md": 0.011,
     "surface_utile_m2": 1104,
     "top10_remunerations_kE": 307,
-    "rang": 115,
+    "rang": 116,
     "etpt_sous_plafond": 353,
     "etpt_hors_plafond": 23,
     "historique_etpt": {
@@ -7752,7 +8004,7 @@
     "tresorerie_Md": 0.012,
     "surface_utile_m2": 8828,
     "top10_remunerations_kE": 138,
-    "rang": 116,
+    "rang": 117,
     "etpt_sous_plafond": 265,
     "etpt_hors_plafond": 6,
     "historique_etpt": {
@@ -7825,7 +8077,7 @@
     "tresorerie_Md": 0.016,
     "surface_utile_m2": 13927,
     "top10_remunerations_kE": 350,
-    "rang": 117,
+    "rang": 118,
     "etpt_sous_plafond": 311,
     "etpt_hors_plafond": 168,
     "historique_etpt": {
@@ -7899,7 +8151,7 @@
     "tresorerie_Md": 0.005,
     "surface_utile_m2": 8060,
     "top10_remunerations_kE": 361,
-    "rang": 118,
+    "rang": 119,
     "etpt_sous_plafond": 286,
     "etpt_hors_plafond": 12,
     "historique_etpt": {
@@ -7973,7 +8225,7 @@
     "tresorerie_Md": 0.018,
     "surface_utile_m2": 9848,
     "top10_remunerations_kE": 132,
-    "rang": 119,
+    "rang": 120,
     "historique_masse": {
       "2022": 0.023,
       "2023": 0.024,
@@ -7999,6 +8251,40 @@
     "subvention_invest_Md": 0.003,
     "financement_etat_budget_Md": 0.031,
     "financement_budget_real": true
+  },
+  {
+    "id": "ensta-paris-ecole-nationale-sup-rieure-de-techniques-avanc-e",
+    "nom": "ENSTA Paris - Ecole nationale supérieure de techniques avancées",
+    "sigle": "ENSTA Paris",
+    "statut": "EPSCP",
+    "mission": "Défense",
+    "programme": "144 – Environnement et prospective de la politique de défense",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.1,
+    "financement_etat_Md": 0.03,
+    "ressources_propres_Md": 0.05,
+    "subvention_scp_Md": 0.02,
+    "transferts_Md": 0.01,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 47.5,
+    "charges_personnel_Md": 0.04,
+    "charges_fonctionnement_Md": 0.01,
+    "charges_intervention_Md": 0.03,
+    "charges_investissement_Md": 0.03,
+    "etpt": 151,
+    "masse_salariale_Md": 0.03,
+    "tresorerie_Md": 0.06,
+    "surface_utile_m2": 1497,
+    "top10_remunerations_kE": 354,
+    "rang": 121,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.03
   },
   {
     "id": "epaurif-etablissement-public-d-am-nagement-universitaire-de-",
@@ -8030,75 +8316,10 @@
     "tresorerie_Md": 0.01,
     "surface_utile_m2": 2964,
     "top10_remunerations_kE": 200,
-    "rang": 120,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
-    "id": "commission-nationale-de-l-informatique-et-des-libert-s-cnil",
-    "nom": "Commission nationale de l'informatique et des libertés (CNIL)",
-    "sigle": "Commission nationale de l'informatique et des libertés",
-    "statut": "AAI",
-    "mission": "Justice",
-    "programme": "308",
-    "nb_entities": 1,
-    "perimetres": [
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.03,
-    "financement_etat_Md": 0.03,
-    "ressources_propres_Md": 0,
-    "subvention_scp_Md": 0.01,
-    "transferts_Md": 0.01,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 100,
-    "charges_personnel_Md": 0.01,
-    "charges_fonctionnement_Md": 0.01,
-    "charges_intervention_Md": 0.0,
-    "charges_investissement_Md": 0.01,
-    "etpt": 260,
-    "masse_salariale_Md": 0.01,
-    "tresorerie_Md": 0.03,
-    "surface_utile_m2": 3120,
-    "top10_remunerations_kE": 90,
-    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 121,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
-    "id": "d-fenseur-des-droits",
-    "nom": "Défenseur des droits",
-    "sigle": "Défenseur des droits",
-    "statut": "AAI",
-    "mission": "Justice",
-    "programme": "308",
-    "nb_entities": 1,
-    "perimetres": [
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.03,
-    "financement_etat_Md": 0.03,
-    "ressources_propres_Md": 0,
-    "subvention_scp_Md": 0.02,
-    "transferts_Md": 0.0,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 100,
-    "charges_personnel_Md": 0.01,
-    "charges_fonctionnement_Md": 0.01,
-    "charges_intervention_Md": 0.0,
-    "charges_investissement_Md": 0.01,
-    "etpt": 250,
-    "masse_salariale_Md": 0.01,
-    "tresorerie_Md": 0.04,
-    "surface_utile_m2": 3000,
-    "top10_remunerations_kE": 317,
-    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
     "rang": 122,
     "sources_reelles": [],
-    "donnees_confidence": "estimee"
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.03
   },
   {
     "id": "cnsmd-paris-conservatoire-national-sup-rieur-de-musique-et-d",
@@ -8175,79 +8396,6 @@
     "financement_budget_real": true
   },
   {
-    "id": "ants-agence-nationale-des-titres-s-curis-s",
-    "nom": "ANTS - Agence nationale des titres sécurisés",
-    "sigle": "ANTS",
-    "statut": "EPA",
-    "mission": "Administration générale et territoriale de l'État",
-    "programme": "354 – Administration territoriale de l'État",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.2,
-    "financement_etat_Md": 0.029,
-    "ressources_propres_Md": 0.024,
-    "subvention_scp_Md": 0.09,
-    "transferts_Md": 0.029,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 83.6,
-    "charges_personnel_Md": 0.13,
-    "charges_fonctionnement_Md": 0.02,
-    "charges_intervention_Md": 0.02,
-    "charges_investissement_Md": 0.03,
-    "etpt": 155,
-    "masse_salariale_Md": 0.01,
-    "tresorerie_Md": 0.036,
-    "surface_utile_m2": 31504,
-    "top10_remunerations_kE": 138,
-    "rang": 124,
-    "etpt_sous_plafond": 148,
-    "etpt_hors_plafond": 7,
-    "historique_etpt": {
-      "2022": {
-        "sous": 137,
-        "hors": 7
-      },
-      "2023": {
-        "sous": 134,
-        "hors": 9
-      },
-      "2024": {
-        "sous": 148,
-        "hors": 7
-      }
-    },
-    "historique_masse": {
-      "2022": 0.008,
-      "2023": 0.009,
-      "2024": 0.01
-    },
-    "historique_tresorerie": {
-      "2022": 0.113,
-      "2023": 0.09,
-      "2024": 0.036
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.028,
-      "2023": 0.024,
-      "2024": 0.024
-    },
-    "financement_etat_budget_Md": 0.029,
-    "financement_budget_real": true
-  },
-  {
     "id": "rmn-gp-r-union-des-mus-es-nationaux-grand-palais",
     "nom": "Rmn-GP - Réunion des musées nationaux - Grand Palais",
     "sigle": "Rmn-GP",
@@ -8277,7 +8425,7 @@
     "tresorerie_Md": 0.089,
     "surface_utile_m2": 30639,
     "top10_remunerations_kE": 213,
-    "rang": 125,
+    "rang": 124,
     "etpt_sous_plafond": 837,
     "etpt_hors_plafond": 95,
     "historique_etpt": {
@@ -8320,6 +8468,82 @@
     "subvention_invest_Md": 0.006,
     "financement_etat_budget_Md": 0.029,
     "financement_budget_real": true
+  },
+  {
+    "id": "ancols-agence-nationale-de-contr-le-du-logement-social",
+    "nom": "ANCOLS - Agence nationale de contrôle du logement social",
+    "sigle": "ANCOLS",
+    "statut": "EPA",
+    "mission": "Cohésion des territoires",
+    "programme": "135 – Urbanisme, territoires et amélioration de l'habitat",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.31,
+    "financement_etat_Md": 0.028,
+    "ressources_propres_Md": 0.0,
+    "subvention_scp_Md": 0,
+    "transferts_Md": 0.01,
+    "taxes_affectees_Md": 0.018,
+    "part_financement_public_pct": 50.4,
+    "charges_personnel_Md": 0.16,
+    "charges_fonctionnement_Md": 0.04,
+    "charges_intervention_Md": 0.09,
+    "charges_investissement_Md": 0.02,
+    "etpt": 123,
+    "masse_salariale_Md": 0.013,
+    "tresorerie_Md": 0.011,
+    "surface_utile_m2": 19441,
+    "top10_remunerations_kE": 87,
+    "rang": 125,
+    "etpt_sous_plafond": 122,
+    "etpt_hors_plafond": 1,
+    "historique_etpt": {
+      "2022": {
+        "sous": 123,
+        "hors": 3
+      },
+      "2023": {
+        "sous": 118,
+        "hors": 3
+      },
+      "2024": {
+        "sous": 122,
+        "hors": 1
+      }
+    },
+    "historique_masse": {
+      "2022": 0.013,
+      "2023": 0.012,
+      "2024": 0.013
+    },
+    "historique_tresorerie": {
+      "2022": 0.01,
+      "2023": 0.012,
+      "2024": 0.011
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "historique_taxes": {
+      "2025": 0.018,
+      "2026": 0.018
+    },
+    "source_taxes": "Jaune 2026 p.66",
+    "financement_etat_budget_Md": 0.01
   },
   {
     "id": "eppghv-etablissement-public-du-parc-et-de-la-grande-halle-de",
@@ -8689,6 +8913,85 @@
     "financement_budget_real": true
   },
   {
+    "id": "inao-institut-national-de-l-origine-et-de-la-qualit",
+    "nom": "INAO - Institut national de l'origine et de la qualité",
+    "sigle": "INAO",
+    "statut": "EPA",
+    "mission": "Agriculture, alimentation, forêt et affaires rurales",
+    "programme": "149 – Compétitivité et durabilité de l'agriculture, de l'agroalimentaire et de la forêt",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.38,
+    "financement_etat_Md": 0.024,
+    "ressources_propres_Md": 0.0,
+    "subvention_scp_Md": 0.017,
+    "transferts_Md": 0.05,
+    "taxes_affectees_Md": 0.007,
+    "part_financement_public_pct": 56.8,
+    "charges_personnel_Md": 0.17,
+    "charges_fonctionnement_Md": 0.04,
+    "charges_intervention_Md": 0.03,
+    "charges_investissement_Md": 0.15,
+    "etpt": 2,
+    "masse_salariale_Md": 0.019,
+    "tresorerie_Md": 0.007,
+    "surface_utile_m2": 8847,
+    "top10_remunerations_kE": 345,
+    "rang": 131,
+    "etpt_sous_plafond": 2,
+    "etpt_hors_plafond": null,
+    "historique_etpt": {
+      "2022": {
+        "sous": 231,
+        "hors": 232
+      },
+      "2023": {
+        "sous": 2,
+        "hors": 232
+      },
+      "2024": {
+        "sous": 2,
+        "hors": null
+      }
+    },
+    "historique_masse": {
+      "2022": 0.018,
+      "2023": 0.018,
+      "2024": 0.019
+    },
+    "historique_tresorerie": {
+      "2022": 0.009,
+      "2023": 0.008,
+      "2024": 0.007
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "financement",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.001,
+      "2023": 0.0,
+      "2024": 0.0
+    },
+    "financement_etat_budget_Md": 0.017,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.007,
+      "2026": 0.007
+    },
+    "source_taxes": "Jaune 2026 p.66"
+  },
+  {
     "id": "atout-france",
     "nom": "Atout-France",
     "sigle": "Atout-France",
@@ -8718,7 +9021,7 @@
     "tresorerie_Md": 0.031,
     "surface_utile_m2": 205,
     "top10_remunerations_kE": 346,
-    "rang": 131,
+    "rang": 132,
     "etpt_sous_plafond": 229,
     "etpt_hors_plafond": 48,
     "historique_etpt": {
@@ -8762,6 +9065,69 @@
     "financement_budget_real": true
   },
   {
+    "id": "agrasc-agence-de-gestion-et-de-recouvrement-des-avoirs-saisi",
+    "nom": "AGRASC - Agence de gestion et de recouvrement des avoirs saisis et confisqués",
+    "sigle": "AGRASC",
+    "statut": "EPA",
+    "mission": "Justice",
+    "programme": "310 – Conduite et pilotage de la politique de la justice",
+    "nb_entities": 1,
+    "perimetres": [
+      "operateur",
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.25,
+    "financement_etat_Md": 0.023,
+    "ressources_propres_Md": 0.002,
+    "subvention_scp_Md": 0.013,
+    "transferts_Md": 0.03,
+    "taxes_affectees_Md": 0.01,
+    "part_financement_public_pct": 93.0,
+    "charges_personnel_Md": 0.13,
+    "charges_fonctionnement_Md": 0.03,
+    "charges_intervention_Md": 0.06,
+    "charges_investissement_Md": 0.03,
+    "etpt": 814,
+    "masse_salariale_Md": 0.006,
+    "tresorerie_Md": 0.009,
+    "surface_utile_m2": 10302,
+    "top10_remunerations_kE": 113,
+    "rang": 133,
+    "historique_masse": {
+      "2022": 0.004,
+      "2023": 0.005,
+      "2024": 0.006
+    },
+    "historique_tresorerie": {
+      "2022": 0.009,
+      "2023": 0.009,
+      "2024": 0.009
+    },
+    "sources_reelles": [
+      "ressources_propres",
+      "masse",
+      "tresorerie",
+      "financement",
+      "taxes"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.004,
+      "2023": 0.004,
+      "2024": 0.002
+    },
+    "subvention_invest_Md": 0.0,
+    "financement_etat_budget_Md": 0.013,
+    "financement_budget_real": true,
+    "historique_taxes": {
+      "2025": 0.01,
+      "2026": 0.01
+    },
+    "source_taxes": "Jaune 2026 p.66"
+  },
+  {
     "id": "cnl-centre-national-du-livre",
     "nom": "CNL - Centre national du livre",
     "sigle": "CNL",
@@ -8791,7 +9157,7 @@
     "tresorerie_Md": 0.024,
     "surface_utile_m2": 3367,
     "top10_remunerations_kE": 353,
-    "rang": 132,
+    "rang": 134,
     "etpt_sous_plafond": 3,
     "etpt_hors_plafond": null,
     "historique_etpt": {
@@ -8865,7 +9231,7 @@
     "tresorerie_Md": 0.007,
     "surface_utile_m2": 8457,
     "top10_remunerations_kE": 353,
-    "rang": 133,
+    "rang": 135,
     "etpt_sous_plafond": 301,
     "etpt_hors_plafond": 20,
     "historique_etpt": {
@@ -8909,77 +9275,72 @@
     "financement_budget_real": true
   },
   {
-    "id": "cnm-centre-national-de-la-musique",
-    "nom": "CNM - Centre national de la musique",
-    "sigle": "CNM",
-    "statut": "EPIC",
-    "mission": "Médias, livre et industries culturelles",
-    "programme": "334 – Livre et industries culturelles",
+    "id": "commission-nationale-de-l-informatique-et-des-libert-s-cnil",
+    "nom": "Commission nationale de l'informatique et des libertés (CNIL)",
+    "sigle": "Commission nationale de l'informatique et des libertés",
+    "statut": "AAI",
+    "mission": "Justice",
+    "programme": "308",
     "nb_entities": 1,
     "perimetres": [
-      "operateur",
-      "odac",
       "agence-large"
     ],
     "is_categorie": false,
-    "ressources_totales_Md": 0.57,
+    "ressources_totales_Md": 0.03,
     "financement_etat_Md": 0.02,
-    "ressources_propres_Md": 0.01,
-    "subvention_scp_Md": 0.02,
-    "transferts_Md": 0.04,
+    "ressources_propres_Md": 0,
+    "subvention_scp_Md": 0.01,
+    "transferts_Md": 0.01,
     "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 52.1,
-    "charges_personnel_Md": 0.23,
-    "charges_fonctionnement_Md": 0.06,
-    "charges_intervention_Md": 0.03,
-    "charges_investissement_Md": 0.25,
-    "etpt": 129,
-    "masse_salariale_Md": 0.009,
-    "tresorerie_Md": 0.11,
-    "surface_utile_m2": 14049,
-    "top10_remunerations_kE": 340,
-    "rang": 134,
-    "etpt_sous_plafond": 119,
-    "etpt_hors_plafond": 10,
-    "historique_etpt": {
-      "2022": {
-        "sous": 109,
-        "hors": 4
-      },
-      "2023": {
-        "sous": 108,
-        "hors": 9
-      },
-      "2024": {
-        "sous": 119,
-        "hors": 10
-      }
-    },
-    "historique_masse": {
-      "2022": 0.008,
-      "2023": 0.008,
-      "2024": 0.009
-    },
-    "historique_tresorerie": {
-      "2022": 0.149,
-      "2023": 0.122,
-      "2024": 0.11
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
+    "part_financement_public_pct": 100,
+    "charges_personnel_Md": 0.01,
+    "charges_fonctionnement_Md": 0.01,
+    "charges_intervention_Md": 0.0,
+    "charges_investissement_Md": 0.01,
+    "etpt": 260,
+    "masse_salariale_Md": 0.01,
+    "tresorerie_Md": 0.03,
+    "surface_utile_m2": 3120,
+    "top10_remunerations_kE": 90,
+    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
+    "rang": 136,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.02
+  },
+  {
+    "id": "d-fenseur-des-droits",
+    "nom": "Défenseur des droits",
+    "sigle": "Défenseur des droits",
+    "statut": "AAI",
+    "mission": "Justice",
+    "programme": "308",
+    "nb_entities": 1,
+    "perimetres": [
+      "agence-large"
     ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.025,
-      "2023": 0.024,
-      "2024": 0.01
-    },
-    "financement_etat_budget_Md": 0.02,
-    "financement_budget_real": true
+    "is_categorie": false,
+    "ressources_totales_Md": 0.03,
+    "financement_etat_Md": 0.02,
+    "ressources_propres_Md": 0,
+    "subvention_scp_Md": 0.02,
+    "transferts_Md": 0.0,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 100,
+    "charges_personnel_Md": 0.01,
+    "charges_fonctionnement_Md": 0.01,
+    "charges_intervention_Md": 0.0,
+    "charges_investissement_Md": 0.01,
+    "etpt": 250,
+    "masse_salariale_Md": 0.01,
+    "tresorerie_Md": 0.04,
+    "surface_utile_m2": 3000,
+    "top10_remunerations_kE": 317,
+    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
+    "rang": 137,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.02
   },
   {
     "id": "capa-cit-de-l-architecture-et-du-patrimoine",
@@ -9010,7 +9371,7 @@
     "tresorerie_Md": 0.012,
     "surface_utile_m2": 10952,
     "top10_remunerations_kE": 180,
-    "rang": 135,
+    "rang": 138,
     "etpt_sous_plafond": 2,
     "etpt_hors_plafond": null,
     "historique_etpt": {
@@ -9083,7 +9444,7 @@
     "tresorerie_Md": 0.014,
     "surface_utile_m2": 8013,
     "top10_remunerations_kE": 190,
-    "rang": 136,
+    "rang": 139,
     "etpt_sous_plafond": 61,
     "etpt_hors_plafond": 16,
     "historique_etpt": {
@@ -9157,7 +9518,7 @@
     "tresorerie_Md": 0.025,
     "surface_utile_m2": 21320,
     "top10_remunerations_kE": 444,
-    "rang": 137,
+    "rang": 140,
     "etpt_sous_plafond": 504,
     "etpt_hors_plafond": 51,
     "historique_etpt": {
@@ -9202,39 +9563,6 @@
     "financement_budget_real": true
   },
   {
-    "id": "france-strat-gie",
-    "nom": "France Stratégie",
-    "sigle": "France Stratégie",
-    "statut": "Service PM",
-    "mission": "Plan",
-    "programme": "129",
-    "nb_entities": 1,
-    "perimetres": [
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.02,
-    "financement_etat_Md": 0.02,
-    "ressources_propres_Md": 0,
-    "subvention_scp_Md": 0.01,
-    "transferts_Md": 0.0,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 100,
-    "charges_personnel_Md": 0.01,
-    "charges_fonctionnement_Md": 0.0,
-    "charges_intervention_Md": 0.0,
-    "charges_investissement_Md": 0.0,
-    "etpt": 180,
-    "masse_salariale_Md": 0.01,
-    "tresorerie_Md": 0.02,
-    "surface_utile_m2": 2160,
-    "top10_remunerations_kE": 269,
-    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 138,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
     "id": "ined-institut-national-d-tudes-d-mographiques",
     "nom": "INED - Institut national d'études démographiques",
     "sigle": "INED",
@@ -9263,7 +9591,7 @@
     "tresorerie_Md": 0.014,
     "surface_utile_m2": 4031,
     "top10_remunerations_kE": 267,
-    "rang": 139,
+    "rang": 141,
     "etpt_sous_plafond": 194,
     "etpt_hors_plafond": 57,
     "historique_etpt": {
@@ -9335,7 +9663,7 @@
     "tresorerie_Md": 0.015,
     "surface_utile_m2": 21617,
     "top10_remunerations_kE": 333,
-    "rang": 140,
+    "rang": 142,
     "etpt_sous_plafond": 119,
     "etpt_hors_plafond": 5,
     "historique_etpt": {
@@ -9409,7 +9737,7 @@
     "tresorerie_Md": 0.005,
     "surface_utile_m2": 5899,
     "top10_remunerations_kE": 284,
-    "rang": 141,
+    "rang": 143,
     "etpt_sous_plafond": 161,
     "etpt_hors_plafond": 5,
     "historique_etpt": {
@@ -9483,7 +9811,7 @@
     "tresorerie_Md": 0.007,
     "surface_utile_m2": 15989,
     "top10_remunerations_kE": 161,
-    "rang": 142,
+    "rang": 144,
     "historique_masse": {
       "2022": 0.012,
       "2023": 0.013,
@@ -9539,7 +9867,7 @@
     "tresorerie_Md": 0.016,
     "surface_utile_m2": 6671,
     "top10_remunerations_kE": 346,
-    "rang": 143,
+    "rang": 145,
     "etpt_sous_plafond": 259,
     "etpt_hors_plafond": 11,
     "historique_etpt": {
@@ -9611,7 +9939,7 @@
     "tresorerie_Md": 0.013,
     "surface_utile_m2": 28859,
     "top10_remunerations_kE": 257,
-    "rang": 144,
+    "rang": 146,
     "etpt_sous_plafond": 165,
     "etpt_hors_plafond": 7,
     "historique_etpt": {
@@ -9684,7 +10012,7 @@
     "tresorerie_Md": 0.012,
     "surface_utile_m2": 34522,
     "top10_remunerations_kE": 119,
-    "rang": 145,
+    "rang": 147,
     "etpt_sous_plafond": 51,
     "etpt_hors_plafond": 4,
     "historique_etpt": {
@@ -9757,7 +10085,7 @@
     "tresorerie_Md": 0.52,
     "surface_utile_m2": 9968,
     "top10_remunerations_kE": 366,
-    "rang": 146,
+    "rang": 148,
     "sources_reelles": [
       "financement"
     ],
@@ -9800,7 +10128,7 @@
       "ECOLE NATIONALE DE VOILE ET DES SPORTS NAUTIQUES",
       "ECOLE NATIONALE DES SPORTS DE MONTAGNE"
     ],
-    "rang": 147,
+    "rang": 149,
     "etpt_sous_plafond": 189,
     "etpt_hors_plafond": 7,
     "historique_etpt": {
@@ -9881,7 +10209,7 @@
       "ECOLE NATIONALE SUPERIEURE D'ART DE LIMOGES-AUBUSSON",
       "ECOLE NATIONALE SUPERIEURE D'ART DE NANCY"
     ],
-    "rang": 148,
+    "rang": 150,
     "etpt_sous_plafond": 101,
     "etpt_hors_plafond": 4,
     "historique_etpt": {
@@ -9955,7 +10283,7 @@
     "tresorerie_Md": 0.033,
     "surface_utile_m2": 23723,
     "top10_remunerations_kE": 442,
-    "rang": 149,
+    "rang": 151,
     "etpt_sous_plafond": 121,
     "etpt_hors_plafond": 7,
     "historique_etpt": {
@@ -10029,7 +10357,7 @@
     "tresorerie_Md": 0.003,
     "surface_utile_m2": 25843,
     "top10_remunerations_kE": 417,
-    "rang": 150,
+    "rang": 152,
     "etpt_sous_plafond": 89,
     "etpt_hors_plafond": 9,
     "historique_etpt": {
@@ -10102,7 +10430,7 @@
     "tresorerie_Md": 0.014,
     "surface_utile_m2": 22496,
     "top10_remunerations_kE": 87,
-    "rang": 151,
+    "rang": 153,
     "historique_masse": {
       "2022": 0.009,
       "2023": 0.01,
@@ -10158,7 +10486,7 @@
     "tresorerie_Md": 0.005,
     "surface_utile_m2": 19975,
     "top10_remunerations_kE": 123,
-    "rang": 152,
+    "rang": 154,
     "etpt_sous_plafond": 129,
     "etpt_hors_plafond": 10,
     "historique_etpt": {
@@ -10232,7 +10560,7 @@
     "tresorerie_Md": 0.008,
     "surface_utile_m2": 5502,
     "top10_remunerations_kE": 131,
-    "rang": 153,
+    "rang": 155,
     "etpt_sous_plafond": 92,
     "etpt_hors_plafond": 95,
     "historique_etpt": {
@@ -10305,7 +10633,7 @@
     "tresorerie_Md": 0.002,
     "surface_utile_m2": 18818,
     "top10_remunerations_kE": 415,
-    "rang": 154,
+    "rang": 156,
     "etpt_sous_plafond": 21,
     "etpt_hors_plafond": 6,
     "historique_etpt": {
@@ -10337,7 +10665,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "financement"
+      "financement",
+      "taxes"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -10346,63 +10675,6 @@
       "2024": 0.001
     },
     "financement_etat_budget_Md": 0.003,
-    "financement_budget_real": true
-  },
-  {
-    "id": "agrasc-agence-de-gestion-et-de-recouvrement-des-avoirs-saisi",
-    "nom": "AGRASC - Agence de gestion et de recouvrement des avoirs saisis et confisqués",
-    "sigle": "AGRASC",
-    "statut": "EPA",
-    "mission": "Justice",
-    "programme": "310 – Conduite et pilotage de la politique de la justice",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.25,
-    "financement_etat_Md": 0.013,
-    "ressources_propres_Md": 0.002,
-    "subvention_scp_Md": 0.013,
-    "transferts_Md": 0.03,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 93.0,
-    "charges_personnel_Md": 0.13,
-    "charges_fonctionnement_Md": 0.03,
-    "charges_intervention_Md": 0.06,
-    "charges_investissement_Md": 0.03,
-    "etpt": 814,
-    "masse_salariale_Md": 0.006,
-    "tresorerie_Md": 0.009,
-    "surface_utile_m2": 10302,
-    "top10_remunerations_kE": 113,
-    "rang": 155,
-    "historique_masse": {
-      "2022": 0.004,
-      "2023": 0.005,
-      "2024": 0.006
-    },
-    "historique_tresorerie": {
-      "2022": 0.009,
-      "2023": 0.009,
-      "2024": 0.009
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.004,
-      "2023": 0.004,
-      "2024": 0.002
-    },
-    "subvention_invest_Md": 0.0,
-    "financement_etat_budget_Md": 0.013,
     "financement_budget_real": true
   },
   {
@@ -10434,7 +10706,7 @@
     "tresorerie_Md": 0.025,
     "surface_utile_m2": 12215,
     "top10_remunerations_kE": 294,
-    "rang": 156,
+    "rang": 157,
     "etpt_sous_plafond": 54,
     "etpt_hors_plafond": 5,
     "historique_etpt": {
@@ -10508,7 +10780,7 @@
     "tresorerie_Md": 0.014,
     "surface_utile_m2": 2698,
     "top10_remunerations_kE": 378,
-    "rang": 157,
+    "rang": 158,
     "etpt_sous_plafond": 151,
     "etpt_hors_plafond": 18,
     "historique_etpt": {
@@ -10581,7 +10853,7 @@
     "tresorerie_Md": 0.028,
     "surface_utile_m2": 8630,
     "top10_remunerations_kE": 368,
-    "rang": 158,
+    "rang": 159,
     "etpt_sous_plafond": 20,
     "etpt_hors_plafond": 4,
     "historique_etpt": {
@@ -10654,7 +10926,7 @@
     "tresorerie_Md": 0.008,
     "surface_utile_m2": 745,
     "top10_remunerations_kE": 329,
-    "rang": 159,
+    "rang": 160,
     "etpt_sous_plafond": 3,
     "etpt_hors_plafond": null,
     "historique_etpt": {
@@ -10728,7 +11000,7 @@
     "tresorerie_Md": 0.022,
     "surface_utile_m2": 11862,
     "top10_remunerations_kE": 421,
-    "rang": 160,
+    "rang": 161,
     "etpt_sous_plafond": 5,
     "etpt_hors_plafond": null,
     "historique_etpt": {
@@ -10801,7 +11073,7 @@
     "tresorerie_Md": 0.009,
     "surface_utile_m2": 9755,
     "top10_remunerations_kE": 294,
-    "rang": 161,
+    "rang": 162,
     "etpt_sous_plafond": 1,
     "etpt_hors_plafond": null,
     "historique_etpt": {
@@ -10874,7 +11146,7 @@
     "tresorerie_Md": 0.011,
     "surface_utile_m2": 21882,
     "top10_remunerations_kE": 275,
-    "rang": 162,
+    "rang": 163,
     "etpt_sous_plafond": 91,
     "etpt_hors_plafond": 10,
     "historique_etpt": {
@@ -10948,7 +11220,7 @@
     "tresorerie_Md": 0.007,
     "surface_utile_m2": 25936,
     "top10_remunerations_kE": 261,
-    "rang": 163,
+    "rang": 164,
     "etpt_sous_plafond": 91,
     "etpt_hors_plafond": 6,
     "historique_etpt": {
@@ -10993,6 +11265,40 @@
     "financement_budget_real": true
   },
   {
+    "id": "france-strat-gie",
+    "nom": "France Stratégie",
+    "sigle": "France Stratégie",
+    "statut": "Service PM",
+    "mission": "Plan",
+    "programme": "129",
+    "nb_entities": 1,
+    "perimetres": [
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.02,
+    "financement_etat_Md": 0.01,
+    "ressources_propres_Md": 0,
+    "subvention_scp_Md": 0.01,
+    "transferts_Md": 0.0,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 100,
+    "charges_personnel_Md": 0.01,
+    "charges_fonctionnement_Md": 0.0,
+    "charges_intervention_Md": 0.0,
+    "charges_investissement_Md": 0.0,
+    "etpt": 180,
+    "masse_salariale_Md": 0.01,
+    "tresorerie_Md": 0.02,
+    "surface_utile_m2": 2160,
+    "top10_remunerations_kE": 269,
+    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
+    "rang": 165,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0.01
+  },
+  {
     "id": "ensba-ecole-nationale-sup-rieure-des-beaux-arts",
     "nom": "ENSBA - Ecole nationale supérieure des beaux-arts",
     "sigle": "ENSBA",
@@ -11022,7 +11328,7 @@
     "tresorerie_Md": 0.007,
     "surface_utile_m2": 35171,
     "top10_remunerations_kE": 85,
-    "rang": 164,
+    "rang": 166,
     "etpt_sous_plafond": 102,
     "etpt_hors_plafond": 3,
     "historique_etpt": {
@@ -11096,7 +11402,7 @@
     "tresorerie_Md": 0.006,
     "surface_utile_m2": 7932,
     "top10_remunerations_kE": 85,
-    "rang": 165,
+    "rang": 167,
     "etpt_sous_plafond": 96,
     "etpt_hors_plafond": 9,
     "historique_etpt": {
@@ -11139,72 +11445,6 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.01,
     "financement_budget_real": true
-  },
-  {
-    "id": "gip-france-enfance-prot-g-e-retir-op-rateurs-2025",
-    "nom": "GIP France enfance protégée (retiré opérateurs 2025)",
-    "sigle": "GIP France enfance protégée",
-    "statut": "GIP",
-    "mission": "Solidarité",
-    "programme": "304",
-    "nb_entities": 1,
-    "perimetres": [
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.01,
-    "financement_etat_Md": 0.01,
-    "ressources_propres_Md": 0.0,
-    "subvention_scp_Md": 0.0,
-    "transferts_Md": 0.0,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 99,
-    "charges_personnel_Md": 0.0,
-    "charges_fonctionnement_Md": 0.0,
-    "charges_intervention_Md": 0.0,
-    "charges_investissement_Md": 0.0,
-    "etpt": 45,
-    "masse_salariale_Md": 0.0,
-    "tresorerie_Md": 0.0,
-    "surface_utile_m2": 540,
-    "top10_remunerations_kE": 287,
-    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 166,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
-  },
-  {
-    "id": "conseil-d-orientation-des-retraites-cor",
-    "nom": "Conseil d'orientation des retraites (COR)",
-    "sigle": "Conseil d'orientation des retraites",
-    "statut": "Consultatif",
-    "mission": "Solidarité",
-    "programme": "155",
-    "nb_entities": 1,
-    "perimetres": [
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.01,
-    "financement_etat_Md": 0.01,
-    "ressources_propres_Md": 0,
-    "subvention_scp_Md": 0.0,
-    "transferts_Md": 0.0,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 100,
-    "charges_personnel_Md": 0.0,
-    "charges_fonctionnement_Md": 0.0,
-    "charges_intervention_Md": 0.0,
-    "charges_investissement_Md": 0.0,
-    "etpt": 12,
-    "masse_salariale_Md": 0.0,
-    "tresorerie_Md": 0.0,
-    "surface_utile_m2": 144,
-    "top10_remunerations_kE": 247,
-    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 167,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
   },
   {
     "id": "mus-e-guimet",
@@ -12501,80 +12741,6 @@
     "financement_budget_real": true
   },
   {
-    "id": "celrl-conservatoire-de-l-espace-littoral-et-des-rivages-lacu",
-    "nom": "CELRL - Conservatoire de l'espace littoral et des rivages lacustres",
-    "sigle": "CELRL",
-    "statut": "EPA",
-    "mission": "Écologie, développement et mobilité durables",
-    "programme": "113 – Paysages, eau et biodiversité",
-    "nb_entities": 1,
-    "perimetres": [
-      "operateur",
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.26,
-    "financement_etat_Md": 0.001,
-    "ressources_propres_Md": 0.003,
-    "subvention_scp_Md": 0.09,
-    "transferts_Md": 0.001,
-    "taxes_affectees_Md": 0,
-    "part_financement_public_pct": 52.0,
-    "charges_personnel_Md": 0.13,
-    "charges_fonctionnement_Md": 0.05,
-    "charges_intervention_Md": 0.06,
-    "charges_investissement_Md": 0.01,
-    "etpt": 186,
-    "masse_salariale_Md": 0.013,
-    "tresorerie_Md": 0.014,
-    "surface_utile_m2": 17429,
-    "top10_remunerations_kE": 432,
-    "rang": 188,
-    "etpt_sous_plafond": 166,
-    "etpt_hors_plafond": 20,
-    "historique_etpt": {
-      "2022": {
-        "sous": 140,
-        "hors": 15
-      },
-      "2023": {
-        "sous": 148,
-        "hors": 17
-      },
-      "2024": {
-        "sous": 166,
-        "hors": 20
-      }
-    },
-    "historique_masse": {
-      "2022": 0.01,
-      "2023": 0.011,
-      "2024": 0.013
-    },
-    "historique_tresorerie": {
-      "2022": 0.013,
-      "2023": 0.007,
-      "2024": 0.014
-    },
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "financement"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.002,
-      "2023": 0.001,
-      "2024": 0.003
-    },
-    "subvention_invest_Md": 0.001,
-    "financement_etat_budget_Md": 0.001,
-    "financement_budget_real": true
-  },
-  {
     "id": "infoma-institut-national-de-formation-des-personnels-du-mini",
     "nom": "INFOMA - Institut national de formation des personnels du ministère de l'agriculture",
     "sigle": "INFOMA",
@@ -12604,7 +12770,7 @@
     "tresorerie_Md": 0.003,
     "surface_utile_m2": 32523,
     "top10_remunerations_kE": 225,
-    "rang": 189,
+    "rang": 188,
     "historique_masse": {
       "2022": 0.0,
       "2023": 0.0,
@@ -12660,7 +12826,7 @@
     "tresorerie_Md": 0.002,
     "surface_utile_m2": 29994,
     "top10_remunerations_kE": 104,
-    "rang": 190,
+    "rang": 189,
     "etpt_sous_plafond": 5,
     "etpt_hors_plafond": 3,
     "historique_etpt": {
@@ -12734,7 +12900,7 @@
     "tresorerie_Md": 0.003,
     "surface_utile_m2": 1838,
     "top10_remunerations_kE": 266,
-    "rang": 191,
+    "rang": 190,
     "etpt_sous_plafond": 7,
     "etpt_hors_plafond": 2,
     "historique_etpt": {
@@ -12779,6 +12945,74 @@
     "financement_budget_real": true
   },
   {
+    "id": "gip-france-enfance-prot-g-e-retir-op-rateurs-2025",
+    "nom": "GIP France enfance protégée (retiré opérateurs 2025)",
+    "sigle": "GIP France enfance protégée",
+    "statut": "GIP",
+    "mission": "Solidarité",
+    "programme": "304",
+    "nb_entities": 1,
+    "perimetres": [
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.01,
+    "financement_etat_Md": 0,
+    "ressources_propres_Md": 0.0,
+    "subvention_scp_Md": 0.0,
+    "transferts_Md": 0.0,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 99,
+    "charges_personnel_Md": 0.0,
+    "charges_fonctionnement_Md": 0.0,
+    "charges_intervention_Md": 0.0,
+    "charges_investissement_Md": 0.0,
+    "etpt": 45,
+    "masse_salariale_Md": 0.0,
+    "tresorerie_Md": 0.0,
+    "surface_utile_m2": 540,
+    "top10_remunerations_kE": 287,
+    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
+    "rang": 191,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0
+  },
+  {
+    "id": "conseil-d-orientation-des-retraites-cor",
+    "nom": "Conseil d'orientation des retraites (COR)",
+    "sigle": "Conseil d'orientation des retraites",
+    "statut": "Consultatif",
+    "mission": "Solidarité",
+    "programme": "155",
+    "nb_entities": 1,
+    "perimetres": [
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.01,
+    "financement_etat_Md": 0,
+    "ressources_propres_Md": 0,
+    "subvention_scp_Md": 0.0,
+    "transferts_Md": 0.0,
+    "taxes_affectees_Md": 0,
+    "part_financement_public_pct": 100,
+    "charges_personnel_Md": 0.0,
+    "charges_fonctionnement_Md": 0.0,
+    "charges_intervention_Md": 0.0,
+    "charges_investissement_Md": 0.0,
+    "etpt": 12,
+    "masse_salariale_Md": 0.0,
+    "tresorerie_Md": 0.0,
+    "surface_utile_m2": 144,
+    "top10_remunerations_kE": 247,
+    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
+    "rang": 192,
+    "sources_reelles": [],
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0
+  },
+  {
     "id": "centre-info-centre-pour-le-d-veloppement-de-l-information-su",
     "nom": "Centre info - Centre pour le développement de l'information sur la formation permanente",
     "sigle": "Centre info",
@@ -12808,7 +13042,7 @@
     "tresorerie_Md": 0.003,
     "surface_utile_m2": 32268,
     "top10_remunerations_kE": 138,
-    "rang": 192,
+    "rang": 193,
     "historique_masse": {
       "2022": 0.005,
       "2023": 0.006,
@@ -12833,39 +13067,6 @@
     },
     "financement_etat_budget_Md": 0.0,
     "financement_budget_real": true
-  },
-  {
-    "id": "autorit-des-march-s-financiers-amf",
-    "nom": "Autorité des marchés financiers (AMF)",
-    "sigle": "Autorité des marchés financiers",
-    "statut": "AAI",
-    "mission": "Economie",
-    "programme": "134",
-    "nb_entities": 1,
-    "perimetres": [
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.12,
-    "financement_etat_Md": 0.0,
-    "ressources_propres_Md": 0.12,
-    "subvention_scp_Md": 0,
-    "transferts_Md": 0,
-    "taxes_affectees_Md": 0.11,
-    "part_financement_public_pct": 0,
-    "charges_personnel_Md": 0.07,
-    "charges_fonctionnement_Md": 0.02,
-    "charges_intervention_Md": 0.03,
-    "charges_investissement_Md": 0.01,
-    "etpt": 480,
-    "masse_salariale_Md": 0.06,
-    "tresorerie_Md": 0.08,
-    "surface_utile_m2": 5760,
-    "top10_remunerations_kE": 297,
-    "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
-    "rang": 193,
-    "sources_reelles": [],
-    "donnees_confidence": "estimee"
   },
   {
     "id": "epmsm-etablissement-public-du-mont-saint-michel",
@@ -12953,7 +13154,7 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 0.0,
-    "financement_etat_Md": 0.0,
+    "financement_etat_Md": 0,
     "ressources_propres_Md": 0,
     "subvention_scp_Md": 0.0,
     "transferts_Md": 0.0,
@@ -12971,7 +13172,8 @@
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
     "rang": 195,
     "sources_reelles": [],
-    "donnees_confidence": "estimee"
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0
   },
   {
     "id": "haut-conseil-du-financement-de-la-protection-sociale",
@@ -12986,7 +13188,7 @@
     ],
     "is_categorie": false,
     "ressources_totales_Md": 0.0,
-    "financement_etat_Md": 0.0,
+    "financement_etat_Md": 0,
     "ressources_propres_Md": 0,
     "subvention_scp_Md": 0.0,
     "transferts_Md": 0.0,
@@ -13004,6 +13206,7 @@
     "note": "Périmètre large (IGF 2012 / iFRAP 2025) – hors jaune opérateurs",
     "rang": 196,
     "sources_reelles": [],
-    "donnees_confidence": "estimee"
+    "donnees_confidence": "estimee",
+    "financement_etat_budget_Md": 0
   }
 ]
