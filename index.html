@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agencescope — Le radar des 1244 agences de l'État</title>
+<meta name="description" content="434 opérateurs, ~700 ODAC, 1244 agences au sens large : combien coûtent-elles, où va l'argent, qui emploie qui ? Explore le mille-feuille de l'État — simple pour tous, complet pour les experts. Données PLF 2025-2026, FIPECO, INSEE.">
+<meta property="og:title" content="Agencescope — Le radar des agences de l'État">
+<meta property="og:description" content="73,3 Md€, 482 000 agents, 434 opérateurs : explore le mille-feuille. Vue simple pour tous, mode expert pour tout vérifier.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#000091">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23000091'/><text x='50' y='62' text-anchor='middle' font-size='42' fill='white'>◉</text></svg>">
+<link rel="stylesheet" href="./site/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="container inner">
+    <div class="brand">
+      <div class="logo">◉</div>
+      <div>
+        Agencescope
+        <small>Le radar des agences de l'État — par Le Modèle Social Français</small>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#perimetres">Périmètres</a>
+      <a href="#liste">Liste</a>
+      <a href="#visualiser">Visualiser</a>
+      <a href="#quiz">Jouer</a>
+      <a href="#methode">Méthode</a>
+      <a class="cta" href="#liste">Explorer →</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Observatoire citoyen · Données PLF 2025-2026 · Licence Ouverte 2.0</div>
+        <h1>L'État et ses <span class="accent">1244</span> agences :<br>qui coûte quoi ?</h1>
+        <p class="lead">
+          <strong>434</strong> opérateurs (définition LOLF), <strong>~700</strong> ODAC (INSEE), <strong>1244</strong> agences au sens large (IGF). <strong>73,3 Md€</strong> de financement État en PLF 2026, <strong>482 000</strong> agents.
+          On a rangé le mille-feuille pour que <em>tout le monde comprenne</em> — et que <em>les experts puissent tout vérifier</em>.
+        </p>
+
+        <div class="perimetre-switch" role="tablist" aria-label="Périmètre">
+          <button class="active" data-perim="operateur">Opérateurs <small>434 · 73,3 Md€</small></button>
+          <button data-perim="odac">ODAC <small>~710 · ~108 Md€</small></button>
+          <button data-perim="agence-large">Vision large <small>1244 · ~140 Md€</small></button>
+        </div>
+        <div style="margin-top:10px;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+          <label class="switch-simple-expert"><input type="checkbox" id="expert-toggle"> Mode expert</label>
+          <span class="pill" id="simple-hint">Vue simple : 3 chiffres par agence</span>
+          <span class="pill" id="expert-hint" style="display:none">Vue experte : budget détaillé, immobilier, rémunérations</span>
+          <span class="pill" id="count-display">— agences affichées</span>
+        </div>
+
+        <div class="kpis" id="kpis">
+          <!-- rempli JS -->
+        </div>
+        <div class="progress" aria-hidden="true"><span id="read-progress"></span></div>
+        <p class="notice" style="margin-top:12px" id="hero-notice">
+          💡 <strong>Conseil :</strong> commence en <strong>vue simple</strong> (recommandé). Bascule en <strong>expert</strong> quand tu veux creuser une agence. Les chiffres sont sourcés et téléchargeables.
+        </p>
+      </div>
+
+      <div class="card quiz" id="quiz">
+        <h2>🎯 Quiz express (20s)</h2>
+        <p class="sub">À ton avis, quelle structure pèse le plus dans le <strong>financement État</strong> ?</p>
+        <div class="choices" id="quiz-choices">
+          <!-- JS -->
+        </div>
+        <div class="quiz-result" id="quiz-result"></div>
+        <div class="share" id="quiz-share" style="display:none">
+          <button class="btn btn-primary" id="btn-share">Partager</button>
+          <button class="btn btn-ghost" id="btn-again">Rejouer</button>
+        </div>
+        <div style="margin-top:14px" class="notice" id="quiz-gamif">
+          🏆 <strong>Gamification sérieuse :</strong> <span id="gamif-progress">0/200 explorées</span> · Niveau <span id="gamif-level">Curieux</span>
+          <div class="level-bar" id="level-bar"></div>
+          <div class="badges" id="badges-mini"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERIMETRES -->
+  <section class="section card" id="perimetres">
+    <h2><span class="num">1</span> Triple périmètre : pourquoi 103, 434 ou 1244 ?</h2>
+    <p class="desc">Il n'y a pas une mais trois définitions. Le site te laisse choisir — tout change (totaux, liste, graphiques) mais reste traçable.</p>
+    <div class="grid2">
+      <div>
+        <div style="display:grid;gap:10px">
+          <div class="detail-box" id="box-operateur" style="border-left:4px solid #000091">
+            <div class="k">Opérateurs de l'État — LOLF / Direction du Budget</div>
+            <div class="v">434 <span style="font-weight:600;color:var(--muted);font-size:.9rem">au PLF 2025 (182 catégories affichées, 433 lignes détaillées)</span></div>
+            <div style="font-size:.84rem;color:var(--muted)">Mission de service public rattachée à une politique de l'État, financés majoritairement par l'État, sous tutelle directe. Source : jaune budgétaire PLF. <strong>73,3 Md€</strong> PLF 2026 (33,9 subventions + 21,7 taxes + 17,0 transferts). <strong>482k ETPT</strong>.</div>
+            <div style="margin-top:8px"><span class="badge-perimetre badge-operateur">Inclus dans Agencescope</span> <span class="badge-perimetre badge-odac">85% sont aussi ODAC</span></div>
+          </div>
+          <div class="detail-box" id="box-odac" style="border-left:4px solid #ff9800">
+            <div class="k">ODAC — INSEE (Organismes divers d'administration centrale)</div>
+            <div class="v">~710 <span style="font-weight:600;color:var(--muted);font-size:.9rem">dont ~266 hors opérateurs</span></div>
+            <div style="font-size:.84rem;color:var(--muted)">Compétence fonctionnelle nationale, contrôlés & financés majoritairement par l'État, activité non marchande. <strong>~108 Md€</strong> (100 fonctionnement+intervention + 30 invest). Ex : Société des Grands Projets (10,3 Md trésorerie). Liste INSEE mai 2025 (année 2023).</div>
+          </div>
+          <div class="detail-box" id="box-large" style="border-left:4px solid #E1000F">
+            <div class="k">Vision large “agences” — IGF / iFRAP / Conseil d'État</div>
+            <div class="v">1244 <span style="font-weight:600;color:var(--muted);font-size:.9rem">IGF 2012 · 792 iFRAP · 103 Conseil d'État</span></div>
+            <div style="font-size:.84rem;color:var(--muted)">Écart de 691 à 1244 selon comptage faute de définition partagée. Inclut AAI, autorités indépendantes, comités Théodule, GIP. Utile pour le débat “mille-feuille”. <strong>~140 Md€</strong> estimé.</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div style="background:#f8f7f5;border-radius:12px;padding:14px">
+          <h3 style="margin:0 0 8px">Schéma d'inclusion</h3>
+          <div style="display:grid;gap:8px">
+            <div style="background:#000091;color:#fff;border-radius:10px;padding:10px;text-align:center;font-weight:900">Opérateurs 434 <div style="font-weight:600;font-size:.78rem;opacity:.85">73,3 Md€ · cœur du site, données les plus fines</div></div>
+            <div style="background:#fff4cc;border:1px solid #ffe69c;border-radius:10px;padding:10px;text-align:center;font-weight:800">ODAC ~710 <div style="font-weight:600;font-size:.78rem;color:var(--muted)">inclut 85% des opérateurs + SGP, CNC, INA…</div></div>
+            <div style="background:#ffe9e1;border:1px solid #ffccb8;border-radius:10px;padding:10px;text-align:center;font-weight:800">Vision large 1244 <div style="font-weight:600;font-size:.78rem;color:var(--muted)">+ AAI (ASNR, HAS, CNIL…), comités Théodule</div></div>
+          </div>
+          <p class="notice" style="margin-top:10px">👉 <strong>Par défaut : Opérateurs.</strong> Change avec le switch en haut : tout le site se filtre instantanément. En mode <strong>large</strong>, certaines fiches sont “estimées” (bandeau jaune).</p>
+          <div class="chart-wrap xs" style="height:200px"><canvas id="chart-perimetres"></canvas></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LISTE -->
+  <section class="section card" id="liste">
+    <h2><span class="num">2</span> Liste — qui coûte quoi ?</h2>
+    <p class="desc">Vue simple : 3 chiffres (ressources, financement État, ETPT). Vue experte : 8 colonnes + détail. Clique une ligne pour la fiche. <span id="liste-sub">(Périmètre : <strong>Opérateurs</strong>)</span></p>
+    <div class="filters">
+      <input type="search" id="search" placeholder="Rechercher une agence, mission, programme… (ex: ADEME, CNRS, eau, universités)">
+      <select id="filter-mission"><option value="">Toutes missions</option></select>
+      <select id="filter-statut"><option value="">Tous statuts</option></select>
+      <select id="filter-tri">
+        <option value="ressources_desc">Tri : Ressources ↓</option>
+        <option value="financement_desc">Tri : Financement État ↓</option>
+        <option value="etpt_desc">Tri : Effectifs ↓</option>
+        <option value="tresorerie_desc">Tri : Trésorerie ↓</option>
+        <option value="nom_asc">Tri : Nom A→Z</option>
+      </select>
+      <button class="btn btn-ghost" id="btn-random">🎲 Au hasard</button>
+      <button class="btn btn-ghost" id="btn-export">⬇ CSV</button>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;margin:8px 0;font-size:.82rem;color:var(--muted)">
+      <span id="liste-count" style="font-weight:800;color:var(--ink)">—</span> · double-clique une ligne pour ouvrir en plein écran · <span id="vue-indicator">Vue simple</span>
+    </div>
+    <div class="table-wrap">
+      <table id="table">
+        <thead><tr id="thead"></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <div id="table-empty" class="empty" style="display:none">Aucun résultat — essaie un autre filtre ou passe en vision large.</div>
+  </section>
+
+  <!-- VISUALISER -->
+  <section class="section" id="visualiser">
+    <h2><span class="num">3</span> Visualiser — où va l'argent ?</h2>
+    <p class="desc">Deux lectures : <strong>simple</strong> (camembert “d'où vient / où va l'argent”) et <strong>experte</strong> (barres détaillées, historique, immobilier).</p>
+    <div class="grid2">
+      <div class="card">
+        <h3 style="margin:0 0 6px">Top 20 — les plus financées par l'État</h3>
+        <p class="notice" style="margin:0 0 8px">Financement État (Md€). En simple : top 10. En expert : top 20 + trésorerie.</p>
+        <div class="chart-wrap sm"><canvas id="chart-top"></canvas></div>
+        <p class="notice" id="top-insight">—</p>
+      </div>
+      <div class="card">
+        <h3 style="margin:0 0 6px">D'où vient l'argent ? Où va-t-il ?</h3>
+        <div class="toggle" id="viz-toggle"><button class="active" data-viz="source">Source</button><button data-viz="emploi">Emploi</button></div>
+        <div class="chart-wrap sm"><canvas id="chart-source"></canvas></div>
+        <p class="notice" id="viz-insight">—</p>
+      </div>
+    </div>
+    <div class="grid2" style="margin-top:18px">
+      <div class="card">
+        <h3 style="margin:0 0 6px">Par mission (tutelle)</h3>
+        <div class="chart-wrap sm"><canvas id="chart-mission"></canvas></div>
+        <p class="notice" id="mission-insight">—</p>
+      </div>
+      <div class="card">
+        <h3 style="margin:0 0 6px">Historique du financement (2007-2026)</h3>
+        <p class="notice" style="margin:0 0 8px">De 19,2 Md€ (2007) à 73,3 Md€ (2026) — effet autonomie des universités + taxes affectées.</p>
+        <div class="chart-wrap sm"><canvas id="chart-histo"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FICHES -->
+  <section class="section card" id="fiches">
+    <h2><span class="num">4</span> Fiches — vue simple vs experte</h2>
+    <p class="desc">Cartes cliquables. En simple : 3 jauges + donut. En expert : tout le détail au clic.</p>
+    <div class="controls">
+      <span style="font-size:.82rem;color:var(--muted)">Affichage :</span>
+      <div class="toggle" id="fiches-toggle"><button class="active" data-fiches="simple">Simple</button><button data-fiches="expert">Expert</button></div>
+      <span style="margin-left:auto;font-size:.82rem;color:var(--muted)" id="fiches-count">—</span>
+    </div>
+    <div class="cards-grid" id="cards"></div>
+    <div style="text-align:center;margin-top:14px"><button class="btn btn-ghost" id="btn-more">Voir 12 de plus</button></div>
+  </section>
+
+  <!-- GAMIFICATION -->
+  <section class="section" id="gamif">
+    <h2><span class="num">5</span> Jouer — mais avec de vraies données</h2>
+    <p class="desc">Gamification <em>sérieuse</em> : tu joues, tu apprends, tu partages — mais les chiffres restent sourcés. Aucun piège, tout est vérifiable.</p>
+    <div class="gamification">
+      <div class="card level-card">
+        <h3>🎮 Le juste prix</h3>
+        <p class="sub" style="color:var(--muted);font-size:.9rem">Devine le financement État de l'agence tirée au sort, puis vois l'écart.</p>
+        <div id="juste-prix-card">
+          <div style="font-weight:900;font-size:1.05rem" id="jp-nom">—</div>
+          <div style="font-size:.84rem;color:var(--muted)" id="jp-meta">—</div>
+          <div class="quiz-slider">
+            <input type="range" id="jp-slider" min="0" max="15" step="0.05" value="1">
+            <div class="labels"><span>0 Md€</span><span>7,5 Md€</span><span>15 Md€</span></div>
+            <div style="text-align:center;font-weight:900;margin-top:6px"><span id="jp-value">1,00 Md€</span> <span style="font-weight:600;color:var(--muted)" id="jp-vs"></span></div>
+          </div>
+          <div style="display:flex;gap:8px">
+            <button class="btn btn-primary" id="jp-valider">Valider</button>
+            <button class="btn btn-ghost" id="jp-next">Autre agence</button>
+          </div>
+          <div class="quiz-result" id="jp-result"></div>
+        </div>
+        <div style="margin-top:16px">
+          <h4 style="margin:0 0 6px">🏅 Ta progression</h4>
+          <div style="font-size:.84rem;color:var(--muted)">Niveau <strong id="prog-level">Curieux</strong> · <span id="prog-count">0</span> fiches vues · <span id="prog-quiz">0</span> quiz réussis</div>
+          <div class="level-bar" id="prog-bar"></div>
+          <div class="badges" id="prog-badges"></div>
+          <button class="btn btn-ghost" id="btn-reset-prog" style="margin-top:8px;font-size:.78rem">Réinitialiser</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3>🃏 Défi du jour & partage</h3>
+        <p style="font-size:.9rem;color:var(--muted)">Chaque jour, une agence “surprise”. Tu as 3 essais pour estimer son trésor de guerre.</p>
+        <div class="detail-box" id="defi-box" style="cursor:pointer">
+          <div class="k">Défi du jour</div>
+          <div class="v" id="defi-nom">—</div>
+          <div style="font-size:.82rem;color:var(--muted)" id="defi-hint">—</div>
+        </div>
+        <div class="share" style="margin-top:12px">
+          <button class="btn btn-primary" id="btn-share-site">Partager Agencescope</button>
+          <button class="btn btn-ghost" id="btn-share-defi">Partager ce défi</button>
+        </div>
+        <p class="notice" style="margin-top:12px">💬 <strong>Pourquoi c'est sérieux ?</strong> Chaque quiz affiche la source (jaune PLF p. XX, budget.gouv.fr). Tu gagnes des badges, pas des points truqués. Le but : donner envie d'explorer, pas de buzz.</p>
+        <div class="badges" style="margin-top:10px">
+          <span class="pill">🎓 Pédagogie</span><span class="pill">🔍 Vérifiable</span><span class="pill">🤝 Partageable</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- METHODE -->
+  <section class="section card" id="methode">
+    <h2><span class="num">6</span> Méthode, sources & limites</h2>
+    <div class="grid2">
+      <div>
+        <h3>Sources</h3>
+        <ul style="color:var(--muted);font-size:.92rem">
+          <li><strong>Jaune “Opérateurs de l'État”</strong> annexé aux PLF 2025 et 2026 — 433 lignes, 182 catégories, Excel + PDF 11 Mo (budget.gouv.fr). Liste csv miroir <a href="https://www.data.gouv.fr/datasets/projet-de-loi-de-finances-pour-2025-plf-2025-jaune-operateurs-de-letat-liste-des-operateurs-et-categories" target="_blank" rel="noopener">data.gouv.fr</a>.</li>
+          <li><strong>Budget.gouv.fr “Financement des opérateurs”</strong> — ressources, part financement public, taxes (91 Md€ ressources 2024).</li>
+          <li><strong>FIPECO 27.10.2025</strong> — synthèse 73,3 Md€ PLF 2026, 34,1 Md€ masse salariale, trésoreries (SGP 10,3 Md€).</li>
+          <li><strong>INSEE ODAC 2023</strong> (publiée mai 2025) + <strong>IGF 2012</strong> + <strong>iFRAP 2025</strong> + <strong>Sénat 03/07/2025</strong> pour les périmètres.</li>
+        </ul>
+        <h3>Ce qui est estimé</h3>
+        <p style="font-size:.9rem;color:var(--muted)">Le jaune donne pour chaque opérateur : subventions SCP, transferts, taxes affectées, ETPT, trésorerie, immobilier, top10 rémunérations. Pour les catégories agrégées (ex: 71 universités), on affiche l'agrégat. Pour ODAC hors opérateurs et vision large, les fiches portent un <strong>bandeau “estimation / hors jaune”</strong> — chiffres illustratifs mais ordres de grandeur sourcés (rapports Cour des comptes, jaunes sectoriels).</p>
+      </div>
+      <div>
+        <h3>Limites honnêtes</h3>
+        <ul style="color:var(--muted);font-size:.92rem">
+          <li>PLF = prévision, pas exécution. On affiche <strong>PLF 2026 vs LFI 2025 vs exécution 2024</strong> quand dispo.</li>
+          <li>Pas de détail achats/prestations homogène. La ventilation est en 4 charges (personnel/fonctionnement/intervention/investissement).</li>
+          <li>Double comptage possible : les universités agrégées masquent l'hétérogénéité. Cliquer “exemples d'entités” pour voir.</li>
+          <li>Mise à jour : script <code>scripts/parse_jaune.py</code> (à venir) relira l'Excel jaune chaque automne.</li>
+        </ul>
+        <h3>Licence & contribuer</h3>
+        <p style="font-size:.9rem;color:var(--muted)">Licence Ouverte 2.0. Code et données sur GitHub (bientôt <code>lemodelesocialfrancais/agencescope</code>). PR bienvenues : correction d'une fiche, ajout d'un jaune historique, amélioration d'un graphique.</p>
+        <div class="share">
+          <a class="btn btn-ghost" href="./data/agences.json" target="_blank">agences.json</a>
+          <a class="btn btn-ghost" href="./data/chiffres-cles.json" target="_blank">chiffres-cles.json</a>
+          <a class="btn btn-ghost" href="https://www.budget.gouv.fr/documentation/plf-2026-jaunes-budgetaires/operateurs-letat" target="_blank" rel="noopener">Jaune 2026 (PDF)</a>
+        </div>
+      </div>
+    </div>
+    <p class="notice" style="margin-top:14px">Design : Marianne (bleu #000091), Chart.js, Fuse.js, vanilla JS. Hébergé sur GitHub Pages. Contact : via l'organisation <code>lemodelesocialfrancais</code>. Aucune donnée nominative, aucun tracker.</p>
+  </section>
+
+  <footer class="foot">
+    <div><strong>Agencescope</strong> — Observatoire citoyen du mille-feuille administratif. Sérieux mais pas ennuyeux. Données PLF · INSEE · FIPECO · iFRAP — Licence Ouverte 2.0.</div>
+    <div style="margin-top:6px">Code source : <code>github.com/lemodelesocialfrancais/agencescope</code> (miroir test <code>wald52/agencescope</code>) — chemins relatifs, zéro dépendance serveur.</div>
+  </footer>
+</main>
+
+<!-- MODAL FICHE -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-card">
+    <div class="modal-top">
+      <div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px" id="modal-badges"></div>
+        <h3 id="modal-title">—</h3>
+        <p id="modal-meta" style="color:var(--muted);font-size:.88rem;margin:4px 0">—</p>
+        <p id="modal-note" style="font-size:.82rem;color:#7a2a00;background:#fff4cc;border:1px solid #ffe69c;padding:6px 10px;border-radius:8px;display:none"></p>
+      </div>
+      <button class="close" id="modal-close">✕</button>
+    </div>
+
+    <div class="tabs" id="modal-tabs">
+      <button class="active" data-tab="simple">Vue simple</button>
+      <button data-tab="expert">Vue experte</button>
+      <button data-tab="budget">Budget détaillé</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-simple">
+      <div class="kpis" style="grid-template-columns:repeat(3,1fr);gap:10px" id="modal-kpis"></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px">
+        <div>
+          <h4 style="margin:0 0 6px">D'où vient l'argent ?</h4>
+          <div class="chart-wrap xs"><canvas id="modal-donut-source"></canvas></div>
+        </div>
+        <div>
+          <h4 style="margin:0 0 6px">Où va l'argent ?</h4>
+          <div class="chart-wrap xs"><canvas id="modal-donut-emploi"></canvas></div>
+        </div>
+      </div>
+      <p class="notice" id="modal-simple-insight" style="margin-top:10px">—</p>
+    </div>
+
+    <div class="tab-panel" id="tab-expert">
+      <div class="detail-grid" id="modal-expert-grid"></div>
+      <div style="margin-top:12px">
+        <h4 style="margin:8px 0 6px">Repères expert</h4>
+        <div class="detail-grid">
+          <div class="detail-box"><div class="k">Surface utile</div><div class="v" id="modal-surface">—</div><div style="font-size:.78rem;color:var(--muted)">ratio m² / ETPT</div></div>
+          <div class="detail-box"><div class="k">Top 10 rémunérations (brut)</div><div class="v" id="modal-top10">—</div><div style="font-size:.78rem;color:var(--muted)">somme des 10 plus hautes (obligation jaune si >10 ETPT)</div></div>
+        </div>
+        <p class="notice" id="modal-expert-insight" style="margin-top:10px">—</p>
+        <div id="modal-exemples" style="margin-top:8px"></div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-budget">
+      <div style="overflow:auto">
+        <table style="min-width:0;width:100%;font-size:.86rem">
+          <thead><tr><th>Poste</th><th style="text-align:right">Md€</th><th>Part</th></tr></thead>
+          <tbody id="modal-budget-body"></tbody>
+        </table>
+      </div>
+      <div class="chart-wrap xs" style="height:220px;margin-top:12px"><canvas id="modal-bar-budget"></canvas></div>
+      <p class="notice" id="modal-budget-insight" style="margin-top:10px">—</p>
+    </div>
+
+    <div class="share" style="margin-top:14px">
+      <button class="btn btn-primary" id="modal-share">Partager cette fiche</button>
+      <button class="btn btn-ghost" id="modal-next">Fiche suivante →</button>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="./site/app.js"></script>
+</body>
+</html>

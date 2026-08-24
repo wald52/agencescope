@@ -1,0 +1,25 @@
+{
+  "operateur": {
+    "label": "Opérateurs de l'État (définition LOLF)",
+    "count": 434,
+    "count_affiche": 182,
+    "financement_Md": 73.3,
+    "ressources_Md": 91,
+    "etpt": 482000,
+    "explication": "Mission de service public rattachée à une politique de l'État, financés majoritairement par l'État, sous tutelle directe. Liste établie par la Direction du Budget (jaune)."
+  },
+  "odac": {
+    "label": "ODAC (Organismes divers d'administration centrale, INSEE)",
+    "count": 710,
+    "financement_Md": 108,
+    "note": "~100 Md fonctionnement+intervention + 30 Md invest, 21% des administrations centrales"
+  },
+  "agence_large": {
+    "label": "Vision large 'agences' (IGF 1244, Conseil d'État 103, iFRAP 792)",
+    "count": 1244,
+    "count_ifrap": 792,
+    "count_conseil": 103,
+    "financement_Md": 140,
+    "note": "Ecart dû à l'absence de définition partagée (691 écart 2012)"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "date_generation": "2026-08-24",
+  "sources": [
+    "PLF 2025 jaune opérateurs (433 lignes, 182 catégories)",
+    "PLF 2026 jaune (74,8 Md LFI 2025, 73,3 Md PLF 2026)",
+    "budget.gouv.fr 2024 ressources",
+    "FIPECO 27.10.2025",
+    "iFRAP/IGF 2012",
+    "INSEE ODAC 2023"
+  ],
+  "perimetres": {
+    "operateur": {
+      "label": "Opérateurs de l'État (définition LOLF)",
+      "count": 434,
+      "count_affiche": 182,
+      "financement_Md": 73.3,
+      "ressources_Md": 91,
+      "etpt": 482000,
+      "explication": "Mission de service public rattachée à une politique de l'État, financés majoritairement par l'État, sous tutelle directe. Liste établie par la Direction du Budget (jaune)."
+    },
+    "odac": {
+      "label": "ODAC (Organismes divers d'administration centrale, INSEE)",
+      "count": 710,
+      "financement_Md": 108,
+      "note": "~100 Md fonctionnement+intervention + 30 Md invest, 21% des administrations centrales"
+    },
+    "agence_large": {
+      "label": "Vision large 'agences' (IGF 1244, Conseil d'État 103, iFRAP 792)",
+      "count": 1244,
+      "count_ifrap": 792,
+      "count_conseil": 103,
+      "financement_Md": 140,
+      "note": "Ecart dû à l'absence de définition partagée (691 écart 2012)"
+    }
+  },
+  "totaux_reels": {
+    "subventions_scp_Md": 33.9,
+    "transferts_Md": 17.0,
+    "taxes_affectees_Md": 21.7,
+    "total_financement_Md": 73.3,
+    "ressources_propres_Md": 15.3,
+    "masse_salariale_Md": 34.1,
+    "etpt_sous_plafond": 401310,
+    "etpt_total": 482000,
+    "tresorerie_top": {
+      "sgp": 10.358,
+      "universites": 4.213,
+      "ademe": 2.821
+    }
+  },
+  "top5_subventions": [
+    {
+      "nom": "Universités",
+      "Md": 12.8
+    },
+    {
+      "nom": "CNRS",
+      "Md": 3.0
+    },
+    {
+      "nom": "CEA",
+      "Md": 1.9
+    },
+    {
+      "nom": "France Travail",
+      "Md": 1.2
+    },
+    {
+      "nom": "ADEME",
+      "Md": 1.0
+    }
+  ]
+}
