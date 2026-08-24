@@ -601,6 +601,16 @@ function openModal(id){
   const badgesEl=document.getElementById("modal-badges");
   const labelMap={operateur:"Opérateur de l'État", odac:"ODAC (INSEE)", "agence-large":"Vision large (IGF/iFRAP)"};
   badgesEl.innerHTML = a.perimetres.map(p=> `<span class="badge-perimetre badge-${p}">${labelMap[p]||p}</span>`).join(" ") + (a.perimetres.length>1?` <span class="pill" style="background:#f0f0ff;border-color:#d0d0ff">×${a.perimetres.length} périmètres — une seule fiche</span>`:"") + (a.is_categorie?` <span class="pill">Catégorie (${a.nb_entities} entités)</span>`:"") + ` <span class="pill">${a.part_financement_public_pct}% public</span>`;
+  // source bandeau cliquable + sci/dotations
+  const sourceEl=document.getElementById("modal-source");
+  if(!sourceEl){
+    const meta=document.getElementById("modal-meta");
+    meta.insertAdjacentHTML('afterend', `<p id="modal-source" style="font-size:.78rem;color:var(--muted);background:#f8f7f5;border:1px solid var(--line);padding:6px 10px;border-radius:8px;margin:6px 0"></p>`);
+  }
+  const srcEl=document.getElementById("modal-source");
+  const srcUrl=a.source_jaune_url||'https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf';
+  const srcTxt=a.source_jaune||'Jaune Opérateurs PLF 2026';
+  srcEl.innerHTML=`📄 <strong>Source :</strong> <a href="${srcUrl}" target="_blank" rel="noopener">${srcTxt}</a> · <a href="${srcUrl}" target="_blank" rel="noopener">PDF 11 Mo p.48-66</a> · Données ${a.donnees_confidence||'estimee'} ${a.sources_reelles? '('+a.sources_reelles.join(', ')+')':''}`;
   // caractéristique multi-catégories expliquée
   const noteEl=document.getElementById("modal-note");
   if(a.perimetres.length>1){
@@ -643,14 +653,16 @@ function openModal(id){
     exEl.innerHTML = `<div style="font-size:.82rem;color:var(--muted)"><strong>Exemples d'entités (${a.nb_entities} au total) :</strong> ${a.exemples_entites.join(" · ")}</div>`;
   } else exEl.innerHTML="";
 
-  // budget tab
+  // budget tab (avec sci/dotations sourcés)
   const body=document.getElementById("modal-budget-body");
   const rows=[
-    ["Subvention pour charges de service public", a.subvention_scp_Md],
-    ["Transferts (interventions)", a.transferts_Md],
-    ["Taxes affectées", a.taxes_affectees_Md],
-    ["Ressources propres / autres", a.ressources_propres_Md],
-    ["— Charges de personnel", a.charges_personnel_Md],
+    ["Subvention pour charges de service public (SCSP) — PLF 2026 CP", a.subvention_scp_Md],
+    ["Transferts (interventions) — PLF 2026 CP", a.transferts_Md],
+    ...(a.subvention_invest_Md ? [["Subvention pour charges d'investissement (SCI) — PLF 2026 CP", a.subvention_invest_Md]] : []),
+    ...(a.dotations_Md ? [["Dotations en fonds propres — PLF 2026 CP", a.dotations_Md]] : []),
+    ["Taxes affectées — PLF 2026 (p.66)", a.taxes_affectees_Md],
+    ["Ressources propres — exécution 2024 (p.145)", a.ressources_propres_Md],
+    ["— Charges de personnel — exécution 2024 (p.155)", a.charges_personnel_Md],
     ["— Charges de fonctionnement", a.charges_fonctionnement_Md],
     ["— Charges d'intervention", a.charges_intervention_Md],
     ["— Charges d'investissement", a.charges_investissement_Md],

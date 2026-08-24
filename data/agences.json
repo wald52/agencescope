@@ -76,7 +76,11 @@
       "2025": 11.533,
       "2026": 11.787
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "universit-s-et-assimil-s",
@@ -93,7 +97,7 @@
     ],
     "is_categorie": true,
     "ressources_totales_Md": 16.52,
-    "financement_etat_Md": 13.186,
+    "financement_etat_Md": 13.185,
     "ressources_propres_Md": 1.837,
     "subvention_scp_Md": 12.839,
     "transferts_Md": 0.003,
@@ -150,8 +154,11 @@
       "2024": 1.837
     },
     "subvention_invest_Md": 0.213,
-    "financement_etat_budget_Md": 13.056,
-    "financement_budget_real": true
+    "financement_etat_budget_Md": 13.055,
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0.0
   },
   {
     "id": "asp-agence-de-services-et-de-paiement",
@@ -231,7 +238,10 @@
       "2025": 0.014,
       "2026": 0.019
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "afitf-agence-de-financement-des-infrastructures-de-transport",
@@ -285,7 +295,11 @@
       "2026": 2.957
     },
     "source_taxes": "Jaune 2026 p.66",
-    "financement_etat_budget_Md": 0.22
+    "financement_etat_budget_Md": 0.22,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cnrs-centre-national-de-la-recherche-scientifique",
@@ -358,7 +372,11 @@
       "2024": 0.226
     },
     "financement_etat_budget_Md": 3.059,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "agences-de-l-eau",
@@ -442,7 +460,11 @@
       "2026": 2.398
     },
     "source_taxes": "Jaune 2026 p.66",
-    "financement_etat_budget_Md": 0.12
+    "financement_etat_budget_Md": 0.12,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "anr-agence-nationale-de-la-recherche",
@@ -515,7 +537,11 @@
       "2024": 0.035
     },
     "financement_etat_budget_Md": 2.385,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cea-commissariat-l-nergie-atomique-et-aux-nergies-alternativ",
@@ -593,7 +619,11 @@
       "2025": 0.24,
       "2026": 0.175
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "anah-agence-nationale-de-l-habitat",
@@ -673,7 +703,10 @@
       "2025": 0.7,
       "2026": 0.7
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cnes-centre-national-d-tudes-spatiales",
@@ -747,7 +780,10 @@
     },
     "subvention_invest_Md": 0.085,
     "financement_etat_budget_Md": 1.91,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ademe-agence-de-l-environnement-et-de-la-ma-trise-de-l-nergi",
@@ -820,7 +856,11 @@
       "2024": 0.058
     },
     "financement_etat_budget_Md": 1.416,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "sgp-soci-t-du-grand-paris",
@@ -897,7 +937,11 @@
       "2026": 0.985
     },
     "source_taxes": "Jaune 2026 p.66",
-    "financement_etat_budget_Md": 0.14
+    "financement_etat_budget_Md": 0.14,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cnc-centre-national-du-cin-ma-et-de-l-image-anim-e",
@@ -974,7 +1018,11 @@
       "2026": 0.847
     },
     "source_taxes": "Jaune 2026 p.66",
-    "financement_etat_budget_Md": 0.18
+    "financement_etat_budget_Md": 0.18,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ecoles-et-formations-d-ing-nieurs",
@@ -991,7 +1039,7 @@
     ],
     "is_categorie": true,
     "ressources_totales_Md": 3.16,
-    "financement_etat_Md": 0.968,
+    "financement_etat_Md": 0.967,
     "ressources_propres_Md": 0.331,
     "subvention_scp_Md": 0.958,
     "transferts_Md": 0.0,
@@ -1047,8 +1095,11 @@
       "2024": 0.331
     },
     "subvention_invest_Md": 0.009,
-    "financement_etat_budget_Md": 0.968,
-    "financement_budget_real": true
+    "financement_etat_budget_Md": 0.967,
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0.0
   },
   {
     "id": "autres-op-rateurs-d-enseignement-sup-rieur-et-de-recherche",
@@ -1122,7 +1173,10 @@
     },
     "subvention_invest_Md": 0.021,
     "financement_etat_budget_Md": 0.958,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0.0
   },
   {
     "id": "inrae-institut-national-pour-la-recherche-en-agriculture-ali",
@@ -1195,7 +1249,11 @@
       "2024": 0.076
     },
     "financement_etat_budget_Md": 0.898,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "op-rateurs-de-soutien-l-enseignement-sup-rieur-et-la-recherc",
@@ -1237,7 +1295,11 @@
     "rang": 17,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.87
+    "financement_etat_budget_Md": 0.87,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "centre-national-du-cin-ma-cnc",
@@ -1309,7 +1371,11 @@
       "2023": 0.827,
       "2024": 0.88
     },
-    "financement_etat_budget_Md": 0.04
+    "financement_etat_budget_Md": 0.04,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "enim-etablissement-national-des-invalides-de-la-marine",
@@ -1365,7 +1431,11 @@
       "2024": 0.186
     },
     "financement_etat_budget_Md": 0.805,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "r-seau-des-uvres-universitaires-et-scolaires",
@@ -1439,7 +1509,10 @@
     },
     "subvention_invest_Md": 0.095,
     "financement_etat_budget_Md": 0.747,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0.0
   },
   {
     "id": "inserm-institut-national-de-la-sant-et-de-la-recherche-m-dic",
@@ -1512,7 +1585,11 @@
       "2024": 0.092
     },
     "financement_etat_budget_Md": 0.739,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cglls-caisse-de-garantie-du-logement-locatif-social",
@@ -1572,7 +1649,11 @@
       "2026": 0.628
     },
     "source_taxes": "Jaune 2026 p.66",
-    "financement_etat_budget_Md": 0.11
+    "financement_etat_budget_Md": 0.11,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ars-agences-r-gionales-de-sant",
@@ -1652,7 +1733,11 @@
       "2024": 0.014
     },
     "financement_etat_budget_Md": 0.627,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ofii-office-fran-ais-de-l-immigration-et-de-l-int-gration",
@@ -1732,7 +1817,10 @@
       "2025": 0.001,
       "2026": 0.001
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "aefe-agence-pour-l-enseignement-fran-ais-l-tranger",
@@ -1805,7 +1893,11 @@
       "2024": 0.636
     },
     "financement_etat_budget_Md": 0.503,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "asc-agence-du-service-civique",
@@ -1878,7 +1970,11 @@
       "2024": 0.002
     },
     "financement_etat_budget_Md": 0.465,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "caisse-de-garantie-du-logement-locatif-social-cglls",
@@ -1933,7 +2029,11 @@
       "2023": 0.732,
       "2024": 0.742
     },
-    "financement_etat_budget_Md": 0.01
+    "financement_etat_budget_Md": 0.01,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "vnf-voies-navigables-de-france",
@@ -2012,7 +2112,11 @@
       "2025": 0.143,
       "2026": 0.15
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ans-agence-nationale-du-sport",
@@ -2091,7 +2195,11 @@
       "2025": 0.225,
       "2026": 0.225
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "inpi-institut-national-de-la-propri-t-industrielle",
@@ -2168,7 +2276,11 @@
       "2026": 0.139
     },
     "source_taxes": "Jaune 2026 p.66",
-    "financement_etat_budget_Md": 0.22
+    "financement_etat_budget_Md": 0.22,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "conseil-national-des-communes-compagnon-de-la-lib-ration",
@@ -2203,7 +2315,11 @@
     "rang": 31,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.35
+    "financement_etat_budget_Md": 0.35,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "m-t-o-france",
@@ -2276,7 +2392,11 @@
       "2024": 0.141
     },
     "financement_etat_budget_Md": 0.334,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ants-agence-nationale-des-titres-s-curis-s",
@@ -2355,7 +2475,11 @@
       "2025": 0.287,
       "2026": 0.287
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "epccsl-etablissement-public-cit-de-la-c-ramique-s-vres-et-li",
@@ -2390,7 +2514,11 @@
     "rang": 34,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.3
+    "financement_etat_budget_Md": 0.3,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "groupe-mines-t-l-com",
@@ -2468,7 +2596,10 @@
     },
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.289,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ign-institut-national-de-l-information-g-ographique-et-fores",
@@ -2542,7 +2673,11 @@
       "2024": 0.074
     },
     "financement_etat_budget_Md": 0.102,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "etablissement-public-du-mobilier-national",
@@ -2577,7 +2712,11 @@
     "rang": 37,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.26
+    "financement_etat_budget_Md": 0.26,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "franceagrimer",
@@ -2651,7 +2790,10 @@
       "2025": 0.001,
       "2026": 0.001
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "onf-office-national-des-for-ts",
@@ -2723,7 +2865,11 @@
       "2024": 0.702
     },
     "financement_etat_budget_Md": 0.257,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "onac-vg-office-national-des-anciens-combattants-et-victimes-",
@@ -2758,7 +2904,11 @@
     "rang": 40,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.25
+    "financement_etat_budget_Md": 0.25,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "bnf-biblioth-que-nationale-de-france",
@@ -2832,7 +2982,10 @@
     },
     "subvention_invest_Md": 0.035,
     "financement_etat_budget_Md": 0.248,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ensmis-ecole-nationale-sup-rieure-des-m-tiers-de-l-image-et-",
@@ -2903,7 +3056,11 @@
       "2023": 0.002,
       "2024": 0.003
     },
-    "financement_etat_budget_Md": 0.23
+    "financement_etat_budget_Md": 0.23,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "autorit-de-s-ret-nucl-aire-et-de-radioprotection-asnr-fusion",
@@ -2937,7 +3094,11 @@
     "rang": 43,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.23
+    "financement_etat_budget_Md": 0.23,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "p-le-emploi",
@@ -2972,7 +3133,11 @@
     "rang": 44,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.23
+    "financement_etat_budget_Md": 0.23,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ird-institut-de-recherche-pour-le-d-veloppement",
@@ -3045,7 +3210,11 @@
       "2024": 0.004
     },
     "financement_etat_budget_Md": 0.23,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ofpra-office-fran-ais-de-protection-des-r-fugi-s-et-apatride",
@@ -3118,7 +3287,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.216,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "inria-institut-national-de-recherche-en-informatique-et-en-a",
@@ -3191,7 +3363,11 @@
       "2024": 0.019
     },
     "financement_etat_budget_Md": 0.211,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "enac-ecole-nationale-de-l-aviation-civile",
@@ -3266,7 +3442,10 @@
     },
     "subvention_invest_Md": 0.011,
     "financement_etat_budget_Md": 0.118,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "angdm-agence-nationale-pour-la-garantie-des-droits-des-mineu",
@@ -3339,7 +3518,11 @@
       "2024": 0.016
     },
     "financement_etat_budget_Md": 0.207,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "parcs-nationaux",
@@ -3421,7 +3604,10 @@
     },
     "subvention_invest_Md": 0.006,
     "financement_etat_budget_Md": 0.195,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "andra-agence-nationale-pour-la-gestion-des-d-chets-radioacti",
@@ -3500,7 +3686,11 @@
       "2025": 0.188,
       "2026": 0.188
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cerema-centre-d-tudes-et-d-expertise-sur-les-risques-l-envir",
@@ -3573,7 +3763,11 @@
       "2024": 0.052
     },
     "financement_etat_budget_Md": 0.188,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ifremer-institut-fran-ais-de-recherche-pour-l-exploitation-d",
@@ -3647,7 +3841,11 @@
       "2024": 0.021
     },
     "financement_etat_budget_Md": 0.026,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ifce-institut-fran-ais-du-cheval-et-de-l-quitation",
@@ -3720,7 +3918,11 @@
       "2024": 0.022
     },
     "financement_etat_budget_Md": 0.041,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "onera-office-national-d-tudes-et-de-recherches-a-rospatiales",
@@ -3793,7 +3995,10 @@
     },
     "subvention_invest_Md": 0.063,
     "financement_etat_budget_Md": 0.181,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ensta-bretagne-ecole-nationale-sup-rieure-de-techniques-avan",
@@ -3828,7 +4033,11 @@
     "rang": 56,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.18
+    "financement_etat_budget_Md": 0.18,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cnpf-centre-national-de-la-propri-t-foresti-re",
@@ -3901,7 +4110,11 @@
       "2024": 0.002
     },
     "financement_etat_budget_Md": 0.017,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ini-institution-nationale-des-invalides",
@@ -3976,7 +4189,10 @@
     },
     "subvention_invest_Md": 0.007,
     "financement_etat_budget_Md": 0.022,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "inp-institut-national-du-patrimoine",
@@ -4050,7 +4266,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.008,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "x-ecole-polytechnique",
@@ -4124,7 +4343,10 @@
     },
     "subvention_invest_Md": 0.026,
     "financement_etat_budget_Md": 0.143,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cirad-centre-de-coop-ration-internationale-en-recherche-agro",
@@ -4196,7 +4418,11 @@
       "2024": 0.102
     },
     "financement_etat_budget_Md": 0.143,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ans-s-agence-nationale-de-s-curit-sanitaire-de-l-alimentatio",
@@ -4276,7 +4502,10 @@
       "2025": 0.027,
       "2026": 0.026
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "inca-institut-national-du-cancer",
@@ -4344,7 +4573,11 @@
     ],
     "donnees_confidence": "elevee",
     "financement_etat_budget_Md": 0.11,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cned-centre-national-d-enseignement-distance",
@@ -4418,7 +4651,11 @@
       "2024": 0.061
     },
     "financement_etat_budget_Md": 0.029,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "genes-groupe-des-coles-nationales-d-conomie-et-statistique",
@@ -4492,7 +4729,11 @@
       "2024": 0.006
     },
     "financement_etat_budget_Md": 0.024,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "communaut-s-d-universit-s-et-d-tablissements",
@@ -4573,7 +4814,11 @@
       "2024": 0.054
     },
     "financement_etat_budget_Md": 0.031,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ofb-office-fran-ais-de-la-biodiversit",
@@ -4652,7 +4897,11 @@
       "2025": 0.004,
       "2026": 0.005
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "antai-agence-nationale-de-traitement-automatis-des-infractio",
@@ -4726,7 +4975,10 @@
     },
     "subvention_invest_Md": 0.016,
     "financement_etat_budget_Md": 0.124,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "afpa-agence-nationale-pour-la-formation-professionnelle-des-",
@@ -4799,7 +5051,11 @@
       "2024": 0.557
     },
     "financement_etat_budget_Md": 0.124,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ifpen-ifp-energies-nouvelles",
@@ -4872,7 +5128,11 @@
       "2024": 0.137
     },
     "financement_etat_budget_Md": 0.121,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "etablissement-public-du-ch-teau-de-fontainebleau",
@@ -4947,7 +5207,10 @@
     },
     "subvention_invest_Md": 0.008,
     "financement_etat_budget_Md": 0.011,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ipp-institut-polytechnique-de-paris",
@@ -5021,7 +5284,11 @@
       "2024": 0.005
     },
     "financement_etat_budget_Md": 0.008,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cnac-gp-centre-national-d-art-et-de-culture-georges-pompidou",
@@ -5095,7 +5362,10 @@
     },
     "subvention_invest_Md": 0.035,
     "financement_etat_budget_Md": 0.113,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "fnap-fonds-national-des-aides-la-pierre",
@@ -5143,7 +5413,11 @@
       "2023": 0.052,
       "2024": 0.213
     },
-    "financement_etat_budget_Md": 0.11
+    "financement_etat_budget_Md": 0.11,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "universcience",
@@ -5217,7 +5491,10 @@
     },
     "subvention_invest_Md": 0.006,
     "financement_etat_budget_Md": 0.11,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "autorit-des-march-s-financiers-amf",
@@ -5253,7 +5530,11 @@
       "taxes"
     ],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0
+    "financement_etat_budget_Md": 0,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "odeadom-office-de-d-veloppement-de-l-conomie-agricole-d-outr",
@@ -5326,7 +5607,11 @@
       "2024": 0.0
     },
     "financement_etat_budget_Md": 0.108,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ecpad-etablissement-de-communication-et-de-production-audiov",
@@ -5401,7 +5686,10 @@
     },
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.027,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "epide-etablissement-pour-l-insertion-dans-l-emploi",
@@ -5458,7 +5746,10 @@
     },
     "subvention_invest_Md": 0.017,
     "financement_etat_budget_Md": 0.102,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cin-math-que-fran-aise",
@@ -5511,7 +5802,11 @@
       "etpt"
     ],
     "donnees_confidence": "moyenne",
-    "financement_etat_budget_Md": 0.1
+    "financement_etat_budget_Md": 0.1,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "mus-e-du-louvre",
@@ -5585,7 +5880,10 @@
     },
     "subvention_invest_Md": 0.01,
     "financement_etat_budget_Md": 0.1,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cnm-centre-national-de-la-musique",
@@ -5664,7 +5962,11 @@
       "2025": 0.071,
       "2026": 0.079
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "inrap-institut-national-de-recherches-arch-ologiques-pr-vent",
@@ -5738,7 +6040,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.098,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "brgm-bureau-de-recherches-g-ologiques-et-mini-res",
@@ -5812,7 +6117,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.093,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "agence-nationale-de-s-curit-du-m-dicament-ansm",
@@ -5847,7 +6155,11 @@
     "rang": 85,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.09
+    "financement_etat_budget_Md": 0.09,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "business-france",
@@ -5919,7 +6231,11 @@
       "2024": 0.505
     },
     "financement_etat_budget_Md": 0.089,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "r-seau-canop",
@@ -5992,7 +6308,11 @@
       "2024": 0.011
     },
     "financement_etat_budget_Md": 0.082,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ensm-ecole-nationale-sup-rieure-maritime",
@@ -6066,7 +6386,11 @@
       "2024": 0.005
     },
     "financement_etat_budget_Md": 0.022,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "institut-national-de-l-audiovisuel-ina",
@@ -6101,7 +6425,11 @@
     "rang": 89,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.08
+    "financement_etat_budget_Md": 0.08,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "op-ra-national-de-paris",
@@ -6175,7 +6503,10 @@
     },
     "subvention_invest_Md": 0.005,
     "financement_etat_budget_Md": 0.08,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ecoles-d-enseignement-sup-rieur-agricole-et-v-t-rinaire",
@@ -6256,7 +6587,10 @@
     },
     "subvention_invest_Md": 0.015,
     "financement_etat_budget_Md": 0.074,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cmn-centre-des-monuments-nationaux",
@@ -6330,7 +6664,10 @@
     },
     "subvention_invest_Md": 0.029,
     "financement_etat_budget_Md": 0.071,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "acmoss-agence-des-communications-mobiles-op-rationnelles-de-",
@@ -6368,7 +6705,10 @@
     "donnees_confidence": "estimee",
     "subvention_invest_Md": 0.054,
     "financement_etat_budget_Md": 0.071,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "associations-de-coordination-technique-agricole-et-des-indus",
@@ -6411,7 +6751,11 @@
     ],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.01,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "anct-agence-nationale-de-la-coh-sion-des-territoires",
@@ -6485,7 +6829,10 @@
     },
     "subvention_invest_Md": 0.003,
     "financement_etat_budget_Md": 0.067,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ladom-l-agence-de-l-outre-mer-pour-la-mobilit",
@@ -6552,7 +6899,11 @@
     ],
     "donnees_confidence": "elevee",
     "financement_etat_budget_Md": 0.064,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ecoles-d-architecture-ecoles-nationales-sup-rieures-d-archit",
@@ -6633,7 +6984,10 @@
     },
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.061,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cnap-centre-national-des-arts-plastiques",
@@ -6707,7 +7061,10 @@
     },
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.011,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "lne-laboratoire-national-de-m-trologie-et-d-essais",
@@ -6780,7 +7137,10 @@
     },
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.061,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "campus-france",
@@ -6853,7 +7213,11 @@
       "2024": 0.02
     },
     "financement_etat_budget_Md": 0.061,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "solideo-soci-t-de-livraison-des-quipements-olympiques-et-par",
@@ -6888,7 +7252,11 @@
     "rang": 101,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.06
+    "financement_etat_budget_Md": 0.06,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cnsmd-lyon-conservatoire-national-sup-rieur-de-musique-et-de",
@@ -6963,7 +7331,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.015,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "isae-institut-sup-rieur-de-l-a-ronautique-et-de-l-espace",
@@ -7037,7 +7408,10 @@
     },
     "subvention_invest_Md": 0.005,
     "financement_etat_budget_Md": 0.052,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "enspolice-ecole-nationale-sup-rieure-de-la-police",
@@ -7111,7 +7485,10 @@
     },
     "subvention_invest_Md": 0.009,
     "financement_etat_budget_Md": 0.051,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "haute-autorit-de-sant-has",
@@ -7145,7 +7522,11 @@
     "rang": 105,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.05
+    "financement_etat_budget_Md": 0.05,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ira-instituts-r-gionaux-d-administration",
@@ -7225,7 +7606,11 @@
       "2024": 0.001
     },
     "financement_etat_budget_Md": 0.05,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "enm-ecole-nationale-de-la-magistrature",
@@ -7298,7 +7683,11 @@
       "2024": 0.001
     },
     "financement_etat_budget_Md": 0.049,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "epmqb-etablissement-public-du-mus-e-du-quai-branly",
@@ -7372,7 +7761,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.048,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "epcmpp-etablissement-public-de-la-cit-de-la-musique-philharm",
@@ -7446,7 +7838,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.046,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "epv-etablissement-public-du-mus-e-et-du-domaine-national-de-",
@@ -7520,7 +7915,10 @@
     },
     "subvention_invest_Md": 0.009,
     "financement_etat_budget_Md": 0.046,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "celrl-conservatoire-de-l-espace-littoral-et-des-rivages-lacu",
@@ -7600,7 +7998,10 @@
       "2025": 0.04,
       "2026": 0.043
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "insp-institut-national-du-service-public",
@@ -7673,7 +8074,11 @@
       "2024": 0.006
     },
     "financement_etat_budget_Md": 0.04,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ineris-institut-national-de-l-environnement-industriel-et-de",
@@ -7746,7 +8151,11 @@
       "2024": 0.027
     },
     "financement_etat_budget_Md": 0.039,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "anfr-agence-nationale-des-fr-quences",
@@ -7824,7 +8233,11 @@
       "2025": 0.0,
       "2026": 0.0
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "mus-e-d-orsay-et-mus-e-de-l-orangerie",
@@ -7898,7 +8311,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.038,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ecole-navale",
@@ -7972,7 +8388,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.038,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "enap-ecole-nationale-de-l-administration-p-nitentiaire",
@@ -8045,7 +8464,11 @@
       "2024": 0.0
     },
     "financement_etat_budget_Md": 0.036,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "enpc-ecole-nationale-des-ponts-et-chauss-es",
@@ -8119,7 +8542,10 @@
     },
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.033,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ecole-de-l-air-et-de-l-espace",
@@ -8193,7 +8619,10 @@
     },
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.032,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "grande-chancellerie-de-la-l-gion-d-honneur",
@@ -8250,7 +8679,10 @@
     },
     "subvention_invest_Md": 0.003,
     "financement_etat_budget_Md": 0.031,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ensta-paris-ecole-nationale-sup-rieure-de-techniques-avanc-e",
@@ -8284,7 +8716,11 @@
     "rang": 121,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.03
+    "financement_etat_budget_Md": 0.03,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "epaurif-etablissement-public-d-am-nagement-universitaire-de-",
@@ -8319,7 +8755,11 @@
     "rang": 122,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.03
+    "financement_etat_budget_Md": 0.03,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "cnsmd-paris-conservatoire-national-sup-rieur-de-musique-et-d",
@@ -8393,7 +8833,10 @@
     },
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.029,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "rmn-gp-r-union-des-mus-es-nationaux-grand-palais",
@@ -8467,7 +8910,10 @@
     },
     "subvention_invest_Md": 0.006,
     "financement_etat_budget_Md": 0.029,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ancols-agence-nationale-de-contr-le-du-logement-social",
@@ -8543,7 +8989,11 @@
       "2026": 0.018
     },
     "source_taxes": "Jaune 2026 p.66",
-    "financement_etat_budget_Md": 0.01
+    "financement_etat_budget_Md": 0.01,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "eppghv-etablissement-public-du-parc-et-de-la-grande-halle-de",
@@ -8617,7 +9067,10 @@
     },
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.028,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "insep-institut-national-du-sport-de-l-expertise-et-de-la-per",
@@ -8691,7 +9144,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.027,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "institut-fran-ais",
@@ -8763,7 +9219,11 @@
       "2024": 0.002
     },
     "financement_etat_budget_Md": 0.026,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "entpe-ecole-nationale-des-travaux-publics-de-l-etat",
@@ -8837,7 +9297,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.026,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "com-die-fran-aise",
@@ -8910,7 +9373,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.026,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "inao-institut-national-de-l-origine-et-de-la-qualit",
@@ -8989,7 +9455,11 @@
       "2025": 0.007,
       "2026": 0.007
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "atout-france",
@@ -9062,7 +9532,11 @@
       "2024": 0.036
     },
     "financement_etat_budget_Md": 0.023,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "agrasc-agence-de-gestion-et-de-recouvrement-des-avoirs-saisi",
@@ -9125,7 +9599,10 @@
       "2025": 0.01,
       "2026": 0.01
     },
-    "source_taxes": "Jaune 2026 p.66"
+    "source_taxes": "Jaune 2026 p.66",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cnl-centre-national-du-livre",
@@ -9199,7 +9676,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.022,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "onisep-office-national-d-information-sur-les-enseignements-e",
@@ -9272,7 +9752,11 @@
       "2024": 0.003
     },
     "financement_etat_budget_Md": 0.021,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "commission-nationale-de-l-informatique-et-des-libert-s-cnil",
@@ -9306,7 +9790,11 @@
     "rang": 136,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.02
+    "financement_etat_budget_Md": 0.02,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "d-fenseur-des-droits",
@@ -9340,7 +9828,11 @@
     "rang": 137,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.02
+    "financement_etat_budget_Md": 0.02,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "capa-cit-de-l-architecture-et-du-patrimoine",
@@ -9413,7 +9905,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.02,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "mucem-mus-e-des-civilisations-de-l-europe-et-de-la-m-diterra",
@@ -9486,7 +9981,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.02,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "shom-service-hydrographique-et-oc-anographique-de-la-marine",
@@ -9560,7 +10058,10 @@
     },
     "subvention_invest_Md": 0.007,
     "financement_etat_budget_Md": 0.02,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ined-institut-national-d-tudes-d-mographiques",
@@ -9632,7 +10133,11 @@
       "2024": 0.004
     },
     "financement_etat_budget_Md": 0.019,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "mus-e-national-de-la-marine",
@@ -9705,7 +10210,10 @@
     },
     "subvention_invest_Md": 0.007,
     "financement_etat_budget_Md": 0.019,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "apij-agence-publique-pour-l-immobilier-de-la-justice",
@@ -9779,7 +10287,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.018,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cnaps-conseil-national-des-activit-s-priv-es-de-s-curit",
@@ -9836,7 +10347,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.018,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "anact-agence-nationale-pour-l-am-lioration-des-conditions-de",
@@ -9908,7 +10422,11 @@
       "2024": 0.005
     },
     "financement_etat_budget_Md": 0.018,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "mus-e-de-l-arm-e",
@@ -9981,7 +10499,10 @@
     },
     "subvention_invest_Md": 0.007,
     "financement_etat_budget_Md": 0.017,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ipev-institut-polaire-fran-ais-paul-emile-victor",
@@ -10053,7 +10574,11 @@
       "2024": 0.001
     },
     "financement_etat_budget_Md": 0.017,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "mus-e-des-arts-d-coratifs",
@@ -10092,7 +10617,10 @@
     "donnees_confidence": "estimee",
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.016,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ecoles-nationales-des-sports",
@@ -10170,7 +10698,10 @@
     },
     "subvention_invest_Md": 0.003,
     "financement_etat_budget_Md": 0.016,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ecoles-d-art-en-r-gion",
@@ -10251,7 +10782,10 @@
     },
     "subvention_invest_Md": 0.003,
     "financement_etat_budget_Md": 0.015,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "chaillot-th-tre-national-de-la-danse",
@@ -10325,7 +10859,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.015,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "intefp-institut-national-du-travail-de-l-emploi-et-de-la-for",
@@ -10398,7 +10935,11 @@
       "2024": 0.001
     },
     "financement_etat_budget_Md": 0.014,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "epsf-etablissement-public-de-s-curit-ferroviaire",
@@ -10454,7 +10995,11 @@
       "2024": 0.003
     },
     "financement_etat_budget_Md": 0.014,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "tno-th-tre-national-de-l-od-on",
@@ -10528,7 +11073,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.014,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "op-ra-comique",
@@ -10602,7 +11150,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.014,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "mns-mus-e-national-du-sport",
@@ -10675,7 +11226,11 @@
       "2024": 0.001
     },
     "financement_etat_budget_Md": 0.003,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "bpi-biblioth-que-publique-d-information",
@@ -10748,7 +11303,10 @@
     },
     "subvention_invest_Md": 0.005,
     "financement_etat_budget_Md": 0.013,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ensad-ecole-nationale-sup-rieure-des-arts-d-coratifs",
@@ -10822,7 +11380,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.013,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "gip-bio-agence-fran-aise-pour-le-d-veloppement-et-la-promoti",
@@ -10894,7 +11455,11 @@
       "2024": 0.0
     },
     "financement_etat_budget_Md": 0.012,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "eppd-etablissement-public-du-palais-de-la-porte-dor-e",
@@ -10968,7 +11533,10 @@
     },
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.012,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "mus-e-de-l-air-et-de-l-espace",
@@ -11041,7 +11609,11 @@
       "2024": 0.003
     },
     "financement_etat_budget_Md": 0.011,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ansc-agence-nationale-du-num-rique-de-la-s-curit-civile",
@@ -11114,7 +11686,11 @@
       "2024": 0.0
     },
     "financement_etat_budget_Md": 0.011,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "tnc-th-tre-national-de-la-colline",
@@ -11188,7 +11764,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.011,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "tns-th-tre-national-de-strasbourg",
@@ -11262,7 +11841,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.011,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "france-strat-gie",
@@ -11296,7 +11878,11 @@
     "rang": 165,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0.01
+    "financement_etat_budget_Md": 0.01,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ensba-ecole-nationale-sup-rieure-des-beaux-arts",
@@ -11370,7 +11956,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.01,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cnd-centre-national-de-la-danse",
@@ -11444,7 +12033,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.01,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "mus-e-guimet",
@@ -11518,7 +12110,10 @@
     },
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.009,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ihedn-institut-des-hautes-tudes-de-d-fense-nationale",
@@ -11591,7 +12186,11 @@
       "2024": 0.005
     },
     "financement_etat_budget_Md": 0.007,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "geoderis",
@@ -11640,7 +12239,11 @@
       "2024": 0.0
     },
     "financement_etat_budget_Md": 0.006,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "afr-acad-mie-de-france-rome",
@@ -11714,7 +12317,10 @@
     },
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.006,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cereq-centre-d-etudes-et-de-recherches-sur-les-qualification",
@@ -11786,7 +12392,11 @@
       "2024": 0.003
     },
     "financement_etat_budget_Md": 0.006,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ensci-ecole-nationale-sup-rieure-de-cr-ation-industrielle",
@@ -11860,7 +12470,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.006,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "mus-e-picasso",
@@ -11934,7 +12547,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.005,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cnsad-conservatoire-national-sup-rieur-d-art-dramatique",
@@ -12008,7 +12624,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.005,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "cnac-centre-national-des-arts-du-cirque",
@@ -12064,7 +12683,10 @@
     "donnees_confidence": "moyenne",
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.004,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "gip-plateforme-de-l-inclusion",
@@ -12108,7 +12730,10 @@
     "donnees_confidence": "moyenne",
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.004,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "ensemble-intercontemporain",
@@ -12145,7 +12770,11 @@
     ],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.004,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "eprndp-etablissement-public-charg-de-la-conservation-et-de-l",
@@ -12217,7 +12846,11 @@
       "2024": 0.004
     },
     "financement_etat_budget_Md": 0.003,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "g-nopole",
@@ -12290,7 +12923,11 @@
       "2024": 0.004
     },
     "financement_etat_budget_Md": 0.003,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ofdt-observatoire-fran-ais-des-drogues-et-des-tendances-addi",
@@ -12363,7 +13000,11 @@
       "2024": 0.002
     },
     "financement_etat_budget_Md": 0.003,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "gip-les-entreprises-s-engagent",
@@ -12407,7 +13048,11 @@
     ],
     "donnees_confidence": "moyenne",
     "financement_etat_budget_Md": 0.002,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ecole-du-louvre",
@@ -12481,7 +13126,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.002,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "oppic-op-rateur-du-patrimoine-et-des-projets-immobiliers-de-",
@@ -12553,7 +13201,11 @@
       "2024": 0.0
     },
     "financement_etat_budget_Md": 0.002,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "acad-mie-des-technologies",
@@ -12609,7 +13261,11 @@
       "2024": 0.0
     },
     "financement_etat_budget_Md": 0.001,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "etablissement-public-du-marais-poitevin",
@@ -12665,7 +13321,11 @@
       "2024": 0.0
     },
     "financement_etat_budget_Md": 0.001,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "fei-france-ducation-international",
@@ -12738,7 +13398,11 @@
       "2024": 0.033
     },
     "financement_etat_budget_Md": 0.001,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "infoma-institut-national-de-formation-des-personnels-du-mini",
@@ -12794,7 +13458,11 @@
       "2024": 0.001
     },
     "financement_etat_budget_Md": 0.001,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "ierdj-institut-des-tudes-et-de-la-recherche-sur-le-droit-et-",
@@ -12868,7 +13536,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.001,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "mus-e-henner-moreau",
@@ -12942,7 +13613,10 @@
     },
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.001,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "dotations_Md": 0
   },
   {
     "id": "gip-france-enfance-prot-g-e-retir-op-rateurs-2025",
@@ -12976,7 +13650,11 @@
     "rang": 191,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0
+    "financement_etat_budget_Md": 0,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "conseil-d-orientation-des-retraites-cor",
@@ -13010,7 +13688,11 @@
     "rang": 192,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0
+    "financement_etat_budget_Md": 0,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "centre-info-centre-pour-le-d-veloppement-de-l-information-su",
@@ -13066,7 +13748,11 @@
       "2024": 0.003
     },
     "financement_etat_budget_Md": 0.0,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "epmsm-etablissement-public-du-mont-saint-michel",
@@ -13139,7 +13825,11 @@
       "2024": 0.011
     },
     "financement_etat_budget_Md": 0.0,
-    "financement_budget_real": true
+    "financement_budget_real": true,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "comit-th-odule-commission-consultative-exemple",
@@ -13173,7 +13863,11 @@
     "rang": 195,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0
+    "financement_etat_budget_Md": 0,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   },
   {
     "id": "haut-conseil-du-financement-de-la-protection-sociale",
@@ -13207,6 +13901,10 @@
     "rang": 196,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
-    "financement_etat_budget_Md": 0
+    "financement_etat_budget_Md": 0,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0
   }
 ]
