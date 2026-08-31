@@ -77,7 +77,7 @@
       "2026": 11.787
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -154,9 +154,9 @@
       "2024": 1.837
     },
     "subvention_invest_Md": 0.213,
-    "financement_etat_budget_Md": 13.055,
+    "financement_etat_budget_Md": 13.056,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0.0
   },
@@ -239,7 +239,7 @@
       "2026": 0.019
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -287,7 +287,8 @@
     "sources_reelles": [
       "masse",
       "tresorerie",
-      "taxes"
+      "taxes",
+      "financement"
     ],
     "donnees_confidence": "moyenne",
     "historique_taxes": {
@@ -296,7 +297,7 @@
     },
     "source_taxes": "Jaune 2026 p.66",
     "financement_etat_budget_Md": 0.22,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -373,7 +374,7 @@
     },
     "financement_etat_budget_Md": 3.059,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -447,7 +448,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "taxes"
+      "taxes",
+      "financement"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -461,7 +463,7 @@
     },
     "source_taxes": "Jaune 2026 p.66",
     "financement_etat_budget_Md": 0.12,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -538,7 +540,7 @@
     },
     "financement_etat_budget_Md": 2.385,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -620,7 +622,7 @@
       "2026": 0.175
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -704,7 +706,7 @@
       "2026": 0.7
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -781,7 +783,7 @@
     "subvention_invest_Md": 0.085,
     "financement_etat_budget_Md": 1.91,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -857,7 +859,7 @@
     },
     "financement_etat_budget_Md": 1.416,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -924,7 +926,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "taxes"
+      "taxes",
+      "financement"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -938,7 +941,7 @@
     },
     "source_taxes": "Jaune 2026 p.66",
     "financement_etat_budget_Md": 0.14,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -1019,7 +1022,7 @@
     },
     "source_taxes": "Jaune 2026 p.66",
     "financement_etat_budget_Md": 0.18,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -1095,9 +1098,9 @@
       "2024": 0.331
     },
     "subvention_invest_Md": 0.009,
-    "financement_etat_budget_Md": 0.967,
+    "financement_etat_budget_Md": 0.968,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0.0
   },
@@ -1174,7 +1177,7 @@
     "subvention_invest_Md": 0.021,
     "financement_etat_budget_Md": 0.958,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0.0
   },
@@ -1250,10 +1253,91 @@
     },
     "financement_etat_budget_Md": 0.898,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
+  },
+  {
+    "id": "centre-national-du-cin-ma-cnc",
+    "nom": "Centre national du cinéma (CNC)",
+    "sigle": "Centre national du cinéma",
+    "statut": "EPIC",
+    "mission": "Culture",
+    "programme": "334",
+    "nb_entities": 1,
+    "perimetres": [
+      "odac",
+      "agence-large"
+    ],
+    "is_categorie": false,
+    "ressources_totales_Md": 0.88,
+    "financement_etat_Md": 0.887,
+    "ressources_propres_Md": 0.018,
+    "subvention_scp_Md": 0,
+    "transferts_Md": 0.04,
+    "taxes_affectees_Md": 0.847,
+    "part_financement_public_pct": 94,
+    "charges_personnel_Md": 0.38,
+    "charges_fonctionnement_Md": 0.14,
+    "charges_intervention_Md": 0.16,
+    "charges_investissement_Md": 0.2,
+    "etpt": 472,
+    "masse_salariale_Md": 0.033,
+    "tresorerie_Md": 0.88,
+    "surface_utile_m2": 5760,
+    "top10_remunerations_kE": 116,
+    "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
+    "rang": 17,
+    "sources_reelles": [
+      "ressources_propres",
+      "etpt",
+      "masse",
+      "tresorerie",
+      "taxes",
+      "financement"
+    ],
+    "donnees_confidence": "elevee",
+    "historique_ressources_propres": {
+      "2022": 0.077,
+      "2023": 0.106,
+      "2024": 0.018
+    },
+    "etpt_sous_plafond": 460,
+    "etpt_hors_plafond": 12,
+    "historique_etpt": {
+      "2022": {
+        "sous": 459,
+        "hors": 8
+      },
+      "2023": {
+        "sous": 459,
+        "hors": 15
+      },
+      "2024": {
+        "sous": 460,
+        "hors": 12
+      }
+    },
+    "historique_masse": {
+      "2022": 0.031,
+      "2023": 0.032,
+      "2024": 0.033
+    },
+    "historique_tresorerie": {
+      "2022": 0.727,
+      "2023": 0.827,
+      "2024": 0.88
+    },
+    "financement_etat_budget_Md": 0.04,
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
+    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
+    "subvention_invest_Md": 0,
+    "dotations_Md": 0,
+    "historique_taxes": {
+      "2025": 0.875,
+      "2026": 0.847
+    }
   },
   {
     "id": "op-rateurs-de-soutien-l-enseignement-sup-rieur-et-la-recherc",
@@ -1292,87 +1376,11 @@
       "AGENCE ERASMUS+FRANCE/EDUCATION FORMATION",
       "BIBLIOTHEQUE NATIONALE ET UNIVERSITAIRE DE STRASBOURG"
     ],
-    "rang": 17,
+    "rang": 18,
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.87,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
-    "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
-    "subvention_invest_Md": 0,
-    "dotations_Md": 0
-  },
-  {
-    "id": "centre-national-du-cin-ma-cnc",
-    "nom": "Centre national du cinéma (CNC)",
-    "sigle": "Centre national du cinéma",
-    "statut": "EPIC",
-    "mission": "Culture",
-    "programme": "334",
-    "nb_entities": 1,
-    "perimetres": [
-      "odac",
-      "agence-large"
-    ],
-    "is_categorie": false,
-    "ressources_totales_Md": 0.88,
-    "financement_etat_Md": 0.86,
-    "ressources_propres_Md": 0.018,
-    "subvention_scp_Md": 0,
-    "transferts_Md": 0.04,
-    "taxes_affectees_Md": 0.82,
-    "part_financement_public_pct": 94,
-    "charges_personnel_Md": 0.38,
-    "charges_fonctionnement_Md": 0.14,
-    "charges_intervention_Md": 0.16,
-    "charges_investissement_Md": 0.2,
-    "etpt": 472,
-    "masse_salariale_Md": 0.033,
-    "tresorerie_Md": 0.88,
-    "surface_utile_m2": 5760,
-    "top10_remunerations_kE": 116,
-    "note": "ODAC hors opérateurs (INSEE) – ne figure pas dans le jaune opérateurs",
-    "rang": 18,
-    "sources_reelles": [
-      "ressources_propres",
-      "etpt",
-      "masse",
-      "tresorerie",
-      "taxes"
-    ],
-    "donnees_confidence": "elevee",
-    "historique_ressources_propres": {
-      "2022": 0.077,
-      "2023": 0.106,
-      "2024": 0.018
-    },
-    "etpt_sous_plafond": 460,
-    "etpt_hors_plafond": 12,
-    "historique_etpt": {
-      "2022": {
-        "sous": 459,
-        "hors": 8
-      },
-      "2023": {
-        "sous": 459,
-        "hors": 15
-      },
-      "2024": {
-        "sous": 460,
-        "hors": 12
-      }
-    },
-    "historique_masse": {
-      "2022": 0.031,
-      "2023": 0.032,
-      "2024": 0.033
-    },
-    "historique_tresorerie": {
-      "2022": 0.727,
-      "2023": 0.827,
-      "2024": 0.88
-    },
-    "financement_etat_budget_Md": 0.04,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -1432,7 +1440,7 @@
     },
     "financement_etat_budget_Md": 0.805,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -1510,7 +1518,7 @@
     "subvention_invest_Md": 0.095,
     "financement_etat_budget_Md": 0.747,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0.0
   },
@@ -1586,7 +1594,7 @@
     },
     "financement_etat_budget_Md": 0.739,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -1636,7 +1644,8 @@
       "ressources_propres",
       "masse",
       "tresorerie",
-      "taxes"
+      "taxes",
+      "financement"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -1650,7 +1659,7 @@
     },
     "source_taxes": "Jaune 2026 p.66",
     "financement_etat_budget_Md": 0.11,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -1734,7 +1743,7 @@
     },
     "financement_etat_budget_Md": 0.627,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -1818,7 +1827,7 @@
       "2026": 0.001
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -1894,7 +1903,7 @@
     },
     "financement_etat_budget_Md": 0.503,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -1971,7 +1980,7 @@
     },
     "financement_etat_budget_Md": 0.465,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2030,7 +2039,7 @@
       "2024": 0.742
     },
     "financement_etat_budget_Md": 0.01,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2113,7 +2122,7 @@
       "2026": 0.15
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2196,7 +2205,7 @@
       "2026": 0.225
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2263,7 +2272,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "taxes"
+      "taxes",
+      "financement"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -2277,7 +2287,7 @@
     },
     "source_taxes": "Jaune 2026 p.66",
     "financement_etat_budget_Md": 0.22,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2316,7 +2326,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.35,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2393,7 +2403,7 @@
     },
     "financement_etat_budget_Md": 0.334,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2476,7 +2486,7 @@
       "2026": 0.287
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2515,7 +2525,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.3,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2597,7 +2607,7 @@
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.289,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -2674,7 +2684,7 @@
     },
     "financement_etat_budget_Md": 0.102,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2713,7 +2723,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.26,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2791,7 +2801,7 @@
       "2026": 0.001
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -2866,7 +2876,7 @@
     },
     "financement_etat_budget_Md": 0.257,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2905,7 +2915,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.25,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -2983,7 +2993,7 @@
     "subvention_invest_Md": 0.035,
     "financement_etat_budget_Md": 0.248,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -3057,7 +3067,7 @@
       "2024": 0.003
     },
     "financement_etat_budget_Md": 0.23,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3095,7 +3105,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.23,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3134,7 +3144,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.23,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3211,7 +3221,7 @@
     },
     "financement_etat_budget_Md": 0.23,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3288,7 +3298,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.216,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -3364,7 +3374,7 @@
     },
     "financement_etat_budget_Md": 0.211,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3443,7 +3453,7 @@
     "subvention_invest_Md": 0.011,
     "financement_etat_budget_Md": 0.118,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -3519,7 +3529,7 @@
     },
     "financement_etat_budget_Md": 0.207,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3605,7 +3615,7 @@
     "subvention_invest_Md": 0.006,
     "financement_etat_budget_Md": 0.195,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -3687,7 +3697,7 @@
       "2026": 0.188
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3764,7 +3774,7 @@
     },
     "financement_etat_budget_Md": 0.188,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3842,7 +3852,7 @@
     },
     "financement_etat_budget_Md": 0.026,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3919,7 +3929,7 @@
     },
     "financement_etat_budget_Md": 0.041,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -3996,7 +4006,7 @@
     "subvention_invest_Md": 0.063,
     "financement_etat_budget_Md": 0.181,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -4034,7 +4044,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.18,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -4111,7 +4121,7 @@
     },
     "financement_etat_budget_Md": 0.017,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -4190,7 +4200,7 @@
     "subvention_invest_Md": 0.007,
     "financement_etat_budget_Md": 0.022,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -4267,7 +4277,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.008,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -4344,7 +4354,7 @@
     "subvention_invest_Md": 0.026,
     "financement_etat_budget_Md": 0.143,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -4419,7 +4429,7 @@
     },
     "financement_etat_budget_Md": 0.143,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -4503,7 +4513,7 @@
       "2026": 0.026
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -4574,7 +4584,7 @@
     "donnees_confidence": "elevee",
     "financement_etat_budget_Md": 0.11,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -4652,7 +4662,7 @@
     },
     "financement_etat_budget_Md": 0.029,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -4730,7 +4740,7 @@
     },
     "financement_etat_budget_Md": 0.024,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -4815,7 +4825,7 @@
     },
     "financement_etat_budget_Md": 0.031,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -4898,7 +4908,7 @@
       "2026": 0.005
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -4976,7 +4986,7 @@
     "subvention_invest_Md": 0.016,
     "financement_etat_budget_Md": 0.124,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -5052,7 +5062,7 @@
     },
     "financement_etat_budget_Md": 0.124,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -5129,7 +5139,7 @@
     },
     "financement_etat_budget_Md": 0.121,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -5208,7 +5218,7 @@
     "subvention_invest_Md": 0.008,
     "financement_etat_budget_Md": 0.011,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -5285,7 +5295,7 @@
     },
     "financement_etat_budget_Md": 0.008,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -5363,7 +5373,7 @@
     "subvention_invest_Md": 0.035,
     "financement_etat_budget_Md": 0.113,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -5414,7 +5424,7 @@
       "2024": 0.213
     },
     "financement_etat_budget_Md": 0.11,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -5492,7 +5502,7 @@
     "subvention_invest_Md": 0.006,
     "financement_etat_budget_Md": 0.11,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -5531,7 +5541,7 @@
     ],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -5608,7 +5618,7 @@
     },
     "financement_etat_budget_Md": 0.108,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -5687,7 +5697,7 @@
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.027,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -5747,7 +5757,7 @@
     "subvention_invest_Md": 0.017,
     "financement_etat_budget_Md": 0.102,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -5803,7 +5813,7 @@
     ],
     "donnees_confidence": "moyenne",
     "financement_etat_budget_Md": 0.1,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -5881,7 +5891,7 @@
     "subvention_invest_Md": 0.01,
     "financement_etat_budget_Md": 0.1,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -5963,7 +5973,7 @@
       "2026": 0.079
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -6041,7 +6051,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.098,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -6118,7 +6128,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.093,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -6156,7 +6166,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.09,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -6232,7 +6242,7 @@
     },
     "financement_etat_budget_Md": 0.089,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -6309,7 +6319,7 @@
     },
     "financement_etat_budget_Md": 0.082,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -6387,9 +6397,9 @@
     },
     "financement_etat_budget_Md": 0.022,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
-    "subvention_invest_Md": 0,
+    "subvention_invest_Md": 0.0,
     "dotations_Md": 0
   },
   {
@@ -6426,7 +6436,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.08,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -6504,7 +6514,7 @@
     "subvention_invest_Md": 0.005,
     "financement_etat_budget_Md": 0.08,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -6588,7 +6598,7 @@
     "subvention_invest_Md": 0.015,
     "financement_etat_budget_Md": 0.074,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -6665,7 +6675,7 @@
     "subvention_invest_Md": 0.029,
     "financement_etat_budget_Md": 0.071,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -6706,7 +6716,7 @@
     "subvention_invest_Md": 0.054,
     "financement_etat_budget_Md": 0.071,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -6752,7 +6762,7 @@
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.01,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -6830,7 +6840,7 @@
     "subvention_invest_Md": 0.003,
     "financement_etat_budget_Md": 0.067,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -6900,7 +6910,7 @@
     "donnees_confidence": "elevee",
     "financement_etat_budget_Md": 0.064,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -6985,7 +6995,7 @@
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.061,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -7062,7 +7072,7 @@
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.011,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -7138,7 +7148,7 @@
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.061,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -7214,7 +7224,7 @@
     },
     "financement_etat_budget_Md": 0.061,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -7253,7 +7263,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.06,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -7332,7 +7342,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.015,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -7409,7 +7419,7 @@
     "subvention_invest_Md": 0.005,
     "financement_etat_budget_Md": 0.052,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -7486,7 +7496,7 @@
     "subvention_invest_Md": 0.009,
     "financement_etat_budget_Md": 0.051,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -7523,7 +7533,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.05,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -7607,7 +7617,7 @@
     },
     "financement_etat_budget_Md": 0.05,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -7684,7 +7694,7 @@
     },
     "financement_etat_budget_Md": 0.049,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -7762,7 +7772,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.048,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -7839,7 +7849,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.046,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -7916,7 +7926,7 @@
     "subvention_invest_Md": 0.009,
     "financement_etat_budget_Md": 0.046,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -7999,7 +8009,7 @@
       "2026": 0.043
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -8075,7 +8085,7 @@
     },
     "financement_etat_budget_Md": 0.04,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -8152,7 +8162,7 @@
     },
     "financement_etat_budget_Md": 0.039,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -8234,7 +8244,7 @@
       "2026": 0.0
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -8312,7 +8322,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.038,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -8389,7 +8399,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.038,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -8465,7 +8475,7 @@
     },
     "financement_etat_budget_Md": 0.036,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -8543,7 +8553,7 @@
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.033,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -8620,7 +8630,7 @@
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.032,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -8680,7 +8690,7 @@
     "subvention_invest_Md": 0.003,
     "financement_etat_budget_Md": 0.031,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -8717,7 +8727,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.03,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -8756,7 +8766,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.03,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -8834,7 +8844,7 @@
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.029,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -8911,7 +8921,7 @@
     "subvention_invest_Md": 0.006,
     "financement_etat_budget_Md": 0.029,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -8976,7 +8986,8 @@
       "etpt",
       "masse",
       "tresorerie",
-      "taxes"
+      "taxes",
+      "financement"
     ],
     "donnees_confidence": "elevee",
     "historique_ressources_propres": {
@@ -8990,7 +9001,7 @@
     },
     "source_taxes": "Jaune 2026 p.66",
     "financement_etat_budget_Md": 0.01,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -9068,7 +9079,7 @@
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.028,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -9145,7 +9156,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.027,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -9220,7 +9231,7 @@
     },
     "financement_etat_budget_Md": 0.026,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -9298,7 +9309,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.026,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -9374,7 +9385,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.026,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -9456,7 +9467,7 @@
       "2026": 0.007
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -9533,7 +9544,7 @@
     },
     "financement_etat_budget_Md": 0.023,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -9600,7 +9611,7 @@
       "2026": 0.01
     },
     "source_taxes": "Jaune 2026 p.66",
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -9677,7 +9688,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.022,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -9753,7 +9764,7 @@
     },
     "financement_etat_budget_Md": 0.021,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -9791,7 +9802,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.02,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -9829,7 +9840,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.02,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -9906,7 +9917,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.02,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -9982,7 +9993,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.02,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10059,7 +10070,7 @@
     "subvention_invest_Md": 0.007,
     "financement_etat_budget_Md": 0.02,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10134,7 +10145,7 @@
     },
     "financement_etat_budget_Md": 0.019,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -10211,7 +10222,7 @@
     "subvention_invest_Md": 0.007,
     "financement_etat_budget_Md": 0.019,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10288,7 +10299,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.018,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10348,7 +10359,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.018,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10423,7 +10434,7 @@
     },
     "financement_etat_budget_Md": 0.018,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -10500,7 +10511,7 @@
     "subvention_invest_Md": 0.007,
     "financement_etat_budget_Md": 0.017,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10575,7 +10586,7 @@
     },
     "financement_etat_budget_Md": 0.017,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -10618,7 +10629,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.016,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10699,7 +10710,7 @@
     "subvention_invest_Md": 0.003,
     "financement_etat_budget_Md": 0.016,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10783,7 +10794,7 @@
     "subvention_invest_Md": 0.003,
     "financement_etat_budget_Md": 0.015,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10860,7 +10871,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.015,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -10936,7 +10947,7 @@
     },
     "financement_etat_budget_Md": 0.014,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -10996,7 +11007,7 @@
     },
     "financement_etat_budget_Md": 0.014,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -11074,7 +11085,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.014,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -11151,7 +11162,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.014,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -11227,7 +11238,7 @@
     },
     "financement_etat_budget_Md": 0.003,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -11304,7 +11315,7 @@
     "subvention_invest_Md": 0.005,
     "financement_etat_budget_Md": 0.013,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -11381,7 +11392,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.013,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -11456,7 +11467,7 @@
     },
     "financement_etat_budget_Md": 0.012,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -11534,7 +11545,7 @@
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.012,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -11610,9 +11621,9 @@
     },
     "financement_etat_budget_Md": 0.011,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
-    "subvention_invest_Md": 0,
+    "subvention_invest_Md": 0.0,
     "dotations_Md": 0
   },
   {
@@ -11687,7 +11698,7 @@
     },
     "financement_etat_budget_Md": 0.011,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -11765,7 +11776,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.011,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -11842,7 +11853,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.011,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -11879,7 +11890,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.01,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -11957,7 +11968,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.01,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -12034,7 +12045,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.01,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -12111,7 +12122,7 @@
     "subvention_invest_Md": 0.004,
     "financement_etat_budget_Md": 0.009,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -12187,7 +12198,7 @@
     },
     "financement_etat_budget_Md": 0.007,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -12240,7 +12251,7 @@
     },
     "financement_etat_budget_Md": 0.006,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -12318,7 +12329,7 @@
     "subvention_invest_Md": 0.001,
     "financement_etat_budget_Md": 0.006,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -12393,7 +12404,7 @@
     },
     "financement_etat_budget_Md": 0.006,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -12471,7 +12482,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.006,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -12548,7 +12559,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.005,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -12625,7 +12636,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.005,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -12684,7 +12695,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.004,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -12731,7 +12742,7 @@
     "subvention_invest_Md": 0.002,
     "financement_etat_budget_Md": 0.004,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -12771,7 +12782,7 @@
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0.004,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -12847,7 +12858,7 @@
     },
     "financement_etat_budget_Md": 0.003,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -12924,7 +12935,7 @@
     },
     "financement_etat_budget_Md": 0.003,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13001,7 +13012,7 @@
     },
     "financement_etat_budget_Md": 0.003,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13049,7 +13060,7 @@
     "donnees_confidence": "moyenne",
     "financement_etat_budget_Md": 0.002,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13127,7 +13138,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.002,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -13202,7 +13213,7 @@
     },
     "financement_etat_budget_Md": 0.002,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13262,7 +13273,7 @@
     },
     "financement_etat_budget_Md": 0.001,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13322,7 +13333,7 @@
     },
     "financement_etat_budget_Md": 0.001,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13399,7 +13410,7 @@
     },
     "financement_etat_budget_Md": 0.001,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13459,7 +13470,7 @@
     },
     "financement_etat_budget_Md": 0.001,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13537,7 +13548,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.001,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -13614,7 +13625,7 @@
     "subvention_invest_Md": 0.0,
     "financement_etat_budget_Md": 0.001,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "dotations_Md": 0
   },
@@ -13651,7 +13662,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13689,7 +13700,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13749,7 +13760,7 @@
     },
     "financement_etat_budget_Md": 0.0,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13826,7 +13837,7 @@
     },
     "financement_etat_budget_Md": 0.0,
     "financement_budget_real": true,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13864,7 +13875,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
@@ -13902,7 +13913,7 @@
     "sources_reelles": [],
     "donnees_confidence": "estimee",
     "financement_etat_budget_Md": 0,
-    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145 (ressources), p.150 (emplois), p.155 (masse), p.160 (trésorerie), p.167 (rémunérations)",
+    "source_jaune": "Jaune Opérateurs PLF 2026 — p.48-66 (financement), p.66 (taxes), p.145/150/155/160",
     "source_jaune_url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/22-Jaune2026_Operateurs.pdf",
     "subvention_invest_Md": 0,
     "dotations_Md": 0
